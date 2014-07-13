@@ -23,7 +23,10 @@
 					var dartmouthGreen = new L.LatLng(43.70338, -72.28869);
 				*/
 
-					
+					//Things I need to do in the JavaScript code:
+					//Create for and while loops to manage the variables 
+					//Input data from a text file.  /
+	
 					//NEW LAT&LONG FOR DARTMOUTH BUILDINGS
 					var dicksHouse1 = new L.LatLng(43.70877,-72.28690);
 					var dicksHouse2 = new L.LatLng(43.70873 ,-72.28694);
