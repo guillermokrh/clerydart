@@ -13,6 +13,7 @@ class Crime:
         self.crime_location = crime_location
         self.date_reported = date_reported
         self.popup_info = popup_info 
+        self.latitude_longitude = None
     
     # Method that returns a string of the data from the object    
     def __string__(self):
