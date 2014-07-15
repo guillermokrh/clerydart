@@ -17,8 +17,6 @@ from crime import Crime # Imports Crime class
 
 # Creates a dictionary with the latitude and longitudes of each location
 campus_coordinates = dict() # initializes the campus_coordinates dictionary
-campus_coordinates["Collis Center"] = [43.70270 ,-72.28976] # introduces Collis Center key with the coordinates as the value
-print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks to see if the key-value pair has been entered into the dictionary; works!!
 
 # Reads the CSV file containing the latitude and longitude of each campus location
 csv_campus_coordinates = open('collis_tennis_coordinates.csv', 'rU') #opens .csv file with Collis and Boss Tennis Center coordinates
@@ -26,6 +24,14 @@ csvCoordinatesReader = csv.reader(csv_campus_coordinates) # read the .csv file w
 
 for row in csvCoordinatesReader: #for loop that iterates through all rows in .csv file
     print "raw coordinates row information: " + str(row)
+    i = 0 #indexes into the list created by each row
+    campus_coordinates[row[i]] = [float(row[i+1]), float(row[i+2])] #creates a key-value dictionary pair for each data in list
+
+# Closes Campus Coordinates CSV file
+csv_campus_coordinates.close()
+
+# Print Dictionary Key-Value Pairs to see if they have been properly entered
+print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks to see if the key-value pair has been entered into the dictionary; works!!
 
 
 # Reads the CSV file
@@ -49,7 +55,7 @@ csv_sample.close() #closes the file that is opened
 
 #At this point the 'crime' objects have been created 
 print "list of crime objects: " + str(crime_objects_list)
-print "sample popup information: " + str(crime_objects_list[0].date_occurred) + ":" + str(crime_objects_list[0].crime_reported) # Testing putting different pieces of data together
+print "sample popup information: " + str(crime_objects_list[0].date_occurred) + ": " + str(crime_objects_list[0].crime_reported) # Testing putting different pieces of data together
 
 # Now I want to iterate through the crime_objects_list, and check to see if the .crime_reported method matches up with a crime in the dictionary
 
