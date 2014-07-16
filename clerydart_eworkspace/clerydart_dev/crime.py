@@ -7,12 +7,12 @@
 
 # Defines Crime class
 class Crime:
-    def __init__(self, date_occurred, crime_reported, crime_location, date_reported, popup_info):
+    def __init__(self, date_occurred, crime_reported, crime_location, date_reported):
         self.date_occurred = date_occurred 
         self.crime_reported = crime_reported
         self.crime_location = crime_location
         self.date_reported = date_reported
-        self.popup_info = popup_info 
+        self.popup_info = str(self.date_occurred) + ": " + str(self.crime_reported)
         self.latitude_longitude = None
     
     # Method that returns a string of the data from the object    

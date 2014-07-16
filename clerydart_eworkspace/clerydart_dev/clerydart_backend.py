@@ -15,6 +15,7 @@ import csv #imports csv reader
 import folium #imports Folium, which will create a html friendly Leaflet.js template
 from crime import Crime # Imports Crime class
 
+### CREATION OF [('KEY: LOCATION', 'VALUE: LATITUDE/LONGITUDE')] DICTIONARY ###
 # Creates a dictionary with the latitude and longitudes of each location
 campus_coordinates = dict() # initializes the campus_coordinates dictionary
 
@@ -33,9 +34,9 @@ csv_campus_coordinates.close()
 # Print Dictionary Key-Value Pairs to see if they have been properly entered
 print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks to see if the key-value pair has been entered into the dictionary; works!!
 
-
+### CREATION OF CRIME OBJECTS ###
 # Reads the CSV file
-csv_sample = open('coordinates_input.csv', 'rU') #opens the sample_input.csv file #works again
+csv_sample = open('crimes_input.csv', 'rU') #opens the sample_input.csv file #works again
 csvReader = csv.reader(csv_sample)
 crime_objects_list = [] # Empty list where each crime object will be added after it is created by the csvReader 
 
@@ -46,8 +47,7 @@ for row in csvReader: # for loop that iterates through all rows in the csv file
     new_crime_object = Crime(row[i],    # .date_occurred method
                              row[i+1],  # .crime_reported method
                              row[i+2],  # .crime_location method
-                             row[i+3],  # .date_reported method
-                             row[i+4])  # .popup_info method
+                             row[i+3])  # .date_reported method
     crime_objects_list.append(new_crime_object) # appends each new object to a list of crime objects 
 
 # Closes CSV file
@@ -55,24 +55,35 @@ csv_sample.close() #closes the file that is opened
 
 #At this point the 'crime' objects have been created 
 print "list of crime objects: " + str(crime_objects_list)
-print "sample popup information: " + str(crime_objects_list[0].date_occurred) + ": " + str(crime_objects_list[0].crime_reported) # Testing putting different pieces of data together
+print "correct popup information output: " + str(crime_objects_list[0].date_occurred) + ": " + str(crime_objects_list[0].crime_reported) # Testing putting different pieces of data together
 
 # Now I want to iterate through the crime_objects_list, and check to see if the .crime_reported method matches up with a crime in the dictionary
 
 print crime_objects_list[1].crime_location #Testing to see if the crime location can be accessed by the .crime_location method
-#print campus_coordinates["CollisCenter"]
+print "Testing accessing .popup_info method directly: " + str(crime_objects_list[0].popup_info) # Testing to see if the popup_info method works correctly
 
 # Links campus location coordinates from the dictionary to each individual object
+for crime_object in crime_objects_list: # For each crime object in the list of crime objects
+    if crime_object.crime_location in campus_coordinates: # If the string associated with the .crime_location method matches a key in the campus_coordinates dictionary
+        print "True means that the .crime_location method matches a campus_coordinates key: " + str(True) #print true
+        crime_object.latitude_longitude = campus_coordinates[crime_object.crime_location] # Map the list 
+        print "Testing Latitude and Longitude method of " + str(crime_object.crime_location) + " Crime Object in Crime class: " + str(crime_object.latitude_longitude)
+        
+# Campus Location Coordinates have been added to each object
+
+''' Commenting out the previous if-clause, so I can see if the for-loop works  
 if crime_objects_list[1].crime_location in campus_coordinates: #checks to see if the crime location is in the campus coordinates dictionary as a key
     print "True means that the .crime_location method matches a campus_coordinates key: " + str(True)
     crime_objects_list[1].latitude_longitude = campus_coordinates[crime_objects_list[1].crime_location] #latitude_longitude list becomes the value of the key
     print "Testing Latitude and Longitude method in Crime class: " + str(crime_objects_list[1].latitude_longitude)
-
+'''
+        
 # Folium Map initialization
-clerydart_map = folium.Map(location = [43.70598, -72.28627], zoom_start = 16) # Those are standard Dartmouth coordinates
+clerydart_map = folium.Map(location = [43.70598, -72.28627], zoom_start = 16) # Those are standard Dartmouth latitudes and longitudes
 
 # Adds single popup
 clerydart_map.simple_marker(crime_objects_list[1].latitude_longitude, popup = crime_objects_list[1].popup_info)
+#Now I want to add a for loop that goes through all the crime objects and adds a popup for each object
 
 #Creates HTML template
 clerydart_map.create_map(path = 'object_and_popup_test.html')
