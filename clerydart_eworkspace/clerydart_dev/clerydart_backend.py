@@ -1,6 +1,6 @@
 #===============================================================================
 # clerydart_backend.py
-# Author: Guillermo K. Rojasuch 
+# Author: Guillermo K. Rojas
 # Testing out the new CleryDart backend 
 # CSVReader help from pg. 402; "The Practice of Computing Using Python"; book by 
 # William Punch and Richard Enbody, Published 2011
@@ -38,53 +38,36 @@ print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks
 # Reads the CSV file
 csv_sample = open('crimes_input.csv', 'rU') #opens the sample_input.csv file #works again
 csvReader = csv.reader(csv_sample)
-crime_objects_list = [] # Empty list where each crime object will be added after it is created by the csvReader 
+crime_objects_list = [] # Empty list where each crime object will be added after it is created by the for-loop 
 
 # Creates crime objects from CSV file
 for row in csvReader: # for loop that iterates through all rows in the csv file
-    print "raw row information: " + str(row)
+    print "raw crime objects row information: " + str(row)
     i = 0 # indexes into the list created in each row
     new_crime_object = Crime(row[i],    # .date_occurred method
                              row[i+1],  # .crime_reported method
                              row[i+2],  # .crime_location method
                              row[i+3])  # .date_reported method
-    crime_objects_list.append(new_crime_object) # appends each new object to a list of crime objects 
+    crime_objects_list.append(new_crime_object) # appends each new object to the list of crime objects 
 
 # Closes CSV file
 csv_sample.close() #closes the file that is opened
 
 #At this point the 'crime' objects have been created 
-print "list of crime objects: " + str(crime_objects_list)
-print "correct popup information output: " + str(crime_objects_list[0].date_occurred) + ": " + str(crime_objects_list[0].crime_reported) # Testing putting different pieces of data together
+print "List of crime objects: " + str(crime_objects_list)
 
-# Now I want to iterate through the crime_objects_list, and check to see if the .crime_reported method matches up with a crime in the dictionary
-
-print crime_objects_list[1].crime_location #Testing to see if the crime location can be accessed by the .crime_location method
-print "Testing accessing .popup_info method directly: " + str(crime_objects_list[0].popup_info) # Testing to see if the popup_info method works correctly
-
-# Links campus location coordinates from the dictionary to each individual object
-for crime_object in crime_objects_list: # For each crime object in the list of crime objects
-    if crime_object.crime_location in campus_coordinates: # If the string associated with the .crime_location method matches a key in the campus_coordinates dictionary
-        print "True means that the .crime_location method matches a campus_coordinates key: " + str(True) #print true
-        crime_object.latitude_longitude = campus_coordinates[crime_object.crime_location] # Map the list 
-        print "Testing Latitude and Longitude method of " + str(crime_object.crime_location) + " Crime Object in Crime class: " + str(crime_object.latitude_longitude)
-        
-# Campus Location Coordinates have been added to each object
-
-''' Commenting out the previous if-clause, so I can see if the for-loop works  
-if crime_objects_list[1].crime_location in campus_coordinates: #checks to see if the crime location is in the campus coordinates dictionary as a key
-    print "True means that the .crime_location method matches a campus_coordinates key: " + str(True)
-    crime_objects_list[1].latitude_longitude = campus_coordinates[crime_objects_list[1].crime_location] #latitude_longitude list becomes the value of the key
-    print "Testing Latitude and Longitude method in Crime class: " + str(crime_objects_list[1].latitude_longitude)
-'''
-        
 # Folium Map initialization
 clerydart_map = folium.Map(location = [43.70598, -72.28627], zoom_start = 16) # Those are standard Dartmouth latitudes and longitudes
 
-# Adds single popup
-clerydart_map.simple_marker(crime_objects_list[1].latitude_longitude, popup = crime_objects_list[1].popup_info)
-#Now I want to add a for loop that goes through all the crime objects and adds a popup for each object
-
+# Links campus location coordinates from the dictionary to each individual object
+# Adds a marker for each crime object, attaches the .latitude_longitude information to the marker, as well as the .popup_info
+for crime_object in crime_objects_list: # For each crime object in the list of crime objects
+    if crime_object.crime_location in campus_coordinates: # If the string associated with the .crime_location method matches a key in the campus_coordinates dictionary
+        print "True means that the .crime_location method matches a campus_coordinates key: " + str(True) #print true
+        crime_object.latitude_longitude = campus_coordinates[crime_object.crime_location] # Adds campus location coordinates to each object
+        print "Testing Latitude and Longitude method of " + str(crime_object.crime_location) + " Crime Object in Crime class: " + str(crime_object.latitude_longitude)
+        clerydart_map.simple_marker(crime_object.latitude_longitude, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
+        
 #Creates HTML template
-clerydart_map.create_map(path = 'object_and_popup_test.html')
+clerydart_map.create_map(path = 'object_and_popup_test_for_loops.html')
 
