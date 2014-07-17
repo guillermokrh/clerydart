@@ -1,0 +1,22 @@
+next_steps.txt
+Author: Guillermo Rojas
+Purpose: Outline next steps for CleryDart 
+
+
+1. Already have a Python script that will generate a Leaflet template for HTML.
+2. Collect campus crime data from campus security department
+3. Create a "Crimes_Input" spreadsheet, enter the crime data, export it as .csv file.
+4. Create a "Campus_Locations" spreadsheet
+5. Determine a good center coordinate for each campus location, enter the coordinates, export it as a .csv file
+6. Run the Python script to generate the Leaflet HTML template
+7. Enter the JavaScript hack that allows multiple popups to be open in Leaflet
+
+8. Insert the HTML formatting and text from the last CleryDart update to the new Leaflet HTML template.
+9. Make the previous edition of the CleryDart website a page that visitors can visit from the new CleryDart home page
+
+10. Update the writing (copy) on the website.
+11. Update the CSS  
+
+12. Write a request for input: email _______ for constructive feedback on the website
+13. Write a request for support.
+14. Note what I need for additional features.    
