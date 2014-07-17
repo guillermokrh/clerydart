@@ -65,16 +65,18 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
     if crime_object.crime_location in campus_coordinates: # If the string associated with the .crime_location method matches a key in the campus_coordinates dictionary
         print "True means that the .crime_location method matches a campus_coordinates key: " + str(True) #print true
         crime_object.latitude_longitude = campus_coordinates[crime_object.crime_location] # Adds campus location coordinates to each object
-        # Find a way of including randint up here??? ^^^^ crime_object.crime_location is made up of a list with 2 items, 
-        # can slice into that list, use +0.005 and -0.005 and use a randint equivalent for floats
-        # Pseudo-code:
-        # for latitude: campus_coordinates[random.uniform(crime_object.crime_location[0] - 0.005, crime_object.crime_location[0] + 0.005)]
-        # for longitude: campus_coordinates
+
         print "Testing Latitude and Longitude method of " + str(crime_object.crime_location) + " Crime Object in Crime class: " + str(crime_object.latitude_longitude)
-        clerydart_map.simple_marker(crime_object.latitude_longitude, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
+        
+        # Generates the slightly random [latitude, longitude] coordinates close to the main [latitude, longitude] coordinates
+        crime_object.marker_position(crime_object.latitude_longitude)
+        
+        print "Testing Latitude and Longitude .marker_position method: " + str(crime_object.plot_points)
+        
+        clerydart_map.simple_marker(crime_object.plot_points, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
         
 #Creates HTML template
-clerydart_map.create_map(path = 'object_and_popup_test_for_loops.html')
+clerydart_map.create_map(path = 'object_and_popup_test_plot_points.html')
 
 
 # Next steps: find a way of including more markers, multiple markers per location.  I can create multiple crime objects with the same 
