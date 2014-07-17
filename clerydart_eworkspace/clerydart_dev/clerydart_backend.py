@@ -36,7 +36,7 @@ print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks
 
 ### CREATION OF CRIME OBJECTS ###
 # Reads the CSV file
-csv_sample = open('crimes_input.csv', 'rU') #opens the sample_input.csv file #works again
+csv_sample = open('collis_multiple_popups.csv', 'rU') #opens the sample_input.csv file #works again
 csvReader = csv.reader(csv_sample)
 crime_objects_list = [] # Empty list where each crime object will be added after it is created by the for-loop 
 
@@ -62,6 +62,7 @@ clerydart_map = folium.Map(location = [43.70598, -72.28627], zoom_start = 16) # 
 # Links campus location coordinates from the dictionary to each individual object
 # Adds a marker for each crime object, attaches the .latitude_longitude information to the marker, as well as the .popup_info
 for crime_object in crime_objects_list: # For each crime object in the list of crime objects
+    
     if crime_object.crime_location in campus_coordinates: # If the string associated with the .crime_location method matches a key in the campus_coordinates dictionary
         print "True means that the .crime_location method matches a campus_coordinates key: " + str(True) #print true
         crime_object.latitude_longitude = campus_coordinates[crime_object.crime_location] # Adds campus location coordinates to each object
@@ -76,7 +77,7 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
         clerydart_map.simple_marker(crime_object.plot_points, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
         
 #Creates HTML template
-clerydart_map.create_map(path = 'object_and_popup_test_plot_points.html')
+clerydart_map.create_map(path = 'collis_multiple_popups_test.html')
 
 
 # Next steps: find a way of including more markers, multiple markers per location.  I can create multiple crime objects with the same 
