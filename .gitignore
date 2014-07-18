@@ -1,0 +1,5 @@
+# .gitignore file for CleryDart development
+clerydart_eworkspace/.metadata/
+*.project
+*.pydevproject
+*.pyc
