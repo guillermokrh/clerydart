@@ -1,8 +1,9 @@
 #===============================================================================
-# csv_test.py
+# basic_template.py
 # Author: Guillermo K. Rojas
 # Testing out the csv reader 
-# Much help from pg. 402; "The Practice of Computing Using Python"; book by 
+# Testing out basics of the dictionary and list of objects for the Python-to-Leaflet CleryDart template
+# CSV Reader help from pg. 402; "The Practice of Computing Using Python"; book by 
 # William Punch and Richard Enbody, Published 2011
 #===============================================================================
 

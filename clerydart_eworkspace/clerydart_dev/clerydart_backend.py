@@ -79,6 +79,3 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
 #Creates HTML template
 clerydart_map.create_map(path = 'collis_multiple_popups_test.html')
 
-
-# Next steps: find a way of including more markers, multiple markers per location.  I can create multiple crime objects with the same 
-# Location, but I must find a way of using randint on the value that the dictionary returns.....
