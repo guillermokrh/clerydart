@@ -1,13 +1,18 @@
 #===============================================================================
-# clerydart_backend.py
+# clerydart_template.py
 # Author: Guillermo K. Rojas
-# Testing out the new CleryDart backend 
+# New CleryDart Python-to-Leaflet JavaScript Template 
+#
+# How it Works:
+# Uses a .csv reader make a dictionary with lat & long coordinates for each campus location from a csv file
+# Uses a .csv reader to make a a list of crime objects from a .csv file; each crime object represents one crime reported
+# Uses the location data from each object to match up with the key in the dictionary
+# Uses the value from that key to create a random nearby coordinate to allow for multiple markers for one crime location
+# Uses Folium to create an Leaflet.js template based on this information 
+# Folium exports the Leaflet.js template as an HTML file, complete with markers and popups for each crime  
+#
 # CSVReader help from pg. 402; "The Practice of Computing Using Python"; book by 
 # William Punch and Richard Enbody, Published 2011
-# Goal: to use a .csv reader make a dictionary with lat & long coordinates for each campus location
-# Then to use a .csv reader to make a a list of objects, holding the data for each crime
-# Then to use the data from the objects to match up with the key in the dictionary
-# And use the value from that key to map the Leaflet.js marker 
 #===============================================================================
 
 # Imports 
@@ -53,10 +58,10 @@ for row in csvReader: # for loop that iterates through all rows in the csv file
 # Closes CSV file
 csv_sample.close() #closes the file that is opened
 
-#At this point the 'crime' objects have been created 
+# At this point the 'crime' objects have been created 
 print "List of crime objects: " + str(crime_objects_list)
 
-# Folium Map initialization
+### Folium Map Initialization ###
 clerydart_map = folium.Map(location = [43.70598, -72.28627], zoom_start = 16) # Those are standard Dartmouth latitudes and longitudes
 
 # Links campus location coordinates from the dictionary to each individual object
