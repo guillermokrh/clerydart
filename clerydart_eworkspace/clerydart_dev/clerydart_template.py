@@ -25,7 +25,7 @@ from crime import Crime # Imports Crime class
 campus_coordinates = dict() # initializes the campus_coordinates dictionary
 
 # Reads the CSV file containing the latitude and longitude of each campus location
-csv_campus_coordinates = open('collis_tennis_coordinates.csv', 'rU') #opens .csv file with Collis and Boss Tennis Center coordinates
+csv_campus_coordinates = open('campus_coordinates_july_update.csv', 'rU') #opens .csv file with campus location coordinates
 csvCoordinatesReader = csv.reader(csv_campus_coordinates) # read the .csv file with coordinates
 
 for row in csvCoordinatesReader: #for loop that iterates through all rows in .csv file
@@ -41,7 +41,7 @@ print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks
 
 ### CREATION OF CRIME OBJECTS ###
 # Reads the CSV file
-csv_sample = open('collis_multiple_popups.csv', 'rU') #opens the sample_input.csv file #works again
+csv_sample = open('crimes_input_july_formatted.csv', 'rU') #opens the crimes_input.csv file #
 csvReader = csv.reader(csv_sample)
 crime_objects_list = [] # Empty list where each crime object will be added after it is created by the for-loop 
 
@@ -49,10 +49,12 @@ crime_objects_list = [] # Empty list where each crime object will be added after
 for row in csvReader: # for loop that iterates through all rows in the csv file
     print "raw crime objects row information: " + str(row)
     i = 0 # indexes into the list created in each row
-    new_crime_object = Crime(row[i],    # .date_occurred method
-                             row[i+1],  # .crime_reported method
-                             row[i+2],  # .crime_location method
-                             row[i+3])  # .date_reported method
+    new_crime_object = Crime(row[i],    # .date_reported instance variable
+                             row[i+1],  # .nature_of_crime instance variable
+                             row[i+2],  # .date_occurred instance variable
+                             row[i+3],  # .time_occurred instance variable
+                             row[i+4],  # .crime_location instance variable
+                             row[i+5])  # .case_disposition instance variable
     crime_objects_list.append(new_crime_object) # appends each new object to the list of crime objects 
 
 # Closes CSV file
@@ -82,5 +84,5 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
         clerydart_map.simple_marker(crime_object.plot_points, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
         
 #Creates HTML template
-clerydart_map.create_map(path = 'collis_multiple_popups_test.html')
+clerydart_map.create_map(path = 'clerydart_july_popup_details.html')
 
