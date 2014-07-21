@@ -5,10 +5,10 @@ Purpose: Outline next steps for CleryDart
 
 1. Already have a Python script that will generate a Leaflet template for HTML.
 2. Collect campus crime data from campus security department - Done, from May 10th to July 18th 7/18/14
-3. Create a "Crimes_Input" spreadsheet, enter the crime data, export it as .csv file. - Done, still have to export as .csv 7/18/14
+3. Create a "Crimes_Input" spreadsheet, enter the crime data, export it as .csv file. - Done, still have to export as .csv 7/18/14 Done exporting as .csv 7/20/14
 4. Create a "Campus_Locations" spreadsheet - Done 7/18/14-7/19/14
-5. Determine a good center coordinate for each campus location, enter the coordinates, export it as a .csv file - Done, still have to export as .csv 7/18/14-7/19/14
-6. Run the Python script to generate the Leaflet HTML template
+5. Determine a good center coordinate for each campus location, enter the coordinates, export it as a .csv file - Done, still have to export as .csv 7/18/14-7/19/14 - Done exporting as .csv 7/20/14
+6. Run the Python script to generate the Leaflet HTML template - Done 7/20/14
 7. Enter the JavaScript hack that allows multiple popups to be open in Leaflet
 
 8. Insert the HTML formatting and text from the last CleryDart update to the new Leaflet HTML template.
