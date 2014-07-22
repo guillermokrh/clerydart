@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+   
+   
+   
+   
+
+
+<style>
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+</style>
+</head>
+<body>
+
+        <div id="map" style="width: 960px; height: 500px"></div>
+
+<script>
+
+
+
+var map = L.map('map').setView([43.70598, -72.28627], 16);
+
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+
+var marker_1 = L.marker([43.7030194681, -72.2898854579]);
+marker_1.bindPopup("Robinson Hall: 2014/05/10: Larceny-Theft");
+map.addLayer(marker_1)
+
+var marker_2 = L.marker([43.7073153812, -72.2908448773]);
+marker_2.bindPopup("The Choates: 2014/05/11: Liquor Laws");
+map.addLayer(marker_2)
+
+var marker_3 = L.marker([43.7040220966, -72.2865755281]);
+marker_3.bindPopup("North Fayerweather Hall: 2014/05/11: Liquor Laws");
+map.addLayer(marker_3)
+
+var marker_4 = L.marker([43.7047388964, -72.2907037529]);
+marker_4.bindPopup("Hitchcock Hall: Not Provided: Vandalism");
+map.addLayer(marker_4)
+
+var marker_5 = L.marker([43.7069848212, -72.2909408057]);
+marker_5.bindPopup("Little Hall: 2014/05/09: Vandalism");
+map.addLayer(marker_5)
+
+var marker_6 = L.marker([43.706581356, -72.2908585711]);
+marker_6.bindPopup("Tabard: 2014/05/13: Liquor Laws, Vandalism");
+map.addLayer(marker_6)
+
+var marker_7 = L.marker([43.7030118309, -72.2883830534]);
+marker_7.bindPopup("Campus: 2014/05/13: Assault");
+map.addLayer(marker_7)
+
+var marker_8 = L.marker([43.7026159649, -72.2905052892]);
+marker_8.bindPopup("Psi Upsilon: 2014/05/15: Liquor Laws");
+map.addLayer(marker_8)
+
+var marker_9 = L.marker([43.7057095034, -72.2899215341]);
+marker_9.bindPopup("Rockefeller Center: 2014/05/15: Disorderly Conduct, Liquor Laws, Resisting Arrest or Detention");
+map.addLayer(marker_9)
+
+var marker_10 = L.marker([43.702871304, -72.2898950042]);
+marker_10.bindPopup("Collis: 2014/05/15: Larceny-Theft");
+map.addLayer(marker_10)
+
+var marker_11 = L.marker([43.7047671543, -72.2905384198]);
+marker_11.bindPopup("Hitchcock Hall: 2014/05/15: Disorderly Conduct");
+map.addLayer(marker_11)
+
+var marker_12 = L.marker([43.7053743225, -72.2888338224]);
+marker_12.bindPopup("Baker/Berry Library: 2014/05/15: Liquor Laws");
+map.addLayer(marker_12)
+
+var marker_13 = L.marker([43.7064501167, -72.2906642603]);
+marker_13.bindPopup("Tabard: 2014/05/16: False Fire Alarm");
+map.addLayer(marker_13)
+
+var marker_14 = L.marker([43.706625161, -72.2871566293]);
+marker_14.bindPopup("Sudikoff Hall: 2014/05/15: Larceny-Theft");
+map.addLayer(marker_14)
+
+var marker_15 = L.marker([43.7030090379, -72.2909080735]);
+marker_15.bindPopup("53 Commons: 2014/05/15: Larceny-Theft, Vandalism");
+map.addLayer(marker_15)
+
+var marker_16 = L.marker([43.7053862625, -72.2887923739]);
+marker_16.bindPopup("Baker/Berry Library: 2014/05/09: Larceny-Theft");
+map.addLayer(marker_16)
+
+var marker_17 = L.marker([43.7090598857, -72.2836006877]);
+marker_17.bindPopup("Life Sciences Center: 2014/05/09: Larceny-Theft");
+map.addLayer(marker_17)
+
+var marker_18 = L.marker([43.7064739159, -72.2921104106]);
+marker_18.bindPopup("Webster Avenue: 2014/05/16: Assault, Disorderly Conduct");
+map.addLayer(marker_18)
+
+var marker_19 = L.marker([43.7054258296, -72.2919569076]);
+marker_19.bindPopup("McLane Hall: 2014/05/15: Sex Offenses");
+map.addLayer(marker_19)
+
+var marker_20 = L.marker([43.7030038238, -72.2909656013]);
+marker_20.bindPopup("53 Commons: 2014/05/16: Disorderly Conduct");
+map.addLayer(marker_20)
+
+var marker_21 = L.marker([43.7075131044, -72.2913476858]);
+marker_21.bindPopup("Cohen Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_21)
+
+var marker_22 = L.marker([43.7054917151, -72.2905486124]);
+marker_22.bindPopup("Russell Sage Hall: 2014/05/16: Disorderly Conduct, Liquor Laws");
+map.addLayer(marker_22)
+
+var marker_23 = L.marker([43.7029971267, -72.2908411875]);
+marker_23.bindPopup("53 Commons: 2014/05/16: Liquor Laws");
+map.addLayer(marker_23)
+
+var marker_24 = L.marker([43.7053096794, -72.2913675237]);
+marker_24.bindPopup("Fahey Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_24)
+
+var marker_25 = L.marker([43.7036510777, -72.2865634594]);
+marker_25.bindPopup("Middle Fayerweather Hall: 2014/05/16: Assault, Disorderly Conduct, Resisting Arrest/Detention");
+map.addLayer(marker_25)
+
+var marker_26 = L.marker([43.7053190205, -72.2943120544]);
+marker_26.bindPopup("Tuck Mall/Tuck Circle: 2014/05/16: Liquor Laws");
+map.addLayer(marker_26)
+
+var marker_27 = L.marker([43.7074958755, -72.2914397528]);
+marker_27.bindPopup("Cohen Hall: 2014/05/17: Liquor Laws");
+map.addLayer(marker_27)
+
+var marker_28 = L.marker([43.7053472772, -72.291318499]);
+marker_28.bindPopup("Fahey Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_28)
+
+var marker_29 = L.marker([43.7055231708, -72.2919974444]);
+marker_29.bindPopup("McLane Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_29)
+
+var marker_30 = L.marker([43.707170462, -72.2915412853]);
+marker_30.bindPopup("Bissell Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_30)
+
+var marker_31 = L.marker([43.7040782158, -72.2904534249]);
+marker_31.bindPopup("North Massachusetts Hall: 2014/05/17: Liquor Laws");
+map.addLayer(marker_31)
+
+var marker_32 = L.marker([43.7075405714, -72.2916778573]);
+marker_32.bindPopup("Cohen Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_32)
+
+var marker_33 = L.marker([43.7042101543, -72.2970165759]);
+marker_33.bindPopup("French Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_33)
+
+var marker_34 = L.marker([43.7054892046, -72.2898691519]);
+marker_34.bindPopup("Silsby Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_34)
+
+var marker_35 = L.marker([43.7045070711, -72.2916824482]);
+marker_35.bindPopup("Streeter Hall: 2014/05/16: Liquor Laws");
+map.addLayer(marker_35)
+
+var marker_36 = L.marker([43.7037376316, -72.2953263361]);
+marker_36.bindPopup("Maxwell Hall/Climbing Gym: 2014/05/17: Liquor Laws");
+map.addLayer(marker_36)
+
+var marker_37 = L.marker([43.7074593748, -72.2916150379]);
+marker_37.bindPopup("Cohen Hall: 2014/05/17: Liquor Laws");
+map.addLayer(marker_37)
+
+var marker_38 = L.marker([43.7066376694, -72.2914534643]);
+marker_38.bindPopup("Chi Gamma Epsilon: 2014/05/17: Liquor Laws");
+map.addLayer(marker_38)
+
+var marker_39 = L.marker([43.7047454613, -72.291807226]);
+marker_39.bindPopup("Streeter Hall: 2014/05/17: Liquor Laws");
+map.addLayer(marker_39)
+
+var marker_40 = L.marker([43.7065782669, -72.2915255619]);
+marker_40.bindPopup("Chi Gamma Epsilon: 2014/05/17: Liquor Laws");
+map.addLayer(marker_40)
+
+var marker_41 = L.marker([43.7053440384, -72.291718839]);
+marker_41.bindPopup("Fahey Hall: 2014/05/17: Liquor Laws");
+map.addLayer(marker_41)
+
+var marker_42 = L.marker([43.7055459752, -72.2900333067]);
+marker_42.bindPopup("Silsby Hall: 2014/05/17: Liquor Laws");
+map.addLayer(marker_42)
+
+var marker_43 = L.marker([43.7045515258, -72.2907340827]);
+marker_43.bindPopup("Hitchcock Hall: 2014/05/16: Disorderly/Public Urination");
+map.addLayer(marker_43)
+
+var marker_44 = L.marker([43.7046994139, -72.2904187126]);
+marker_44.bindPopup("Hitchcock Hall: 2014/05/16: Vandalism");
+map.addLayer(marker_44)
+
+var marker_45 = L.marker([43.6988205698, -72.2912856874]);
+marker_45.bindPopup("24 School St. Apt 12: 2014/05/16: Larceny-Theft");
+map.addLayer(marker_45)
+
+var marker_46 = L.marker([43.7049810257, -72.2871336995]);
+marker_46.bindPopup("Wheeler Hall: 2014/05/14: Disorderly Conduct");
+map.addLayer(marker_46)
+
+var marker_47 = L.marker([43.7020162962, -72.2897707447]);
+marker_47.bindPopup("9 South Main St. : 2014/05/17: Liquor Laws");
+map.addLayer(marker_47)
+
+var marker_48 = L.marker([43.7042252262, -72.2854693721]);
+marker_48.bindPopup("Woodward Hall: 2014/05/17: Vandalism");
+map.addLayer(marker_48)
+
+var marker_49 = L.marker([43.7063777687, -72.2869931259]);
+marker_49.bindPopup("Sudikoff Hall: 2014/05/18: Liquor Laws");
+map.addLayer(marker_49)
+
+var marker_50 = L.marker([43.7062066277, -72.2899113546]);
+marker_50.bindPopup("Kappa Kappa Kappa: 2014/05/18: Assault, Disorderly Conduct");
+map.addLayer(marker_50)
+
+var marker_51 = L.marker([43.7044790444, -72.2811851872]);
+marker_51.bindPopup("Amarna: 2014/05/16: Larceny-Theft");
+map.addLayer(marker_51)
+
+var marker_52 = L.marker([43.7058524628, -72.2889019331]);
+marker_52.bindPopup("Carson Hall: 2014/05/17: Larceny-Theft");
+map.addLayer(marker_52)
+
+var marker_53 = L.marker([43.7030650835, -72.28585728]);
+marker_53.bindPopup("East Wheelock Street: 2014/05/18: Assault");
+map.addLayer(marker_53)
+
+var marker_54 = L.marker([43.7045868903, -72.2829510195]);
+marker_54.bindPopup("McCulloch 2-1/2 North Park Street, Highway/Road/Alley: 2014/05/18: Larceny-Theft");
+map.addLayer(marker_54)
+
+var marker_55 = L.marker([43.7045701486, -72.2904803303]);
+marker_55.bindPopup("Hitchcock Hall: 2014/05/19: Vandalism");
+map.addLayer(marker_55)
+
+var marker_56 = L.marker([43.7055576568, -72.2918971203]);
+marker_56.bindPopup("McLane Hall: 2014/05/19: Liquor Laws");
+map.addLayer(marker_56)
+
+var marker_57 = L.marker([43.710267931, -72.2836689292]);
+marker_57.bindPopup("Dewey Lot: 2014/05/19: Larceny-Theft");
+map.addLayer(marker_57)
+
+var marker_58 = L.marker([43.7047588821, -72.2897801579]);
+marker_58.bindPopup("Blunt Alumni Center: 2014/05/06: Larceny-Theft");
+map.addLayer(marker_58)
+
+var marker_59 = L.marker([43.7052602805, -72.286335237]);
+marker_59.bindPopup("Wilder: 2014/04/20: Assault, Criminal Threatening/Stalking, Sex Offenses");
+map.addLayer(marker_59)
+
+var marker_60 = L.marker([43.7046675732, -72.2921197217]);
+marker_60.bindPopup("Lord Hall: Not Provided: Larceny-Theft");
+map.addLayer(marker_60)
+
+var marker_61 = L.marker([43.7035592436, -72.2887915916]);
+marker_61.bindPopup("unknown: 2014/05/16: Larceny-Theft");
+map.addLayer(marker_61)
+
+var marker_62 = L.marker([43.7026942696, -72.2901456084]);
+marker_62.bindPopup("Collis: 2014/05/21: Vandalism");
+map.addLayer(marker_62)
+
+var marker_63 = L.marker([43.7038467798, -72.2905541687]);
+marker_63.bindPopup("Middle Massachusetts Hall: 2014/05/16: Larceny-Theft");
+map.addLayer(marker_63)
+
+var marker_64 = L.marker([43.7035937933, -72.2884535713]);
+marker_64.bindPopup("The Green: 2014/05/22: Sex Offenses");
+map.addLayer(marker_64)
+
+var marker_65 = L.marker([43.7033524616, -72.286153142]);
+marker_65.bindPopup("South Fayerweather Hall: 2014/05/22: Driving Under Influence, Liquor Laws");
+map.addLayer(marker_65)
+
+var marker_66 = L.marker([43.7046960455, -72.2906393548]);
+marker_66.bindPopup("Hitchcock Hall: 2014/05/21: Vandalism");
+map.addLayer(marker_66)
+
+var marker_67 = L.marker([43.7045189862, -72.2948480866]);
+marker_67.bindPopup("Thayer School of Engineering: 2014/05/21: Larceny-Theft");
+map.addLayer(marker_67)
+
+var marker_68 = L.marker([43.7019552395, -72.2880608551]);
+marker_68.bindPopup("Hopkins Center: 2014/05/22: Drug Abuse Sale, Possession");
+map.addLayer(marker_68)
+
+var marker_69 = L.marker([43.7054384042, -72.288734912]);
+marker_69.bindPopup("Baker/Berry Library: Not Provided: Vandalism");
+map.addLayer(marker_69)
+
+var marker_70 = L.marker([43.7088333099, -72.2839281217]);
+marker_70.bindPopup("Life Sciences Center: 2014/05/20: Larceny-Theft");
+map.addLayer(marker_70)
+
+var marker_71 = L.marker([43.7030729107, -72.2906350761]);
+marker_71.bindPopup("53 Commons: 2014/05/16: Larceny-Theft");
+map.addLayer(marker_71)
+
+var marker_72 = L.marker([43.7062750756, -72.2901025258]);
+marker_72.bindPopup("Kappa Kappa Kappa: 2014/05/22: Larceny-Theft");
+map.addLayer(marker_72)
+
+var marker_73 = L.marker([43.7065711692, -72.2874039988]);
+marker_73.bindPopup("Sudikoff Hall: 2014/05/21: Larceny-Theft");
+map.addLayer(marker_73)
+
+var marker_74 = L.marker([43.7065549396, -72.2871718552]);
+marker_74.bindPopup("Sudikoff Hall: Not Provided: Vandalism");
+map.addLayer(marker_74)
+
+var marker_75 = L.marker([43.7029542332, -72.2908064081]);
+marker_75.bindPopup("Sarner Underground: 2014/05/23: Larceny-Theft");
+map.addLayer(marker_75)
+
+var marker_76 = L.marker([43.7054398736, -72.2918296291]);
+marker_76.bindPopup("McLane Hall: Not Provided: Liquor Laws");
+map.addLayer(marker_76)
+
+var marker_77 = L.marker([43.7053101511, -72.2825268993]);
+marker_77.bindPopup("North Park St.: 2014/05/24: Liquor Laws");
+map.addLayer(marker_77)
+
+var marker_78 = L.marker([43.7037540458, -72.2869869445]);
+marker_78.bindPopup("Dartmouth Hall: 2014/05/24: Vandalism");
+map.addLayer(marker_78)
+
+var marker_79 = L.marker([43.7067414614, -72.2913539206]);
+marker_79.bindPopup("Chi Gamma Epsilon: 2014/05/05: Larceny-Theft");
+map.addLayer(marker_79)
+
+var marker_80 = L.marker([43.7070555056, -72.2929168994]);
+marker_80.bindPopup("Alpha Chi Alpha: 2014/05/25: Drug Abuse Sale, Possession");
+map.addLayer(marker_80)
+
+var marker_81 = L.marker([43.7035145471, -72.2886123871]);
+marker_81.bindPopup("Plainfield Road: 2014/05/24: Driving Under Influence");
+map.addLayer(marker_81)
+
+var marker_82 = L.marker([43.7055257197, -72.2908639133]);
+marker_82.bindPopup("Russell Sage Hall: Not Provided: Vandalism");
+map.addLayer(marker_82)
+
+var marker_83 = L.marker([43.7037235037, -72.2872002494]);
+marker_83.bindPopup("Dartmouth Hall: 2014/05/24: Vandalism");
+map.addLayer(marker_83)
+
+var marker_84 = L.marker([43.7076651141, -72.2915705308]);
+marker_84.bindPopup("Cohen Hall: 2014/05/26: Larceny-Theft");
+map.addLayer(marker_84)
+
+var marker_85 = L.marker([43.703070103, -72.2910322173]);
+marker_85.bindPopup("53 Commons: 2014/05/25: Larceny-Theft");
+map.addLayer(marker_85)
+
+var marker_86 = L.marker([43.7027883922, -72.2897414709]);
+marker_86.bindPopup("Collis: 2014/05/28: Disorderly Conduct");
+map.addLayer(marker_86)
+
+var marker_87 = L.marker([43.7010553237, -72.2800931617]);
+marker_87.bindPopup("Thompson Arena: 2014/05/28: Vandalism");
+map.addLayer(marker_87)
+
+var marker_88 = L.marker([43.7053010772, -72.288612146]);
+marker_88.bindPopup("Baker/Berry Library: 2014/05/28: Larceny-Theft");
+map.addLayer(marker_88)
+
+var marker_89 = L.marker([43.7071932854, -72.2914226843]);
+marker_89.bindPopup("Bissell Hall: 2014/05/30: Larceny-Theft");
+map.addLayer(marker_89)
+
+var marker_90 = L.marker([43.7013813147, -72.2863581967]);
+marker_90.bindPopup("Visual Arts Parking Lot: 2014/05/30: Larceny-Theft");
+map.addLayer(marker_90)
+
+var marker_91 = L.marker([43.7068935968, -72.2919512463]);
+marker_91.bindPopup("Kappa Delta Epsilon: 2014/05/31: Vandalism");
+map.addLayer(marker_91)
+
+var marker_92 = L.marker([43.7042162739, -72.2969866053]);
+marker_92.bindPopup("River Cluster: 2014/05/31: Larceny-Theft");
+map.addLayer(marker_92)
+
+var marker_93 = L.marker([43.7071398534, -72.2894477573]);
+marker_93.bindPopup("Choate House: Not Provided: Vandalism");
+map.addLayer(marker_93)
+
+var marker_94 = L.marker([43.7111440331, -72.2876048454]);
+marker_94.bindPopup("Occom Pond: 2014/06/01: Vandalism");
+map.addLayer(marker_94)
+
+var marker_95 = L.marker([43.7066020632, -72.2908816458]);
+marker_95.bindPopup("Tabard: 2014/06/02: Disorderly Conduct, Vandalism");
+map.addLayer(marker_95)
+
+var marker_96 = L.marker([43.7029655602, -72.2827113157]);
+marker_96.bindPopup("Berry Sports Center & Leede Arena: 2014/06/02: Liquor Laws");
+map.addLayer(marker_96)
+
+var marker_97 = L.marker([43.7033212188, -72.2901171792]);
+marker_97.bindPopup("Mass Row: 2014/06/02: Liquor Laws");
+map.addLayer(marker_97)
+
+var marker_98 = L.marker([43.7076516504, -72.286426467]);
+marker_98.bindPopup("Goldstein Dorm/Occom Commons: 2014/06/02: Liquor Laws");
+map.addLayer(marker_98)
+
+var marker_99 = L.marker([43.7057837038, -72.2892106212]);
+marker_99.bindPopup("Carson Hall: 2014/06/03: Larceny-Theft");
+map.addLayer(marker_99)
+
+var marker_100 = L.marker([43.7028489263, -72.2841133705]);
+marker_100.bindPopup("Alumni Gym/ Floren: 2014/06/03: Assault");
+map.addLayer(marker_100)
+
+var marker_101 = L.marker([43.7019727363, -72.2873175774]);
+marker_101.bindPopup("Hood Museum: 2014/06/02: Larceny-Theft");
+map.addLayer(marker_101)
+
+var marker_102 = L.marker([43.7007373208, -72.286828164]);
+marker_102.bindPopup("The Lodge: 2014/06/01: Burglary");
+map.addLayer(marker_102)
+
+var marker_103 = L.marker([43.7041707867, -72.2861609071]);
+marker_103.bindPopup("North Fayerweather Hall: 2014/06/02: Larceny-Theft");
+map.addLayer(marker_103)
+
+var marker_104 = L.marker([43.7037245645, -72.2872141319]);
+marker_104.bindPopup("Dartmouth Hall: 2014/06/03: Disorderly Conduct");
+map.addLayer(marker_104)
+
+var marker_105 = L.marker([43.7040128842, -72.2969545161]);
+marker_105.bindPopup("French Hall: 2014/06/04: Larceny-Theft");
+map.addLayer(marker_105)
+
+var marker_106 = L.marker([43.7061807913, -72.2909629676]);
+marker_106.bindPopup("Beta Alpha Omega: 2014/05/24: Larceny-Theft");
+map.addLayer(marker_106)
+
+var marker_107 = L.marker([43.7083922917, -72.2871785288]);
+marker_107.bindPopup("5 Rope Ferry Road: 2013/09/01: Assault");
+map.addLayer(marker_107)
+
+var marker_108 = L.marker([43.7048106945, -72.2867101818]);
+marker_108.bindPopup("Richardson Hall: 2014/06/05: Drug Abuse Sale, Possession");
+map.addLayer(marker_108)
+
+var marker_109 = L.marker([43.7054239918, -72.2898856707]);
+marker_109.bindPopup("Silsby Hall: 2014/06/06: Liquor Laws");
+map.addLayer(marker_109)
+
+var marker_110 = L.marker([43.7063025879, -72.2900398748]);
+marker_110.bindPopup("Kappa Kappa Kappa: 2014/06/06: Sex Offenses");
+map.addLayer(marker_110)
+
+var marker_111 = L.marker([43.7088404532, -72.2837144756]);
+marker_111.bindPopup("Life Sciences Center: 2014/06/01: Vandalism");
+map.addLayer(marker_111)
+
+var marker_112 = L.marker([43.7039047848, -72.286163324]);
+marker_112.bindPopup("Middle Fayerweather Hall: 2014/06/07: False Fire Alam");
+map.addLayer(marker_112)
+
+var marker_113 = L.marker([43.7067864576, -72.2937417711]);
+marker_113.bindPopup("1 Occom: 2014/06/07: Burglary");
+map.addLayer(marker_113)
+
+var marker_114 = L.marker([43.700838215, -72.2920465423]);
+marker_114.bindPopup("Panarchy: 2014/06/03: Larceny-Theft");
+map.addLayer(marker_114)
+
+var marker_115 = L.marker([43.7062255933, -72.2924515748]);
+marker_115.bindPopup("Sigma Nu: 2014/06/08: Disorderly Conduct");
+map.addLayer(marker_115)
+
+var marker_116 = L.marker([43.703624986, -72.2886644316]);
+marker_116.bindPopup("Dartmouth Green: 2014/06/08: Larceny-Theft");
+map.addLayer(marker_116)
+
+var marker_117 = L.marker([43.7054588544, -72.2917174905]);
+marker_117.bindPopup("McLane Hall: 2014/06/08: Larceny-Theft");
+map.addLayer(marker_117)
+
+var marker_118 = L.marker([43.7031521882, -72.2897280279]);
+marker_118.bindPopup("Robinson Hall: 2014/06/10: Larceny-Theft");
+map.addLayer(marker_118)
+
+var marker_119 = L.marker([43.7057361135, -72.2943670842]);
+marker_119.bindPopup("Tuck Hall: 2014/06/12: Vandalism");
+map.addLayer(marker_119)
+
+var marker_120 = L.marker([43.7035675524, -72.289830913]);
+marker_120.bindPopup("McNutt Hall: 2014/06/12: Disorderly Conduct");
+map.addLayer(marker_120)
+
+var marker_121 = L.marker([43.7103795065, -72.2835720913]);
+marker_121.bindPopup("Dewey Lot: 2014/06/12: Larceny-Theft");
+map.addLayer(marker_121)
+
+var marker_122 = L.marker([43.7023584233, -72.2913908459]);
+marker_122.bindPopup("Sigma Delta: 2014/06/14: Disorderly Conduct");
+map.addLayer(marker_122)
+
+var marker_123 = L.marker([43.7046676169, -72.2900878214]);
+marker_123.bindPopup("Blunt Alumni Center: 2014/06/15: Drug Abuse Sale, Possession");
+map.addLayer(marker_123)
+
+var marker_124 = L.marker([43.7054709479, -72.2842541698]);
+marker_124.bindPopup("Bema: 2014/06/14: Larceny-Theft");
+map.addLayer(marker_124)
+
+var marker_125 = L.marker([43.7066539608, -72.2913144824]);
+marker_125.bindPopup("Chi Gamma Epsilon: 2014/06/17: Unauthorized Entry/Presence Hindering Apprehension or Prosecution");
+map.addLayer(marker_125)
+
+var marker_126 = L.marker([43.7076900276, -72.2913625104]);
+marker_126.bindPopup("Cohen Hall: Not Provided: Larceny-Theft");
+map.addLayer(marker_126)
+
+var marker_127 = L.marker([43.7026854943, -72.2860378549]);
+marker_127.bindPopup("Topliff Hall: 2014/06/04: Larceny-Theft");
+map.addLayer(marker_127)
+
+var marker_128 = L.marker([43.7026164486, -72.291414571]);
+marker_128.bindPopup("Theta Delta Chi: 2014/06/20: Drug Abuse Sale, Possession");
+map.addLayer(marker_128)
+
+var marker_129 = L.marker([43.7049966494, -72.3011848134]);
+marker_129.bindPopup("Lewiston Lot: 2014/06/21: Liquor Laws");
+map.addLayer(marker_129)
+
+var marker_130 = L.marker([43.7064462173, -72.29238248]);
+marker_130.bindPopup("Sigma Nu: 2014/06/21: Sex Offenses");
+map.addLayer(marker_130)
+
+var marker_131 = L.marker([43.788115871, -72.2868652791]);
+marker_131.bindPopup("Dartmouth Skiway: 2014/06/21: Liquor Laws");
+map.addLayer(marker_131)
+
+var marker_132 = L.marker([43.7064748125, -72.2923623582]);
+marker_132.bindPopup("Sigma Nu: 2014/06/24: Criminal Threatening");
+map.addLayer(marker_132)
+
+var marker_133 = L.marker([43.719728945, -72.2730446527]);
+marker_133.bindPopup("Hanover Police Department: 2014/06/24: Liquor Laws");
+map.addLayer(marker_133)
+
+var marker_134 = L.marker([43.7084733174, -72.2851393261]);
+marker_134.bindPopup("Office of Medical Education, Administration Building: 2014/06/19: Disorderly Conduct");
+map.addLayer(marker_134)
+
+var marker_135 = L.marker([43.7049983988, -72.2874124184]);
+marker_135.bindPopup("Wheeler Hall: 2014/06/26: Disorderly Conduct");
+map.addLayer(marker_135)
+
+var marker_136 = L.marker([43.7056976019, -72.2957732619]);
+marker_136.bindPopup("Tuck Drive: 2014/06/28: Liquor Laws");
+map.addLayer(marker_136)
+
+var marker_137 = L.marker([43.7064849234, -72.29247957]);
+marker_137.bindPopup("Sigma Nu: 2014/06/29: Liquor Laws");
+map.addLayer(marker_137)
+
+var marker_138 = L.marker([43.7069234986, -72.2924559656]);
+marker_138.bindPopup("Sigma Phi Epsilon: 2014/06/28: Vandalism");
+map.addLayer(marker_138)
+
+var marker_139 = L.marker([43.7035324936, -72.2884477945]);
+marker_139.bindPopup("The Green: 2014/07/02: Assault, Robbery");
+map.addLayer(marker_139)
+
+var marker_140 = L.marker([43.7047091805, -72.2963958204]);
+marker_140.bindPopup("Achtmeyer Alleyway: 2014/07/02: Larceny-Theft");
+map.addLayer(marker_140)
+
+var marker_141 = L.marker([43.7037761976, -72.2872287249]);
+marker_141.bindPopup("Dartmouth Hall: 2014/06/18: Larceny-Theft");
+map.addLayer(marker_141)
+
+var marker_142 = L.marker([43.7019803069, -72.2863257609]);
+marker_142.bindPopup("McKenzie Hall: 2014/07/03: Assault");
+map.addLayer(marker_142)
+
+var marker_143 = L.marker([43.7053924375, -72.2886401376]);
+marker_143.bindPopup("Baker/Berry Library: 2014/07/02: Larceny-Theft");
+map.addLayer(marker_143)
+
+var marker_144 = L.marker([43.7063496664, -72.289902209]);
+marker_144.bindPopup("Kappa Kappa Kappa: 2014/07/04: Assault");
+map.addLayer(marker_144)
+
+var marker_145 = L.marker([43.7063051413, -72.2898860516]);
+marker_145.bindPopup("Kappa Kappa Kappa: 2014/07/05: Liquor Laws");
+map.addLayer(marker_145)
+
+var marker_146 = L.marker([43.7013712275, -72.2867385317]);
+marker_146.bindPopup("Black Family Visual Arts Center: 2014/07/02: Larceny-Theft");
+map.addLayer(marker_146)
+
+var marker_147 = L.marker([43.704114541, -72.2907164903]);
+marker_147.bindPopup("North Massachusetts Hall: 2014/07/03: Larceny-Theft");
+map.addLayer(marker_147)
+
+var marker_148 = L.marker([43.7035265662, -72.2887588242]);
+marker_148.bindPopup("Trues Brooke Ledges: 2014/07/05: Larceny-Theft");
+map.addLayer(marker_148)
+
+var marker_149 = L.marker([43.7034855896, -72.2887989003]);
+marker_149.bindPopup("Unknown Location: Not Provided: Sex Offenses");
+map.addLayer(marker_149)
+
+var marker_150 = L.marker([43.7053267635, -72.2952859601]);
+marker_150.bindPopup("Byrne Hall: 2014/06/26: Larceny-Theft");
+map.addLayer(marker_150)
+
+var marker_151 = L.marker([43.7115845005, -72.2883607519]);
+marker_151.bindPopup("32 Occom Ridge: 2014/07/07: Larceny-Theft");
+map.addLayer(marker_151)
+
+var marker_152 = L.marker([43.7063104462, -72.2890547959]);
+marker_152.bindPopup("Haldeman Hall: 2014/07/03: Larceny-Theft");
+map.addLayer(marker_152)
+
+var marker_153 = L.marker([43.7054286878, -72.2886464887]);
+marker_153.bindPopup("Baker/Berry Library: 2014/07/08: Larceny-Theft");
+map.addLayer(marker_153)
+
+var marker_154 = L.marker([43.7020213945, -72.2878651805]);
+marker_154.bindPopup("Hopkins Center: Not Provided: Larceny-Theft");
+map.addLayer(marker_154)
+
+var marker_155 = L.marker([43.7053591718, -72.2907185315]);
+marker_155.bindPopup("Russell Sage Hall: 2014/07/02: Larceny-Theft");
+map.addLayer(marker_155)
+
+var marker_156 = L.marker([43.7027400857, -72.2900038673]);
+marker_156.bindPopup("Collis: 2014/07/12: Larceny-Theft");
+map.addLayer(marker_156)
+
+var marker_157 = L.marker([43.7029964868, -72.2884376525]);
+marker_157.bindPopup("Dartmouth College: 2014/07/12: Sex Offenses");
+map.addLayer(marker_157)
+
+var marker_158 = L.marker([43.7061799107, -72.2861852644]);
+marker_158.bindPopup("Burke Chemistry: Not Provided: Larceny-Theft");
+map.addLayer(marker_158)
+
+var marker_159 = L.marker([43.702799964, -72.2898664303]);
+marker_159.bindPopup("Collis: 2014/07/16: Drug Abuse Sale, Possession, Liquor Laws");
+map.addLayer(marker_159)
+
+var marker_160 = L.marker([43.7044654443, -72.296369589]);
+marker_160.bindPopup("Achtmeyer Alleyway: 2014/07/17: Liquor Laws");
+map.addLayer(marker_160)
+
+var marker_161 = L.marker([43.6831512256, -72.2853424646]);
+marker_161.bindPopup("Sachem Village Graduate Student Housing: 2014/07/16: Endangering Behavior, Dogs a menace, Bias Incident");
+map.addLayer(marker_161)
+
+
+
+
+
+
+</script>
+
+</body>
