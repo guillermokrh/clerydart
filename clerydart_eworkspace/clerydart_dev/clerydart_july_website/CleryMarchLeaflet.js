@@ -6,22 +6,6 @@
 
                				var openstreetmapUrl = 'http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png';
 
-					//Old Lat&Lng for the Various Dartmouth Buildings
-
-				/*
-				//	var triKap = new L.LatLng(43.70638, -72.29006);
-				//	var gammaDeltaChi = new L.LatLng(43.70668, -72.29008);
-					var fairchildHall = new L.LatLng(43.70600, -72.28642);
-					var southMass = new L.LatLng(43.70363, -72.29073);
-				//	var tuckHall = new L.LatLng(43.70563, -72.29442);
-					var balchSt = new L.LatLng(43.70455, -72.28066);
-					var nadHouse = new L.LatLng(43.70747, -72.28872);
-				//	var fiftyThreeCommons = new L.LatLng(43.70325, -72.29064);
-				//	var frenchHall = new L.LatLng(43.7043, -72.2970);
-				//	var novackCafe = new L.LatLng(43.70590, -72.28876);
-					var judgeHall = new L.LatLng(43.70436, -72.29655);
-					var dartmouthGreen = new L.LatLng(43.70338, -72.28869);
-				*/
 
 					//Things I need to do in the JavaScript code:
 					//Create for and while loops to manage the variables 
@@ -176,47 +160,6 @@
   					  }
 				}); /***  end of hack ***/
 			/* Hack keeps multiple pop-ups open*/
-
-
-
-
-				/*Sample Crimes, and Group Layers according to Type of Crime*/
-
-				/*
-					
-					//Thefts					
-					var april20Trikap = L.marker(triKap).bindPopup("Theft - April 20, 2013"),
-					    april20Fairchild = L.marker(fairchildHall).bindPopup("Theft - April 20, 2013"),
-					    april20Tuck = L.marker(tuckHall).bindPopup("Theft - April 20-22, 2013"),
-					    march25French = L.marker(frenchHall).bindPopup("Theft - March 25-April 25, 2013");
-
-					var thefts = L.layerGroup([april20Trikap, april20Fairchild, april20Tuck, march25French]);
-
-					//Drug Offenses
-					var april21SouthMass = L.marker(southMass).bindPopup("Drug Offense - April 21, 2013");
-					var drugOffenses = L.layerGroup([april21SouthMass]);
-
-					//Criminal Mischief
-					var april19Balch = L.marker(balchSt).bindPopup("Criminal Mischief - April 19, 2013");
-					var criminalMischief = L.layerGroup([april19Balch]);
-
-					//SimpleAssault
-					var april19Commons = L.marker(fiftyThreeCommons).bindPopup("Simple Assault - April 19, 2013"),
-					    april25French = L.marker(frenchHall).bindPopup("Simple Assault - April 25, 2013");
-					var simpleAssault = L.layerGroup([april19Commons, april25French]);
-
-					//Sex Offenses
-					var sexOffenseTwoTwelve = L.marker(dartmouthGreen).bindPopup("Sex Offense - 2012");
-					var sexOffense = L.layerGroup([sexOffenseTwoTwelve]);
-
-					//Alchol Law Violations
-					var april20Gamma = L.marker(gammaDeltaChi).bindPopup("Alcohol Law Violation - April 20, 2013"),
-					    april21Nadhouse = L.marker(nadHouse).bindPopup("Alcohol Law Violation - April 23, 2013"),
-					    april26Novack = L.marker(novackCafe).bindPopup("Alcohol Law Violation - April 26, 2013");
-					var alcoholViolation = L.layerGroup([april20Gamma, april21Nadhouse, april26Novack]);	
-
-				*/
-
 
 				/*Most Recent Crimes, and Group Layers according to Type of Crime*/
 
@@ -409,18 +352,6 @@
 					//Controls which layers are visible on the upper right hand corner
 					L.control.layers(null, overlayMaps, {collapsed: false}).addTo(map);
 
-					//My attempt to add a legend wahhhh
-					/*var legend = L.control({position: 'bottomright'});
-
-					legend.onAdd = function (map) {
-						    var div = L.DomUtil.create('div', 'info legend'),
-							grades=[],
-							labels=[];
-						    return div;
-					};
-
-					legend.addTo(map);
-					*/
 									
             			};
 						
