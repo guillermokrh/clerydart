@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CleryDart: Online Daily Crime Log</title>
+
+		<!-- Leaflet-->
+		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
+		 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+			<!--Dont forget to add the online version of Leaflet Later-->		
+
+		<!--CleryDartStyleSheet-->
+		<link rel="stylesheet" href="CleryStyleSheet9.css"/>
+
+		<!--CleryDartJavaScript-->
+		<script src="CleryLeafletJavaScript.js"></script>
+
+
+		<style>
+
+			/*Incorporate this into the .css stylesheet!*/
+
+			#legend{
+
+				font-size: 1em;
+				background-color: white;
+				float: right;
+				margin-top: 19em;
+				margin-right: 1em;
+				height: 9.5em;
+				width: 14em;
+			}
+
+			#legend_text{
+				color: black;
+				font-family: Arial;
+				font-size: 1em;
+				text-align: center;
+				margin-top:.2em;
+				margin-bottom:.2em;
+			}
+
+			#note_text {
+				color: black;
+				font-family: Arial;
+				font-size: 1em;
+				text-align: left;
+				margin-top:.3em;
+				margin-bottom:.3em;
+				padding-top: .1em;
+				padding-bottom: .1em;<D-r>
+			}
+
+		</style>
+
+	</head>
+
+		<body>
+			
+			
+			<!--<div id="table_contents">
+				<table>
+					<tr>
+						<td>About</td>
+						<td>FAQ</td>
+						<td>More Information</td>
+					</tr>
+					
+				</table>
+			</div>-->
+			<!--Took out table of contents-->
+			
+			<div id="fixed_title">
+
+				<h2>CleryDart: Mapping Campus Crime</h2>
+
+			</div>
+
+			<div id="static_title">
+			
+				<h2>CleryDart: Mapping Campus Crime</h2>
+
+			</div>
+
+			<h3 id="date_range">Crimes Reported at Dartmouth College from February 1, 2014-March 10, 2014 </h3>
+
+
+
+		<!--The Map-->
+	
+			 <div id="map">
+				
+				<!--<i>"test"</i>-->
+
+				<!--The Legend-->
+				<div class="info legend leaflet-control" id="legend">
+					<p id="legend_text"><strong>Popup Format</strong></p>
+					<p id="legend_text">Date Occurred*: Type of Crime</p>
+					<p id="note_text">*Three crimes reported during this time period occurred before February 1, 2014.</p>  
+					<p id="note_text">*Two reported crimes do not list the date on which they occurred.</p>
+				</div>
+			</div>
+
+		<!--CleryDart description-->
+
+
+
+			<div id="clerydart_description">
+				<p class="center_text" id="visualization_text">A visualization of Dartmouth College's daily crime log.</p>
+			</div>
+
+
+		<div id=parent_buzzwords>
+			<div class ="buzzwords">
+				<p class="center_text">Open to the public.</p>
+
+			</div>
+
+			<div class ="buzzwords">
+				<p class="center_text">Available 24/7.</p>
+
+			</div>
+
+
+			<div class ="buzzwords">
+				<p class="center_text">Accessible online.</p>
+
+			</div>
+		</div>
+	
+			<div id="faq_heading">
+
+				<h2 id="faq_heading_text">The Basics</h2>
+			
+			</div>
+
+		<div id="parent_faq">
+
+
+			<div class="faq" id="panel_tenth">
+				<!--<p>Tenth Panel</p>--> 
+				<p class="panel_questions"><strong>Introduction</strong></p>
+				<!--<p class="panel_answers"> The campus daily crime log, as required by the Jeanne Clery Act of 1991, provides information about all crimes reported on university property.</p>  Some of the details required in the daily crime log include:</p> 
+				<ul>
+					<li>the nature of the crime</li>
+					<li>the location of the crime</li>
+					<li>the time and date the crime was reported</li>
+					<li>the time and date the crime occurred</li>
+					<li>the status of the investigation</li>
+				</ul>-->
+			
+				<div class="panel_answers_intro" style="margin-left: 2em;">
+					<p class="panel_questions"><strong>The Crime Log</strong></p>
+
+					<p class="panel_answers"> The campus daily crime log, as required by the <a href="http://clerycenter.org/sites/default/files/Jeanne%20Clery%20Act%20Full%20Text.pdf">Jeanne Clery Disclosure of Campus Security Policy and Campus Crime Statistics Act</a>, provides information about all crimes reported on university property. <br> <br> It must be updated within 48 hours of the reporting of the incident, providing information that is more timely and detailed than the statistics required in the annual <a href="http://www.dartmouth.edu/~security/10-1-13annualsecurityreport.pdf">Clery Act Report</a>. </p>
+				</div>
+
+				<div class="panel_answers_intro">
+					<p class="panel_questions"><strong>Crime Log Details</strong></p>
+					<p class="panel_answers">Some of the details required in the daily crime log include:</p> 
+						<ul>
+							<li>the nature of the crime</li>
+							<li>the location of the crime</li>
+							<li>the time and date the crime was reported</li>
+							<li>the time and date the crime occurred</li>
+							<li>the status of the investigation</li>
+						</ul>
+
+				</div>
+
+			</div>
+	
+
+			<div class="faq" id="panel_third">
+				<!--<p>Third Panel</p>-->
+				<p class="panel_questions"><strong>General Facts</strong></p>
+				<!--<p class="panel_answers">Some general facts about Dartmouth College's current crime log:   
+				</p>-->
+				
+					<div class="panel_answers_trio">
+						<p class="panel_questions"><strong>Location</strong></p>
+						<ul>
+							<li>Students and the public can see the daily crime log in person by request at the Department of Safety & Security's office on 5 Rope Ferry Road.</li>
+							<li>It is available Monday through Friday during regular business hours (8AM-4PM).</li>
+						</ul>
+					</div>
+				
+					<div class="panel_answers_trio">
+						<p class="panel_questions"><strong>Format</strong></p>
+						<ul>
+							<li>The crime log exists as a hard copy compiled manually by adding printed spreadsheets to a three-ring binder.</li>
+						</ul>
+					</div>
+				
+					<div class="panel_answers_trio">
+						<p class="panel_questions"><strong>Data Collection</strong></p>
+						<ul>
+							<li>The Department of Safety & Security at Dartmouth College does not allow pictures of the spreadsheet to be taken, and does not provide electronic copies.  Currently the only way to collect data from the crime log is by writing it down.</li>
+						</ul>
+					</div>
+
+			</div>
+
+
+			<div class="faq" id="panel_fifth">
+				<!--<p>Fifth Panel</p>-->
+				<p class="panel_questions"><strong>Challenges </strong></p>
+				<p class="panel_answers">Many current students do not know that the daily crime log exists, as there is no mention of the daily crime log in the Department of Safety and Security's <a href="http://www.dartmouth.edu/~security/">website</a> or its <a href="http://www.dartmouth.edu/~security/information/clery-act/">webpage</a> dedicated to the Clery Act, and no information about the crime log their physical office.  There is no mention of the daily crime log in orientation materials</a> for <a href="http://www.dartmouth.edu/~security/docs/welcome_letter_students.pdf">new students</a> and their <a href="http://www.dartmouth.edu/~security/docs/welcome_letter_parents.pdf">families</a>. <br> <br> Other interested parties, such as prospective students, faculty, staff, and the local community are similarly uninformed about the existence of the daily crime log.  <br> <br> The crime log is only available for inspection on request. <br> <br> Added together, these conditions make the daily crime log inaccessible to students and to the general public.
+						</p>
+
+			</div>
+
+		
+
+
+			<div class="faq" id="panel_eleventh">
+				<!--<p>Seventh Panel</p>-->
+				<p class="panel_questions"><strong>Solution</strong></p>
+				<p class="panel_answers" id="solution"><strong><a href="http://clerydart.info">CleryDart.info</a></strong></p>
+				<ul>
+					<li class="dart_goals"><p>To provide an online map-based visualization of the location and nature of Dartmouth College campus crimes.</p></li>
+					
+					<li class="dart_goals"><p>To improve campus safety at Dartmouth College.</p></li>
+				
+                                        <li class="dart_goals"><p>To educate all members of the Dartmouth community about common campus crimes.</p></li>
+                                </ul>
+	
+			</div>
+
+
+			<div class="faq" id="panel_second">
+				<!--<p>Second Panel</p>-->
+				<p class="panel_questions"><strong>What does the Clery Act say about an online crime log?</strong></p>
+				<ul><a href="http://www2.ed.gov/admins/lead/safety/handbook.pdf">The Handbook for Campus Safety and Security Reporting</a> published by the U.S. Department of Education has a section on "Making Your Log Available" on page 89:
+							<li><p> "Format: Your log may be either hard copy or 
+							<strong>electronic</strong>. If your institution has an electronic log 
+							and there are technical problems that make it 
+							unusable, <strong>use a hard copy log as a temporary 
+							replacement until the problems are resolved</strong>."
+							</p></li>
+							<li><p> "Publicize Availability: <strong>Let students and employees 
+							know that the log is available, what it contains and 
+							where it is. </strong> You may post a notice on your website, in 
+							your security office, in your student and employee 
+							handbooks or anywhere else it's likely to be seen."
+							</p></li>
+							<li><p>
+							"Accessibility: The crime log for the most recent 60-
+							day period must be open to public inspection, upon 
+							request, during normal business hours. You cannot 													   require a written request. <strong>Anyone may have access to 
+							the log, whether or not they are associated with your 
+							institution. This includes the media. </strong>Make any 
+							portion of the log that is older than 60 days available 
+							within two business days of a request for public 
+							inspection."
+							</p></li>		
+						</ul>
+
+
+			</div>
+
+			</div>
+
+
+
+			<!--<div id="faq_heading">
+
+				<h2 id="faq_heading_text"> <a id="about_link" href="aboutCleryDart.html">The Small Print</a>
+				</h2>
+			
+			</div>-->
+
+
+			<div id="credits">
+				<p class="credits_text">A project by Guillermo K. Rojas, Class of 2013</p>
+				<p class="credits_text">Version: Beta</p>
+				<p class="credits_text">Last Update: July 17, 2014</p>
+				<p class="credits_text">Currently working on: Adding Spring Term & Summer Term Campus Crimes</p>	
+				<p class="credits_text">Please send thoughts and constructive feedback to: guillermo.feedback@gmail.com</p>
+			</div>
+
+
+
+		<!--Paint Samples!: Currently Disabled-->
+
+			<!--<div class="paints" id="paint_1">
+				<p class="center_text">Paint Swatches 1</p>
+			</div>
+			<div class="paints" id="paint_2">
+				<p class="center_text">Paint Swatches 2</p>
+			</div>
+			<div class="paints" id="paint_3">
+				<p class="center_text">Paint Swatches 3</p>
+			</div>
+			<div class="paints" id="paint_4">
+				<p class="center_text">Paint Swatches 4</p>
+			</div>
+			<div class="paints" id="paint_5">
+				<p class="center_text">Paint Swatches 5</p>
+			</div>
+			<div class="paints" id="paint_6">
+				<p class="center_text">Paint Swatches 6</p>
+			</div>
+			<div class="paints" id="paint_7">
+				<p class="center_text">Paint Swatches 7</p>
+			</div>
+			<div class="paints" id="paint_8">
+				<p class="center_text">Paint Swatches 8</p>
+			</div>
+			<div class="paints" id="paint_9">
+				<p class="center_text">Paint Swatches 9</p>
+			</div>
+			<div class="paints" id="paint_10">
+				<p class="center_text">Paint Swatches 10 Dartmouth Green</p>
+			</div>
+			<div class="paints" id="paint_11">
+				<p class="center_text">Paint Swatches 11</p>
+			</div>
+			<div class="paints" id="paint_12">
+				<p class="center_text">Paint Swatches 12</p>
+			</div>
+			<div class="paints" id="paint_13">
+				<p class="center_text">Paint Swatches 13</p>
+			</div>
+
+			<div class="paints" id="paint_14">
+				<p class="center_text">Paint Swatches 14</p>
+			</div>
+
+			<div class="paints" id="paint_15">
+				<p class="center_text">Paint Swatches 15</p>
+			</div>
+			<div class="paints" id="paint_16">
+				<p class="center_text">Paint Swatches 16</p>
+			</div>
+			<div class="paints" id="paint_17">
+				<p class="center_text">Paint Swatches 17</p>
+			</div>
+			<div class="paints" id="paint_18">
+				<p class="center_text">Paint Swatches 18</p>
+			</div>
+			<div class="paints" id="paint_19">
+				<p class="center_text">Paint Swatches 19</p>
+			</div>
+			<div class="paints" id="paint_20">
+				<p class="center_text">Paint Swatches 20</p>
+			</div>-->
+
+
+
+
+
+		</body>
+</html>
