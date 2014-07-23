@@ -9,14 +9,26 @@ Purpose: Outline next steps for CleryDart
 4. Create a "Campus_Locations" spreadsheet - Done 7/18/14-7/19/14
 5. Determine a good center coordinate for each campus location, enter the coordinates, export it as a .csv file - Done, still have to export as .csv 7/18/14-7/19/14 - Done exporting as .csv 7/20/14
 6. Run the Python script to generate the Leaflet HTML template - Done 7/20/14
-7. Enter the JavaScript hack that allows multiple popups to be open in Leaflet
+7. Enter the JavaScript hack that allows multiple popups to be open in Leaflet - Done 7/22/14
 
-8. Insert the HTML formatting and text from the last CleryDart update to the new Leaflet HTML template.
+8. Insert the HTML formatting and text from the last CleryDart update to the new Leaflet HTML template. - Done 7/22/14
 9. Make the previous edition of the CleryDart website a page that visitors can visit from the new CleryDart home page
 
-10. Update the writing (copy) on the website.
+10. Update the writing (copy) on the website.  - Done before 7/22/14
 11. Update the CSS  
 
 12. Write a request for input: email _______ for constructive feedback on the website - Done 7/17/2014
 13. Write a request for support.
 14. Note what I need for additional features.    
+
+15. Post July Update to CleryDart: - Done 7/22/14
+
+16.  Change the rounded corners of the .css design for the about paragraphs
+17.  Figure out a sustainable way to create the map legend.
+18.  Make the zoom buttons on the Leaflet map bigger
+19. Make the markers on the Leaflet map smaller
+20.  Make marker area larger for larger buildings on campus, which will reduce overlapping markers
+21.  Reduce text on the homepage.
+
+22. Post link to my github on the CleryDart homepage
+23. Look into licensing options.
