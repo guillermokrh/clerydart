@@ -84,5 +84,5 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
         clerydart_map.simple_marker(crime_object.plot_points, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
         
 #Creates HTML template
-clerydart_map.create_map(path = 'clerydart_july_popup_details.html')
+clerydart_map.create_map(path = 'clerydart_july_clean_copy.html')
 
