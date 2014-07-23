@@ -69,7 +69,7 @@
 
 			</div>
 
-			<h3 id="date_range">Crimes Reported at Dartmouth College from February 1, 2014-March 10, 2014 </h3>
+			<h3 id="date_range">Crimes Reported at Dartmouth College from May 10, 2014-July 17, 2014 </h3>
 
 
 
@@ -78,12 +78,14 @@
 			 <div id="map">
 
 				<!--The Legend-->
-				<div class="info legend leaflet-control" id="legend">
+				<!-- Legend currently disactivated: 7/22/2014 -->
+				<!--<div class="info legend leaflet-control" id="legend">
 					<p id="legend_text"><strong>Popup Format</strong></p>
 					<p id="legend_text">Date Occurred*: Type of Crime</p>
 					<p id="note_text">*Three crimes reported during this time period occurred before February 1, 2014.</p>  
 					<p id="note_text">*Two reported crimes do not list the date on which they occurred.</p>
-				</div>
+				</div>-->
+				
 			</div>
 			
 		<!-- July Update JavaScript -->
@@ -91,14 +93,31 @@
 
 <script>
 
+/******** JavaScript for Leaflet: Created with Python+Folium by guillermokrh *******/		
+			
+			/* Hack keeps multiple pop-ups open*/
+				/***  little hack starts here ***/
+				L.Map = L.Map.extend({
+   					 openPopup: function(popup) {
+    				    //        this.closePopup();  // just comment this
+     					   this._popup = popup;
+
+  					      return this.addLayer(popup).fire('popupopen', {
+  					          popup: this._popup
+  					      });
+  					  }
+				}); /***  end of hack ***/
+			/* Hack thanks to Paolo Vieria: (https://groups.google.com/forum/#!topic/leaflet-js/qXVBcD3juL4) */
 
 
-var map = L.map('map').setView([43.70598, -72.28627], 16);
+var map = new L.Map('map').setView([43.70598, -72.28627], 16);
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
-    attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+    closePopupOnClick: false,
 }).addTo(map);
+
 
 
 var marker_1 = L.marker([43.7030398594, -72.2899552654]);
@@ -746,14 +765,12 @@ marker_161.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  
 map.addLayer(marker_161)
 
 
-
-
-
+/******* End of JavaScript for Leaflet *********/
 
 </script>	
 
-		<!--CleryDart description-->
 
+		<!--CleryDart description-->
 
 
 			<div id="clerydart_description">
@@ -914,89 +931,13 @@ map.addLayer(marker_161)
 
 
 
-			<!--<div id="faq_heading">
-
-				<h2 id="faq_heading_text"> <a id="about_link" href="aboutCleryDart.html">The Small Print</a>
-				</h2>
-			
-			</div>-->
-
-
 			<div id="credits">
 				<p class="credits_text">A project by Guillermo K. Rojas, Class of 2013</p>
-				<p class="credits_text">Version: Beta</p>
-				<p class="credits_text">Last Update: July 17, 2014</p>
-				<p class="credits_text">Currently working on: Adding Spring Term & Summer Term Campus Crimes</p>	
+				<p class="credits_text">Last Update: July 22, 2014</p>
+				<p class="credits_text">Currently working on: Front-End Design</p>	
+				<p class="credits_text">Follow development more closely at <a href="http://github.com/guillermokrh/clerydart"> GitHub </a></p>	
 				<p class="credits_text">Please send thoughts and constructive feedback to: guillermo.feedback@gmail.com</p>
 			</div>
-
-
-
-		<!--Paint Samples!: Currently Disabled-->
-
-			<!--<div class="paints" id="paint_1">
-				<p class="center_text">Paint Swatches 1</p>
-			</div>
-			<div class="paints" id="paint_2">
-				<p class="center_text">Paint Swatches 2</p>
-			</div>
-			<div class="paints" id="paint_3">
-				<p class="center_text">Paint Swatches 3</p>
-			</div>
-			<div class="paints" id="paint_4">
-				<p class="center_text">Paint Swatches 4</p>
-			</div>
-			<div class="paints" id="paint_5">
-				<p class="center_text">Paint Swatches 5</p>
-			</div>
-			<div class="paints" id="paint_6">
-				<p class="center_text">Paint Swatches 6</p>
-			</div>
-			<div class="paints" id="paint_7">
-				<p class="center_text">Paint Swatches 7</p>
-			</div>
-			<div class="paints" id="paint_8">
-				<p class="center_text">Paint Swatches 8</p>
-			</div>
-			<div class="paints" id="paint_9">
-				<p class="center_text">Paint Swatches 9</p>
-			</div>
-			<div class="paints" id="paint_10">
-				<p class="center_text">Paint Swatches 10 Dartmouth Green</p>
-			</div>
-			<div class="paints" id="paint_11">
-				<p class="center_text">Paint Swatches 11</p>
-			</div>
-			<div class="paints" id="paint_12">
-				<p class="center_text">Paint Swatches 12</p>
-			</div>
-			<div class="paints" id="paint_13">
-				<p class="center_text">Paint Swatches 13</p>
-			</div>
-
-			<div class="paints" id="paint_14">
-				<p class="center_text">Paint Swatches 14</p>
-			</div>
-
-			<div class="paints" id="paint_15">
-				<p class="center_text">Paint Swatches 15</p>
-			</div>
-			<div class="paints" id="paint_16">
-				<p class="center_text">Paint Swatches 16</p>
-			</div>
-			<div class="paints" id="paint_17">
-				<p class="center_text">Paint Swatches 17</p>
-			</div>
-			<div class="paints" id="paint_18">
-				<p class="center_text">Paint Swatches 18</p>
-			</div>
-			<div class="paints" id="paint_19">
-				<p class="center_text">Paint Swatches 19</p>
-			</div>
-			<div class="paints" id="paint_20">
-				<p class="center_text">Paint Swatches 20</p>
-			</div>-->
-
 
 
 
