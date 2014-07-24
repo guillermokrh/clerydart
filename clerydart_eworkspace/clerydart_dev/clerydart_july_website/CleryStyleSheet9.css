@@ -1,7 +1,7 @@
 
 /*CSS StyleSheet for CleryDart*/
 /*Created by Guillermo K. Rojas Hernandez*/
-/* Last edit: July 23, 2014 */
+
 
 		/*Table of Contents*/	
 		/*	#table_contents {
@@ -205,11 +205,11 @@
 				float: left;
 				padding-right: 0.625em;
 				padding-left: 0.625em;
-				margin: .5em;
+				margin: auto;
 				font-size: 1.6em;
 				font-color: #00150C;
 				font-family: Century Gothic, sans serif;
-			/*	border-radius: 1em 4em 1em 4em; /*Makes the box outline a parallelogram with rounded corners*/
+				border-radius: 1em 4em 1em 4em;
 			}
 				
 
@@ -278,7 +278,7 @@
 				padding-left: .825em;
 				padding-bottom: 0.625em;
 				text-align: justify;
-				border-radius: 0em; /* Setting for rounded corners (0em is pointed corners) */
+				border-radius: 2em;
 				margin: .313em;
 		     	        box-shadow: 0 0.125em 0.625em rgba(0,0,0,0.4);
 			}
@@ -294,7 +294,7 @@
 				padding-left: .625em;
 			}
 
-			.panel_answers_trio { /* General Facts: Location, Format, Data Collection */
+			.panel_answers_trio {
 				border: .1em solid black;
 				background-color: white;
 				width: 20em;
@@ -305,7 +305,7 @@
 				padding-left: .25em;
 				padding-bottom: 0.625em;
 				text-align: justify;
-				border-radius: 0em; /* Setting that determines rounded corners (0em is pointed corners) */
+				border-radius: 2em;
 				margin: .313em;
 				margin-left: .9em;
 		     	        box-shadow: 0 0.063em 0.313em rgba(0,0,0,0.4);
@@ -323,9 +323,8 @@
 				padding-left: .25em;
 				padding-bottom: 0.625em;
 				text-align: justify;
-				border-radius: 0em;
+				border-radius: 2em;
 				margin: .313em; 
-				margin-left: 1.5em;
 		     	        box-shadow: 0 0.063em 0.313em rgba(0,0,0,0.4);
 
 			}
@@ -453,7 +452,7 @@
 		/*Credits*/
 			#credits {
 				border: .250em solid black;
-				background-color: black; /*#E6F0EC*/
+				background-color: #E6F0EC;
 				width: auto;
 				height: auto;
 				display: block;
@@ -463,19 +462,16 @@
 				padding-left: 0em;
 				padding-bottom: 0em;
 				text-align: center;
-				border-radius: 0em; /* Setting for rounded corners (0em is pointed corners) */
+				border-radius: 2em;
 				clear: both;	
 			}
 
 			.credits_text {
 				font-size: .8em;
-				color: white;
 				margin-top: .325em;
 				margin-bottom: .325em;
 				
 			}
-
-		/* Sample blocks to test different colors */
 
 			.paints {
 				border: .250em solid black;
