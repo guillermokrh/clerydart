@@ -32,3 +32,4 @@ Purpose: Outline next steps for CleryDart
 
 22. Post link to my github on the CleryDart homepage
 23. Look into licensing options.
+24. Test Github for Mac
