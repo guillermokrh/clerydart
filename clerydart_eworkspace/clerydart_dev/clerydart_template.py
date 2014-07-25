@@ -2,6 +2,7 @@
 # clerydart_template.py
 # Author: Guillermo K. Rojas
 # New CleryDart Python-to-Leaflet JavaScript Template 
+# Most recent edit: 7/24/2014
 #
 # How it Works:
 # Uses a .csv reader make a dictionary with lat & long coordinates for each campus location from a csv file
@@ -41,7 +42,7 @@ print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks
 
 ### CREATION OF CRIME OBJECTS ###
 # Reads the CSV file
-csv_sample = open('crimes_input_july_formatted.csv', 'rU') #opens the crimes_input.csv file #
+csv_sample = open('crimes_input_by_type_formatted.csv', 'rU') #opens the crimes_input.csv file #
 csvReader = csv.reader(csv_sample)
 crime_objects_list = [] # Empty list where each crime object will be added after it is created by the for-loop 
 
@@ -84,5 +85,5 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
         clerydart_map.simple_marker(crime_object.plot_points, popup = crime_object.popup_info) # Adds marker to clerydart_map, with the correct latitude and longitude
         
 #Creates HTML template
-clerydart_map.create_map(path = 'clerydart_july_clean_copy.html')
+clerydart_map.create_map(path = 'clerydart_july_by_type.html')
 

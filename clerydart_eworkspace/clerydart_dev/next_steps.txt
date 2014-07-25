@@ -23,13 +23,18 @@ Purpose: Outline next steps for CleryDart
 
 15. Post July Update to CleryDart: - Done 7/22/14
 
-16.  Change the rounded corners of the .css design for the about paragraphs
+16.  Change the rounded corners of the .css design for the about paragraphs - Done 7/24/14
 17.  Figure out a sustainable way to create the map legend.
+		Quick Fix (not sustainable but it'll do for now):
+		17a. Sort the Gnumeric form by type of crime, not by date
+		17b. Marker variables created by the Python script will be grouped by type of crime
+		17c. Create a quick array in JS that will group the types of crimes together
+		17d. Use that list to create a layer on Leaflet
 18.  Make the zoom buttons on the Leaflet map bigger
 19. Make the markers on the Leaflet map smaller
 20.  Make marker area larger for larger buildings on campus, which will reduce overlapping markers
 21.  Reduce text on the homepage.
 
-22. Post link to my github on the CleryDart homepage
+22. Post link to my github on the CleryDart homepage - done 7/24/2014
 23. Look into licensing options.
 24. Test Github for Mac
