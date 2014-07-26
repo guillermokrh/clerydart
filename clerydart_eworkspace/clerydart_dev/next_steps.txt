@@ -26,8 +26,8 @@ Purpose: Outline next steps for CleryDart
 16.  Change the rounded corners of the .css design for the about paragraphs - Done 7/24/14
 17.  Figure out a sustainable way to create the map legend.
 		Quick Fix (not sustainable but it'll do for now):
-		17a. Sort the Gnumeric form by type of crime, not by date
-		17b. Marker variables created by the Python script will be grouped by type of crime
+		17a. Sort the Gnumeric form by type of crime, not by date - done 7/24/14
+		17b. Marker variables created by the Python script will be grouped by type of crime - done 7/24/14
 		17c. Create a quick array in JS that will group the types of crimes together
 		17d. Use that list to create a layer on Leaflet
 18.  Make the zoom buttons on the Leaflet map bigger
