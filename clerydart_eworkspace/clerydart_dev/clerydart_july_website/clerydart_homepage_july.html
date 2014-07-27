@@ -5,12 +5,12 @@
 		<title>CleryDart: Online Daily Crime Log</title>
 
 		<!-- Leaflet-->
-		 <!--<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
-		 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>-->
+		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
+		 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 		 
-		 <!-- Older version of Leaflet -->
+		 <!-- Older version of Leaflet 
 		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
-   		 <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>	
+   		 <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>-->
 
 		<!--CleryDartStyleSheet-->
 		<link rel="stylesheet" href="CleryStyleSheet9.css"/>
@@ -296,7 +296,7 @@
 		map.addLayer(marker_34)
 		
 	/*Create Dogs a Menace Layer for CleryDart Legend*/
-	var dogsAMenaceLayer = L.layerGroup([marker_16]);	
+	var dogsAMenaceLayer = L.layerGroup([marker_34]);	
 		
 		var marker_35 = L.marker([43.7034824454, -72.2886085315]);
 		marker_35.bindPopup("Crime Location: Plainfield Road;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/24");
@@ -306,11 +306,10 @@
 		marker_36.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/22");
 		map.addLayer(marker_36)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Driving Under Influence Layer for CleryDart Legend*/
+	var drivingUnderInfluenceLayer = L.layerGroup([marker_35, marker_36]);	
 	
-	//Driving Under Influence
-		
+
 		var marker_37 = L.marker([43.7019964787, -72.2881225902]);
 		marker_37.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/05/22");
 		map.addLayer(marker_37)
@@ -335,19 +334,17 @@
 		marker_42.bindPopup("Crime Location: Collis;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/07/16");
 		map.addLayer(marker_42)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
-		
-	//Drug Abuse Sale, Possession Layer
+	/*Create Drug Abuse Sale, Possession Layer for CleryDart Legend*/
+	var drugAbuseSalePossessionLayer = L.layerGroup([marker_37, marker_38, marker_39, marker_40, marker_41, marker_42]);	
+	
 		
 		var marker_43 = L.marker([43.6831776299, -72.2855281013]);
 		marker_43.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Endangering Behavior;  Date Occurred: 2014/07/16");
 		map.addLayer(marker_43)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
-		
-	// Endangering Behavior Layer
+	/*Create Endangering Behavior Layer for CleryDart Legend*/
+	var endangeringBehaviorLayer = L.layerGroup([marker_43]);	
+
 		
 		var marker_44 = L.marker([43.7037003932, -72.2863258997]);
 		marker_44.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: False Fire Alam;  Date Occurred: 2014/06/07");
@@ -357,10 +354,9 @@
 		marker_45.bindPopup("Crime Location: Tabard;  Type of Crime: False Fire Alarm;  Date Occurred: 2014/05/16");
 		map.addLayer(marker_45)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create False Fire Alarm Layer for CleryDart Legend*/
+	var falseFireAlarmLayer = L.layerGroup([marker_44, marker_45]);	
 		
-	// False Fire Alarm Layer
 		
 		var marker_46 = L.marker([43.7066164688, -72.2915212221]);
 		marker_46.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/05");
@@ -582,10 +578,9 @@
 		marker_100.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
 		map.addLayer(marker_100)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Larceny-Theft Layer for CleryDart Legend*/
+	var larcenyTheftLayer = L.layerGroup([marker_46, marker_47, marker_48, marker_49, marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, marker_57, marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, marker_64, marker_65, marker_66, marker_67, marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, marker_74, marker_75, marker_76, marker_77, marker_78, marker_79, marker_80, marker_81, marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, marker_98, marker_99, marker_100]);	
 		
-	// Larceny-Theft Layer
 		
 		var marker_101 = L.marker([43.7055473112, -72.2908001478]);
 		marker_101.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
@@ -767,10 +762,9 @@
 		marker_145.bindPopup("Crime Location: Tabard;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/13");
 		map.addLayer(marker_145)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Liquor Laws Layer for CleryDart Legend*/
+	var liquorLawsLayer = L.layerGroup([marker_101, marker_102, marker_103, marker_104, marker_105, marker_106, marker_107, marker_108, marker_109, marker_110, marker_111, marker_112, marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, marker_120, marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, marker_127, marker_128, marker_129, marker_130, marker_131, marker_132, marker_133, marker_134, marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, marker_141, marker_142, marker_143, marker_144, marker_145]);	
 		
-	// Liquor Laws Layer
 		
 		var marker_146 = L.marker([43.7037329029, -72.2864216588]);
 		marker_146.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Resisting Arrest/Detention;  Date Occurred: 2014/05/16");
@@ -780,19 +774,17 @@
 		marker_147.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Resisting Arrest or Detention;  Date Occurred: 2014/05/15");
 		map.addLayer(marker_147)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Resisting Arrest Layer for CleryDart Legend*/
+	var resistingArrestLayer = L.layerGroup([marker_146, marker_147]);	
 		
-	// Resisting Arrest Layer
-		
+
 		var marker_148 = L.marker([43.7036089393, -72.2886768185]);
 		marker_148.bindPopup("Crime Location: The Green;  Type of Crime: Robbery;  Date Occurred: 2014/07/02");
 		map.addLayer(marker_148)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Robbery Layer for CleryDart Legend*/
+	var robberyLayer = L.layerGroup([marker_148]);	
 		
-	// Robbery Layer
 		
 		var marker_149 = L.marker([43.7053721904, -72.2862990361]);
 		marker_149.bindPopup("Crime Location: Wilder;  Type of Crime: Sex Offenses;  Date Occurred: 2014/04/20");
@@ -822,19 +814,17 @@
 		marker_155.bindPopup("Crime Location: Unknown Location;  Type of Crime: Sex Offenses;  Date Occurred: Not Provided");
 		map.addLayer(marker_155)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
-		
-	// Sex Offenses Layer
+	/*Create Sex Offenses Layer for CleryDart Legend*/
+	var sexOffensesLayer = L.layerGroup([marker_149, marker_150, marker_151, marker_152, marker_153, marker_154, marker_155]);	
+
 		
 		var marker_156 = L.marker([43.7065906384, -72.2914784038]);
 		marker_156.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Unauthorized Entry/Presence Hindering Apprehension or Prosecution;  Date Occurred: 2014/06/17");
 		map.addLayer(marker_156)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Unauthorized Entry/Presence Layer for CleryDart Legend*/
+	var unauthorizedEntryPresenceLayer = L.layerGroup([marker_156]);	
 		
-	// Unauthorized Entry/Presence
 		
 		var marker_157 = L.marker([43.7064783342, -72.2905971508]);
 		marker_157.bindPopup("Crime Location: Tabard;  Type of Crime: Vandalism;  Date Occurred: 2014/06/02");
@@ -924,26 +914,33 @@
 		marker_178.bindPopup("Crime Location: Choate House;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
 		map.addLayer(marker_178)
 		
-	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);	
+	/*Create Vandalism Layer for CleryDart Legend*/
+	var vandalismLayer = L.layerGroup([marker_157, marker_158, marker_159, marker_160, marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, marker_176, marker_177, marker_178]);	
 		
-	// Vandalism layer
 
 /*** End of Variables***///
 
 				/* Testing if the Legend works */
 					var overlayMaps = {
-						"Assaults (7)": assaultLayer
-					    /*"Burglaries (1)": burglaryLayer,
-						"Disorderly Conduct (8)": disConductLayer,
-						"Driving Under Influence (1)": drivingUInfluenceLayer,
-						"Drug Abuse, Sale, Possession (2)": drugAbuseSalePossLayer,
-						"Forcible Rape (4)": forcibleRapeLayer,
-						"Larceny - Theft (27)": larcenyTheftLayer,
-						"Liquor Laws (39)": liquorLawsLayer,
-						"Other Offenses (3)": otherOffensesLayer,
-						"Sex Offenses (1)": sexOffensesLayer,
-						"Vandalism (7)": vandalismLayer,*/
+						"Assaults": assaultLayer,
+						"Bias Incidents": biasIncidentLayer,
+						"Burglaries": burglaryLayer,
+						"Criminal Threatening": criminalThreateningLayer,
+						"Criminal Threatening/Stalking": criminalThreateningStalkingLayer,
+						"Disorderly Conduct": disorderlyConductLayer,
+						"Disorderly/Public Urination": disorderlyPublicUrinationLayer,
+						"Dogs a Menace": dogsAMenaceLayer,
+						"Driving Under Influence": drivingUnderInfluenceLayer,
+						"Drug Abuse, Sale, Possession": drugAbuseSalePossessionLayer,
+						"Endangering Behavior": endangeringBehaviorLayer,
+						"False Fire Alarm": falseFireAlarmLayer,
+						"Larceny-Theft": larcenyTheftLayer,
+						"Liquor Laws": liquorLawsLayer,
+						"Resisting Arrest": resistingArrestLayer,
+						"Robbery": robberyLayer,
+						"Sex Offenses": sexOffensesLayer,
+						"Unauthorized Entry/Presence": unauthorizedEntryPresenceLayer,
+						"Vandalism": vandalismLayer
 					};
 
 					//Controls which layers are visible on the upper right hand corner
