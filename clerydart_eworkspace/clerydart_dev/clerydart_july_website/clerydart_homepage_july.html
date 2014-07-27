@@ -8,7 +8,7 @@
 		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
 		 <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
 		 
-		 <!-- Older version of Leaflet 
+		 <!-- Older version of Leaflet - Not using as of 7/27/14
 		 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
    		 <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>-->
 
@@ -19,7 +19,7 @@
 
 			/*Incorporate this into the .css stylesheet!*/
 
-			#legend{
+			#legend {
 
 				font-size: 1em;
 				background-color: white;
@@ -30,7 +30,7 @@
 				width: 14em;
 			}
 
-			#legend_text{
+			#legend_text {
 				color: black;
 				font-family: Arial;
 				font-size: 1em;
@@ -178,6 +178,8 @@
 		
 	/*Create Assaults Layer for CleryDart Legend*/
 	var assaultLayer = L.layerGroup([marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, marker_10, marker_11]);
+		
+		
 		
 		var marker_12 = L.marker([43.6832664995, -72.2854843586]);
 		marker_12.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Bias Incident;  Date Occurred: 2014/07/16");
@@ -946,6 +948,10 @@
 					//Controls which layers are visible on the upper right hand corner
 					L.control.layers(null, overlayMaps, {collapsed: false}).addTo(map);
 
+					/* 7/27/14: Left off here, want all the overlayMaps markers open when the 
+						Leaflet starts up, but right now only the baselayer is up on start-up.
+						I'm thinking I need to add and activate each layer on the map immediately 
+						after it is created. */
 
 /*Remember to add one popup that starts being open*/
 
