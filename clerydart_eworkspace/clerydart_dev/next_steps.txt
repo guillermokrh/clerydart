@@ -38,3 +38,5 @@ Purpose: Outline next steps for CleryDart
 22. Post link to my github on the CleryDart homepage - done 7/24/2014
 23. Look into licensing options.
 24. Test Github for Mac
+
+25. Get Folium to not add each marker as a separate layer!
