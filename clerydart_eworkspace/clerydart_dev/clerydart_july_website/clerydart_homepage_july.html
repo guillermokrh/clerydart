@@ -905,6 +905,17 @@
 	/*Create Vandalism Layer for CleryDart Legend*/
 	var vandalismLayer = L.layerGroup([marker_157, marker_158, marker_159, marker_160, marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, marker_176, marker_177, marker_178]);	
 		
+
+
+/*** End of Variables & Layers***///
+
+	/*Baselayer of the Map*/
+	var baseMap = new L.TileLayer(openStreetMapUrl, {
+		attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+		maxZoom: 18,
+		minZoom: 14
+	}); 
+	
 	/*Create Layer Group that holds all layers for ease of use */
 	var allLayers = L.layerGroup([assaultLayer, biasIncidentLayer, burglaryLayer, 
 								criminalThreateningLayer, criminalThreateningStalkingLayer, 
@@ -914,15 +925,10 @@
 								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
 								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
 								unauthorizedEntryPresenceLayer, vandalismLayer]);
+	
+	/*var noLayers = L.layerGroup([]);  //this did not work*/
+								
 
-/*** End of Variables***///
-
-	/*Baselayer of the Map*/
-	var baseMap = new L.TileLayer(openStreetMapUrl, {
-		attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-		maxZoom: 18,
-		minZoom: 14
-	}); 
 	
 /*** Initializes the Leaflet map ***/
 	
@@ -930,14 +936,21 @@
 		var map = new L.Map('map', {
 			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitute and longitude
 			zoom: 16, 
-			layers: [baseMap],
+			layers: [baseMap/*, allLayers, assaultLayer, biasIncidentLayer, burglaryLayer, 
+								criminalThreateningLayer, criminalThreateningStalkingLayer, 
+								disorderlyConductLayer, disorderlyPublicUrinationLayer, 
+								dogsAMenaceLayer, drivingUnderInfluenceLayer, 
+								drugAbuseSalePossessionLayer, endangeringBehaviorLayer, 
+								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
+								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
+								unauthorizedEntryPresenceLayer, vandalismLayer*/],
 			closePopupOnClick: false
 		});
 		
 		
 				/* Adds Layers Control to the Legend */
 					var overlayMaps = {
-						"All Layers Off/On": allLayers,
+						"All Crimes": allLayers,
 						"Assaults": assaultLayer,
 						"Bias Incidents": biasIncidentLayer,
 						"Burglaries": burglaryLayer,
@@ -959,7 +972,7 @@
 						"Vandalism": vandalismLayer
 					};
 
-					//Controls which layers are visible on the upper right hand corner
+					/*Controls which layers are visible on the upper right hand corner*/
 					L.control.layers(null, overlayMaps, {collapsed: false}).addTo(map);
 
 		/*Map Starts with One Popup open*/
