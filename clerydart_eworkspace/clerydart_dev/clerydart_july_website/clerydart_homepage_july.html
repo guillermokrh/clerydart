@@ -111,23 +111,10 @@
 				}); /***  end of hack ***/
 			/* Hack thanks to Paolo Vieria: (https://groups.google.com/forum/#!topic/leaflet-js/qXVBcD3juL4) */
 
-/*** Initializes the Leaflet map ***/
+
+	/*OpenStreetMap URL*/
 	
-	/*Baselayer of the Map*/
-	var baseMap = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-		maxZoom: 18,
-		minZoom: 14
-	}); 
-	
-	
-	/*Initializes Map*/
-		var map = new L.Map('map', {
-			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitute and longitude
-			zoom: 16, 
-			layers: [baseMap],
-			closePopupOnClick: false
-		});
+		var openStreetMapUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 	
 
 /*** Variables created by Folium, a Python to Leaflet library ***/
@@ -919,11 +906,46 @@
 	/*Create Vandalism Layer for CleryDart Legend*/
 	var vandalismLayer = L.layerGroup([marker_157, marker_158, marker_159, marker_160, marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, marker_176, marker_177, marker_178]);	
 		
+	/*Create Layer Group that holds all layers for ease of use */
+	var allLayers = L.layerGroup([assaultLayer, biasIncidentLayer, burglaryLayer, 
+								criminalThreateningLayer, criminalThreateningStalkingLayer, 
+								disorderlyConductLayer, disorderlyPublicUrinationLayer, 
+								dogsAMenaceLayer, drivingUnderInfluenceLayer, 
+								drugAbuseSalePossessionLayer, endangeringBehaviorLayer, 
+								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
+								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
+								unauthorizedEntryPresenceLayer, vandalismLayer]);
 
 /*** End of Variables***///
 
-				/* Testing if the Legend works */
+	/*Baselayer of the Map*/
+	var baseMap = new L.TileLayer(openStreetMapUrl, {
+		attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+		maxZoom: 18,
+		minZoom: 14
+	}); 
+	
+/*** Initializes the Leaflet map ***/
+	
+	/*Initializes Map*/
+		var map = new L.Map('map', {
+			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitute and longitude
+			zoom: 16, 
+			layers: [baseMap, assaultLayer, biasIncidentLayer, burglaryLayer, 
+								criminalThreateningLayer, criminalThreateningStalkingLayer, 
+								disorderlyConductLayer, disorderlyPublicUrinationLayer, 
+								dogsAMenaceLayer, drivingUnderInfluenceLayer, 
+								drugAbuseSalePossessionLayer, endangeringBehaviorLayer, 
+								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
+								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
+								unauthorizedEntryPresenceLayer, vandalismLayer, allLayers],
+			closePopupOnClick: false
+		});
+		
+		
+				/* Adds Layers Control to the Legend */
 					var overlayMaps = {
+						"All Layers Off/On": allLayers,
 						"Assaults": assaultLayer,
 						"Bias Incidents": biasIncidentLayer,
 						"Burglaries": burglaryLayer,
@@ -948,12 +970,9 @@
 					//Controls which layers are visible on the upper right hand corner
 					L.control.layers(null, overlayMaps, {collapsed: false}).addTo(map);
 
-					/* 7/27/14: Left off here, want all the overlayMaps markers open when the 
-						Leaflet starts up, but right now only the baselayer is up on start-up.
-						I'm thinking I need to add and activate each layer on the map immediately 
-						after it is created. */
+		/*Map Starts with One Popup open*/
+		marker_11.openPopup(map); /*Popup is open on center of the map*/
 
-/*Remember to add one popup that starts being open*/
 
 
 /******* End of JavaScript for Leaflet *********/
