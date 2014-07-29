@@ -165,8 +165,7 @@
 		
 	/*Create Assaults Layer for CleryDart Legend*/
 	var assaultLayer = L.layerGroup([marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, marker_10, marker_11]);
-		
-		
+
 		
 		var marker_12 = L.marker([43.6832664995, -72.2854843586]);
 		marker_12.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Bias Incident;  Date Occurred: 2014/07/16");
@@ -931,14 +930,7 @@
 		var map = new L.Map('map', {
 			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitute and longitude
 			zoom: 16, 
-			layers: [baseMap, assaultLayer, biasIncidentLayer, burglaryLayer, 
-								criminalThreateningLayer, criminalThreateningStalkingLayer, 
-								disorderlyConductLayer, disorderlyPublicUrinationLayer, 
-								dogsAMenaceLayer, drivingUnderInfluenceLayer, 
-								drugAbuseSalePossessionLayer, endangeringBehaviorLayer, 
-								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
-								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
-								unauthorizedEntryPresenceLayer, vandalismLayer, allLayers],
+			layers: [baseMap],
 			closePopupOnClick: false
 		});
 		
