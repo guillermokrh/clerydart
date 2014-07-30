@@ -164,7 +164,10 @@
 	
 		
 	/*Create Assaults Layer for CleryDart Legend*/
-	var assaultLayer = L.layerGroup([marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, marker_10, marker_11]);
+	var listOfAssault = [marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, marker_10, marker_11];
+	var assaultLayer = L.layerGroup(listOfAssault);
+	var numOfAssault = listOfAssault.length;
+	console.log(numOfAssault);
 
 		
 		var marker_12 = L.marker([43.6832664995, -72.2854843586]);
@@ -172,7 +175,10 @@
 		
 		
 	/*Create Bias Incidents Layer for CleryDart Legend*/
-	var biasIncidentLayer = L.layerGroup([marker_12]);
+	var listOfBiasIncident = [marker_12];
+	var numOfBiasIncident = listOfBiasIncident.length;
+	var biasIncidentLayer = L.layerGroup(listOfBiasIncident);
+
 		
 				
 		var marker_13 = L.marker([43.7007739354, -72.2866968366]);
@@ -184,7 +190,9 @@
 		
 		
 	/*Create Burglary Layer for CleryDart Legend*/
-	var burglaryLayer = L.layerGroup([marker_13, marker_14]);
+	var listOfBurglary = [marker_13, marker_14];
+	var numOfBurglary = listOfBurglary.length;
+	var burglaryLayer = L.layerGroup(listOfBurglary);
 		
 		
 		var marker_15 = L.marker([43.7064187348, -72.2922716203]);
@@ -192,7 +200,9 @@
 		
 		
 	/*Create Criminal Threatening Layer for CleryDart Legend*/
-	var criminalThreateningLayer = L.layerGroup([marker_15]);
+	var listOfCriminalThreatening = [marker_15];
+	var numOfCriminalThreatening = listOfCriminalThreatening.length;
+	var criminalThreateningLayer = L.layerGroup(listOfCriminalThreatening);
 
 		
 		var marker_16 = L.marker([43.7053735134, -72.286167216]);
@@ -200,7 +210,9 @@
 		
 		
 	/*Create Criminal Threatening/Stalking Layer for CleryDart Legend*/
-	var criminalThreateningStalkingLayer = L.layerGroup([marker_16]);		
+	var listOfCriminalThreateningStalking = [marker_16];
+	var numOfCriminalThreateningStalking = listOfCriminalThreateningStalking.length;
+	var criminalThreateningStalkingLayer = L.layerGroup(listOfCriminalThreateningStalking);		
 		
 		
 		var marker_17 = L.marker([43.7065564244, -72.2920714147]);
@@ -269,14 +281,19 @@
 		
 		
 	/*Create Disorderly Conduct Layer for CleryDart Legend*/
-	var disorderlyConductLayer = L.layerGroup([marker_17, marker_18, marker_19, marker_20, marker_21, marker_22, marker_23, marker_24, marker_25, marker_26, marker_27, marker_28, marker_29, marker_30, marker_31, marker_32]);	
+	var listOfDisorderlyConduct = [marker_17, marker_18, marker_19, marker_20, marker_21, marker_22, marker_23, marker_24, marker_25, marker_26, marker_27, marker_28, marker_29, marker_30, marker_31, marker_32];
+	var numOfDisorderlyConduct = listOfDisorderlyConduct.length;
+	var disorderlyConductLayer = L.layerGroup(listOfDisorderlyConduct);	
 		
 		var marker_33 = L.marker([43.7047550162, -72.2904874918]);
 		marker_33.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly/Public Urination;  Date Occurred: 2014/05/16");
 		
 		
 	/*Create Disorderly/Public Urination Layer for CleryDart Legend*/
-	var disorderlyPublicUrinationLayer = L.layerGroup([marker_33]);	
+	
+	var listOfDisorderlyPublicUrination = [marker_33];
+	var numOfDisorderlyPublicUrination = listOfDisorderlyPublicUrination.length;
+	var disorderlyPublicUrinationLayer = L.layerGroup(listOfDisorderlyPublicUrination);	
 
 		
 		var marker_34 = L.marker([43.6831378511, -72.2855095165]);
@@ -284,7 +301,9 @@
 		
 		
 	/*Create Dogs a Menace Layer for CleryDart Legend*/
-	var dogsAMenaceLayer = L.layerGroup([marker_34]);	
+	var listOfDogsAMenace = [marker_34];
+	var numOfDogsAMenace = listOfDogsAMenace.length;
+	var dogsAMenaceLayer = L.layerGroup(listOfDogsAMenace);	
 		
 		var marker_35 = L.marker([43.7034824454, -72.2886085315]);
 		marker_35.bindPopup("Crime Location: Plainfield Road;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/24");
@@ -295,7 +314,9 @@
 		
 		
 	/*Create Driving Under Influence Layer for CleryDart Legend*/
-	var drivingUnderInfluenceLayer = L.layerGroup([marker_35, marker_36]);	
+	var listOfDrivingUnderInfluence = [marker_35, marker_36];
+	var numOfDrivingUnderInfluence = listOfDrivingUnderInfluence.length;
+	var drivingUnderInfluenceLayer = L.layerGroup(listOfDrivingUnderInfluence);	
 	
 
 		var marker_37 = L.marker([43.7019964787, -72.2881225902]);
@@ -323,7 +344,9 @@
 		
 		
 	/*Create Drug Abuse Sale, Possession Layer for CleryDart Legend*/
-	var drugAbuseSalePossessionLayer = L.layerGroup([marker_37, marker_38, marker_39, marker_40, marker_41, marker_42]);	
+	var listOfDrugAbuseSalePossession = [marker_37, marker_38, marker_39, marker_40, marker_41, marker_42];
+	var numOfDrugAbuseSalePossession = listOfDrugAbuseSalePossession.length;
+	var drugAbuseSalePossessionLayer = L.layerGroup(listOfDrugAbuseSalePossession);	
 	
 		
 		var marker_43 = L.marker([43.6831776299, -72.2855281013]);
@@ -331,7 +354,9 @@
 		
 		
 	/*Create Endangering Behavior Layer for CleryDart Legend*/
-	var endangeringBehaviorLayer = L.layerGroup([marker_43]);	
+	var listOfEndangeringBehavior = [marker_37, marker_38, marker_39, marker_40, marker_41, marker_42];
+	var numOfEndangeringBehavior = listOfEndangeringBehavior.length;
+	var endangeringBehaviorLayer = L.layerGroup(listOfEndangeringBehavior);	
 
 		
 		var marker_44 = L.marker([43.7037003932, -72.2863258997]);
@@ -343,7 +368,10 @@
 		
 		
 	/*Create False Fire Alarm Layer for CleryDart Legend*/
-	var falseFireAlarmLayer = L.layerGroup([marker_44, marker_45]);	
+	var listOfFalseFireAlarm = [marker_44, marker_45];
+	var numOfFalseFireAlarm = listOfFalseFireAlarm.length;
+	var falseFireAlarmLayer = L.layerGroup(listOfFalseFireAlarm);	
+	console.log(numOfFalseFireAlarm);
 		
 		
 		var marker_46 = L.marker([43.7066164688, -72.2915212221]);
@@ -567,7 +595,10 @@
 		
 		
 	/*Create Larceny-Theft Layer for CleryDart Legend*/
-	var larcenyTheftLayer = L.layerGroup([marker_46, marker_47, marker_48, marker_49, marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, marker_57, marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, marker_64, marker_65, marker_66, marker_67, marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, marker_74, marker_75, marker_76, marker_77, marker_78, marker_79, marker_80, marker_81, marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, marker_98, marker_99, marker_100]);	
+	var listOfLarcenyTheft = [marker_46, marker_47, marker_48, marker_49, marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, marker_57, marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, marker_64, marker_65, marker_66, marker_67, marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, marker_74, marker_75, marker_76, marker_77, marker_78, marker_79, marker_80, marker_81, marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, marker_98, marker_99, marker_100];
+	var numOfLarcenyTheft = listOfLarcenyTheft.length;
+	var larcenyTheftLayer = L.layerGroup(listOfLarcenyTheft);	
+	console.log(numOfLarcenyTheft);
 		
 		
 		var marker_101 = L.marker([43.7055473112, -72.2908001478]);
@@ -751,7 +782,9 @@
 		
 		
 	/*Create Liquor Laws Layer for CleryDart Legend*/
-	var liquorLawsLayer = L.layerGroup([marker_101, marker_102, marker_103, marker_104, marker_105, marker_106, marker_107, marker_108, marker_109, marker_110, marker_111, marker_112, marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, marker_120, marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, marker_127, marker_128, marker_129, marker_130, marker_131, marker_132, marker_133, marker_134, marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, marker_141, marker_142, marker_143, marker_144, marker_145]);	
+	var listOfLiquorLaws = [marker_101, marker_102, marker_103, marker_104, marker_105, marker_106, marker_107, marker_108, marker_109, marker_110, marker_111, marker_112, marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, marker_120, marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, marker_127, marker_128, marker_129, marker_130, marker_131, marker_132, marker_133, marker_134, marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, marker_141, marker_142, marker_143, marker_144, marker_145];
+	var numOfLiquorLaws = listOfLiquorLaws.length;
+	var liquorLawsLayer = L.layerGroup(listOfLiquorLaws);	
 		
 		
 		var marker_146 = L.marker([43.7037329029, -72.2864216588]);
@@ -763,7 +796,9 @@
 		
 		
 	/*Create Resisting Arrest Layer for CleryDart Legend*/
-	var resistingArrestLayer = L.layerGroup([marker_146, marker_147]);	
+	var listOfResistingArrest = [marker_146, marker_147];
+	var numOfResistingArrest = listOfResistingArrest.length;
+	var resistingArrestLayer = L.layerGroup(listOfResistingArrest);	
 		
 
 		var marker_148 = L.marker([43.7036089393, -72.2886768185]);
@@ -771,7 +806,9 @@
 		
 		
 	/*Create Robbery Layer for CleryDart Legend*/
-	var robberyLayer = L.layerGroup([marker_148]);	
+	var listOfRobbery = [marker_148];
+	var numOfRobbery = listOfRobbery.length;
+	var robberyLayer = L.layerGroup(listOfRobbery);	
 		
 		
 		var marker_149 = L.marker([43.7053721904, -72.2862990361]);
@@ -803,7 +840,9 @@
 		
 		
 	/*Create Sex Offenses Layer for CleryDart Legend*/
-	var sexOffensesLayer = L.layerGroup([marker_149, marker_150, marker_151, marker_152, marker_153, marker_154, marker_155]);	
+	var listOfSexOffenses = [marker_149, marker_150, marker_151, marker_152, marker_153, marker_154, marker_155];
+	var numOfSexOffenses = listOfSexOffenses.length;
+	var sexOffensesLayer = L.layerGroup(listOfSexOffenses);	
 
 		
 		var marker_156 = L.marker([43.7065906384, -72.2914784038]);
@@ -811,7 +850,9 @@
 		
 		
 	/*Create Unauthorized Entry/Presence Layer for CleryDart Legend*/
-	var unauthorizedEntryPresenceLayer = L.layerGroup([marker_156]);	
+	var listOfUnauthorizedEntryPresence = [marker_156];
+	var numOfUnauthorizedEntryPresence = listOfUnauthorizedEntryPresence.length;
+	var unauthorizedEntryPresenceLayer = L.layerGroup(listOfUnauthorizedEntryPresence);	
 		
 		
 		var marker_157 = L.marker([43.7064783342, -72.2905971508]);
@@ -903,7 +944,10 @@
 		
 		
 	/*Create Vandalism Layer for CleryDart Legend*/
-	var vandalismLayer = L.layerGroup([marker_157, marker_158, marker_159, marker_160, marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, marker_176, marker_177, marker_178]);	
+	var listOfVandalism = [marker_157, marker_158, marker_159, marker_160, marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, marker_176, marker_177, marker_178];
+	var numOfVandalism = listOfVandalism.length;
+	var vandalismLayer = L.layerGroup(listOfVandalism);	
+	console.log(numOfVandalism);
 		
 
 
@@ -916,17 +960,38 @@
 		minZoom: 14
 	}); 
 	
-	/*Create Layer Group that holds all layers for ease of use */
-	var allLayers = L.layerGroup([assaultLayer, biasIncidentLayer, burglaryLayer, 
-								criminalThreateningLayer, criminalThreateningStalkingLayer, 
-								disorderlyConductLayer, disorderlyPublicUrinationLayer, 
-								dogsAMenaceLayer, drivingUnderInfluenceLayer, 
-								drugAbuseSalePossessionLayer, endangeringBehaviorLayer, 
-								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
-								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
-								unauthorizedEntryPresenceLayer, vandalismLayer]);
+	/*Create Layer Group that holds all Markers for ease of use */
 	
-	/*var noLayers = L.layerGroup([]);  //this did not work*/
+	var allMarkers = L.layerGroup([marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, 
+									marker_8, marker_9, marker_10, marker_11, marker_12, marker_13, marker_14, 
+									marker_15, marker_16, marker_17, marker_18, marker_19, marker_20, marker_21, 
+									marker_22, marker_23, marker_24, marker_25, marker_26, marker_27, marker_28, 
+									marker_29, marker_30, marker_31, marker_32, marker_33, marker_34, marker_35, 
+									marker_36, marker_37, marker_38, marker_39, marker_40, marker_41, marker_42, 
+									marker_43, marker_44, marker_45, marker_46, marker_47, marker_48, marker_49, 
+									marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, 
+									marker_57, marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, 
+									marker_64, marker_65, marker_66, marker_67, marker_68, marker_69, marker_70,
+									marker_71, marker_72, marker_73, marker_74, marker_75, marker_76, marker_77,
+									marker_78, marker_79, marker_80, marker_81, marker_82, marker_83, marker_84, 
+									marker_85, marker_86, marker_87, marker_88, marker_89, marker_90, marker_91, 
+									marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, marker_98, 
+									marker_99, marker_100, marker_101, marker_102, marker_103, marker_104, 
+									marker_105, marker_106, marker_107, marker_108, marker_109, marker_110, 
+									marker_111, marker_112, marker_113, marker_114, marker_115, marker_116, 
+									marker_117, marker_118, marker_119, marker_120, marker_121, marker_122, 
+									marker_123, marker_124, marker_125, marker_126, marker_127, marker_128, 
+									marker_129, marker_130, marker_131, marker_132, marker_133, marker_134, 
+									marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, 
+									marker_141, marker_142, marker_143, marker_144, marker_145, marker_146, 
+									marker_147, marker_148, marker_149, marker_150, marker_151, marker_152, 
+									marker_153, marker_154, marker_155, marker_156, marker_157, marker_158, 
+									marker_159, marker_160, marker_161, marker_162, marker_163, marker_164, 
+									marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, 
+									marker_171, marker_172, marker_173, marker_174, marker_175, marker_176, 
+									marker_177, marker_178]);
+	
+	/* Fixed bug by adding a layer that includes all markers */
 								
 
 	
@@ -936,21 +1001,14 @@
 		var map = new L.Map('map', {
 			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitute and longitude
 			zoom: 16, 
-			layers: [baseMap/*, allLayers, assaultLayer, biasIncidentLayer, burglaryLayer, 
-								criminalThreateningLayer, criminalThreateningStalkingLayer, 
-								disorderlyConductLayer, disorderlyPublicUrinationLayer, 
-								dogsAMenaceLayer, drivingUnderInfluenceLayer, 
-								drugAbuseSalePossessionLayer, endangeringBehaviorLayer, 
-								falseFireAlarmLayer, larcenyTheftLayer, liquorLawsLayer, 
-								resistingArrestLayer, robberyLayer, sexOffensesLayer, 
-								unauthorizedEntryPresenceLayer, vandalismLayer*/],
+			layers: [baseMap, allMarkers],
 			closePopupOnClick: false
 		});
 		
 		
 				/* Adds Layers Control to the Legend */
 					var overlayMaps = {
-						"All Crimes": allLayers,
+						"All Crimes": allMarkers,
 						"Assaults": assaultLayer,
 						"Bias Incidents": biasIncidentLayer,
 						"Burglaries": burglaryLayer,
