@@ -43,3 +43,10 @@ Purpose: Outline next steps for CleryDart
 
 26. Figure out way to build app that is native to JS, can do authentication, can take data straight from .csv files,
 and plot it onto a Leaflet map.  
+	Needs: 
+		- S&S authentication, direct from .csv sheets, no typing in 
+		- possible "crime region" alerts
+		- add in where the blue warning systems are 
+		- color code the markers, make them smaller
+		- possible electricity down alerts
+		- solve the "unknown location" problem, not put it in the Green
