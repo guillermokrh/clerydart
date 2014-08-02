@@ -50,3 +50,4 @@ and plot it onto a Leaflet map.
 		- color code the markers, make them smaller
 		- possible electricity down alerts
 		- solve the "unknown location" problem, not put it in the Green
+		- potentially use Rails instead of JS?  Look into this	
