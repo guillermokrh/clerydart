@@ -51,3 +51,4 @@ and plot it onto a Leaflet map.
 		- possible electricity down alerts
 		- solve the "unknown location" problem, not put it in the Green
 		- potentially use Rails instead of JS?  Look into this	
+27. Clean up CleryDart file directory
