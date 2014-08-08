@@ -31,7 +31,7 @@ Purpose: Outline next steps for CleryDart
 		17c. Create a quick array in JS that will group the types of crimes together
 		17d. Use that list to create a layer on Leaflet
 18.  Make the zoom buttons on the Leaflet map bigger
-19. Make the markers on the Leaflet map smaller
+19. Make the markers on the Leaflet map smaller - use MarkerCluster for this
 20.  Make marker area larger for larger buildings on campus, which will reduce overlapping markers
 21.  Reduce text on the homepage.
 
