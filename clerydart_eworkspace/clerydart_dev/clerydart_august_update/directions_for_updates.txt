@@ -1,0 +1,12 @@
+# directions_for_updates.txt
+# Author: Guillermo K. Rojas 
+# August 9, 2014
+# Provides directions on updating CleryDart
+
+1. Type up data from the Daily Crime Log; place it in a spreadsheet broken up into the "Type of Crime", "Date
+Occurred", etc. columns.  
+2. Once the data has been entered, sort the columns by type of crime committed; this will help in creating the
+"Crimes" Legend.  
+3.  Export the file as a .csv file.
+4. Open eclipse, drag the newly created .csv file into the project folder.  
+5. update the basic_template.py program by updating the .csv title to the one you created.  
