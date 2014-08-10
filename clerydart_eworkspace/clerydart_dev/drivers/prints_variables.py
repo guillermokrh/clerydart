@@ -1,8 +1,8 @@
 #===============================================================================
 # prints_variables.py
 # Auteur: Guillermo K. Rojas
-# Prints the name of marker variables for the CleryDart .js code
-# Nasty shortcut while I figure out JavaScript
+# Prints the name of marker variables (in the format created by Folium) 
+# for the CleryDart .js code (nasty shortcut while I learn JavaScript)
 # July 26, 2014
 #===============================================================================
 

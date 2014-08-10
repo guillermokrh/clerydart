@@ -7,6 +7,9 @@
  * and then you manually copy and paste the print statement.  Would be useful if there were too many
  * markers to count, or if they weren't sequential, but as it is, this is slower than counting
  * the marker objects in each list.  
+ * 
+ * How to use: copy and paste to Leaflet JavaScript code on homepage .html file.  
+ * 
  */		
 
 /*Generates text for layers control*/
