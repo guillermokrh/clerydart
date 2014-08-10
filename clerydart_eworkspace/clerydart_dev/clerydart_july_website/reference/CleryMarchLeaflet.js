@@ -1,5 +1,10 @@
-//JavaScript for CleryDart
-//Created by Guillermo K. Rojas Hernandez
+/* CleryMarchLeaflet.js
+* Created by Guillermo K. Rojas Hernandez
+* Altered version of CleryLeafletJavaScript.js used in the March version of CleryDart.
+* Used as a reference for troubleshooting the CleryDart July update;
+* Took notes on what needed to be improved, erased certain sections.
+* Explanation added: August 10, 2014
+*/
 
 				//Loads the Map
 				window.onload = function () {

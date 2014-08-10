@@ -9,4 +9,4 @@ Occurred", etc. columns.
 "Crimes" Legend.  
 3.  Export the file as a .csv file.
 4. Open eclipse, drag the newly created .csv file into the project folder.  
-5. update the basic_template.py program by updating the .csv title to the one you created.  
+5. Update the basic_template.py program by updating the .csv title to the one you created.  
