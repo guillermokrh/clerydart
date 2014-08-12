@@ -7,6 +7,13 @@
 Occurred", etc. columns.  
 2. Once the data has been entered, sort the columns by type of crime committed; this will help in creating the
 "Crimes" Legend.  
-3.  Export the file as a .csv file.
-4. Open eclipse, drag the newly created .csv file into the project folder.  
-5. Update the basic_template.py program by updating the .csv title to the one you created.  
+3. Export the file as a .csv file.
+4. Make sure all of the locations have coordinates in the current campus_coordinates .csv file.  This
+file creates a "Campus Locations" dictionary in Python that the clerydart_template.py program uses to
+plot locations.  If certain locations do not have coordinates, look them up in OpenStreetMap and add 
+them to the campus_coordinates gnumeric file.  Then export the new computer_coordinates file as a .csv.
+5. Open eclipse, drag the newly created .csv files into the project folder.  
+6. Update the clerydart_template.py program by updating the titles of the two .csv files to the ones you 
+just created.  Update the name of the file that Folium exports.
+7.  Run the clerydart_template.py program.
+8.  Open the new .html file that is created by Folium; check to make sure it works.
