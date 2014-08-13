@@ -1,0 +1,556 @@
+
+/*CSS StyleSheet for CleryDart*/
+/*Created by Guillermo K. Rojas Hernandez*/
+/* Last edit: July 23, 2014 */
+
+		/*Table of Contents*/	
+		/*	#table_contents {
+				height: auto;
+				width: auto;
+				background-color: white;
+				position: fixed;
+				margin-left: 900px;
+				display: block;
+
+			} 
+
+			table {
+				font-family: Arial;
+				font-weight: bold;
+				border: 1px solid black;
+			}
+
+			td {
+				padding-right: 0.625em;
+				padding-left: 0.625em;
+			}
+		*/
+
+		/*Title*/
+
+			#fixed_title {
+				margin-top: 0em;
+				padding-top: 0em;
+				background-color: #00693E;
+				position: fixed;
+				display: inline;
+				width: 100%;
+				border-top: .250em solid #00693E;
+				border-bottom: .250em solid #00693E;
+			}
+
+
+			#static_title {
+				margin-top: 0em;
+				padding-top: 0em;
+				border-top: .250em solid #00693E; 
+				border-bottom: .250em solid #00693E;
+				background-color: #00693E;
+			/*	position: fixed; */
+				display: block;
+				width: 100%;
+			}
+
+			h2 {
+				color: white;
+				font-size: 2em;
+				font-family: Arial;
+			/*	font-weight: bold; */
+				text-align: center;
+				padding-top: 0em;
+				padding-bottom: 0em;
+				margin-top: 0.313em;
+				margin-bottom: 0.313em;
+				width: auto;
+			}
+
+
+		/*Map*/	
+
+			#map {
+				clear: both;
+				height: 47em;
+				width: 93%;
+				padding-left: 0em;
+				padding-right: 0em; 
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 0em;
+				margin-bottom: 0em;
+				border-bottom: .07em solid black;
+
+			}
+
+		/*Legend?*/
+			.info {
+ 				    padding: .5em 1em;
+				    font: .9em/1em Arial, Helvetica, sans-serif;
+				    background: white;
+				    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+				    border-radius: 5px;
+				    color: #333;
+			}
+
+			.info h4 {
+				    margin: 0 0 5px;
+				    color: #777;
+			}
+
+			.legend {
+				    height: 10em;
+				    width: 10em;
+				    line-height: 1em;
+				    background-color: white;
+			}
+
+			.legend i {
+				    width: 10em;
+				    height: 10em;
+				    float: right;
+				    margin-left: .5em;
+				    opacity: 0.7;
+				    color: black;
+				    font-size: 1em;
+				    font-family: Arial;
+			}
+
+		/*Body*/
+
+			body {
+
+				background-color:#00341F; /*"Dartmouth Green" mothafuckas*/
+				margin-top: 0em;
+				margin-right: 0em;
+				margin-left: 0em;
+				margin-bottom: 0em;
+				padding-right: 0em;
+				border-right: 0em;
+			}
+
+
+
+			p {
+				color: black;
+				font-family: Arial;
+				font-size: 1em;
+			}
+
+			.center_text {
+				text-align: center;
+			}
+		/*text: "This map currently reflects..."*/
+
+			h3 {
+				color: white;
+				background-color: #00150C;
+				font-size: .8em;
+				text-align: center;
+				font-family: Arial;
+				height: 1.5em;
+				width: 100%;
+				margin-top: 0em;
+				margin-bottom: 0em;
+				padding-top: .6em;
+				padding-bottom: .313em;
+			}
+
+			#date_range {
+				color: white;
+				font-style: bold;
+				font-size: 1.3em;
+			}
+
+		/*BuzzWords*/
+
+			#clerydart_description {
+				width: auto;
+				display: block;
+				margin-top: 0em; /*replacement for 10px*/
+				margin-bottom: 0em;
+				font-size: 1.1em;
+				font-weight: bold;
+				font-color: #00150C;
+				border: 0em solid black;
+				border-right: 0em;
+				border-left: 0em;
+				background-color: white;
+				height: 2em;
+				padding-right: 0em;
+				padding-left: 0em;
+				padding-bottom: 0em;
+				border-radius: 0em;
+			/*	opacity: .9; */
+			}
+
+			#visualization_text {
+				padding-top: .323em;
+				margin-top: 0em;
+				margin-bottom: 0em;
+				vertical-align: middle;
+			}
+
+			#parent_buzzwords {
+				margin: auto;
+				display: table;
+				margin-top: 1em;
+				margin-bottom: .5em;
+			}
+
+			.buzzwords {	
+				border: .125em solid white; /*equivalent to 4px*/
+				background-color: white;
+				width: 11em;
+				height: auto;
+				display: inline-block;
+				float: left;
+				padding-right: 0.625em;
+				padding-left: 0.625em;
+				margin: .5em;
+				font-size: 1.6em;
+				font-color: #00150C;
+				font-family: Century Gothic, sans serif;
+			/*	border-radius: 1em 4em 1em 4em; /*Makes the box outline a parallelogram with rounded corners*/
+			}
+				
+
+		/*FAQ Heading*/
+
+			#faq_heading {
+				
+				height: auto;
+				width: auto;
+				display: block;
+				clear: both;
+				background-color: white;
+				border: .250em solid white;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 1.250em; /*replacement for 20 px*/
+				margin-bottom: 0.625em;
+			}
+
+			#faq_heading_text {
+				color: #338765;
+				margin-top:  2px;
+				margin-bottom: 2px;
+			}
+
+
+			/* Takes out the decoration of the hyperlink*/
+			a  {
+				color: green;
+				text-decoration: none;
+			}
+
+			#about_link /*Exception to the no decoration rule*/
+			    {
+				text-decoration: underline;
+			}
+
+			li  {
+				color: black;
+				font-family: Arial;
+			}
+			
+			ul  {
+				color: black;
+				font-family: Arial;
+				padding-right: 2em;
+			}
+
+		/*FAQ Panels*/
+
+		#parent_faq {
+				margin: auto;
+				display: table;
+			/*	background-color: #E2E2E2; */
+				padding-right: 2em;
+				padding-left:2em;
+			}
+
+			.faq {
+				border: .250em solid black;
+				background-color: white;
+				width: 30em;
+				height: auto;
+				display: inline-block;
+				padding-right: .825em;
+				padding-left: .825em;
+				padding-bottom: 0.625em;
+				text-align: justify;
+				border-radius: 0em; /* Setting for rounded corners (0em is pointed corners) */
+				margin: .313em;
+		     	        box-shadow: 0 0.125em 0.625em rgba(0,0,0,0.4);
+			}
+
+			.panel_questions {
+				text-align: center;
+				font-size: 1.5em;
+				font-family: Century Gothic, Arial, sans serif;
+			}
+
+			.panel_answers {
+				padding-right: .625em;
+				padding-left: .625em;
+			}
+
+			.panel_answers_trio { /* General Facts: Location, Format, Data Collection */
+				border: .1em solid black;
+				background-color: white;
+				width: 20em;
+				height: auto;
+				display: inline-block;
+				float: left;
+				padding-right: .25em;
+				padding-left: .25em;
+				padding-bottom: 0.625em;
+				text-align: justify;
+				border-radius: 0em; /* Setting that determines rounded corners (0em is pointed corners) */
+				margin: .313em;
+				margin-left: .9em;
+		     	        box-shadow: 0 0.063em 0.313em rgba(0,0,0,0.4);
+
+			}
+
+			.panel_answers_intro {
+				border: .1em solid black;
+				background-color: white;
+				width: 30em;
+				height: auto;
+				display: inline-block;
+				float: left;
+				padding-right: .25em;
+				padding-left: .25em;
+				padding-bottom: 0.625em;
+				text-align: justify;
+				border-radius: 0em;
+				margin: .313em; 
+				margin-left: 1.5em;
+		     	        box-shadow: 0 0.063em 0.313em rgba(0,0,0,0.4);
+
+			}
+
+
+		/*Home Page FAQs*/
+
+			#panel_third {
+				border: .250em solid black;
+				clear: both;
+				display: block;
+				background-color: white;
+				float: left;
+				width: 100%;
+				padding-right: 0em;
+				padding-left: 0em;
+				margin-right:0em;
+				margin-left: 0em;
+
+			/*	position: relative; */
+			/*	float: left; */
+			}
+
+			#panel_fifth {
+				width: 30em;
+				clear: both;
+				float: left;
+
+			}
+
+			#panel_seventh {
+				float: left;
+				width: 30em;
+
+			}
+
+			#panel_tenth {
+				width: 100%;
+				display: block;
+				float: left; 
+				margin-right: 0em;
+				margin-left: 0em;
+				padding-right: 0em;
+				padding-left: 0em;
+
+			}
+
+			#panel_eleventh {
+				float: left;
+				width: 30em;
+				margin-bottom: auto;
+				margin-top: 2.5em;
+
+			}
+
+		/*CleryDart Goals*/
+			.dart_goals	{
+				
+				font-size: 1.1em;
+			}
+
+			#solution	{
+				font-size: 2em;
+				text-align: center;
+			}
+
+
+		/*About Page FAQs*/
+
+			#panel_first {
+				background-color: white;
+				display: inline-block;
+				width: 30em;
+				float: left;
+			/*	position: relative; */
+			/*	float: right; */
+			}
+
+
+			#panel_second {
+				background-color: white;
+				padding-right: 30px;
+			/*	float: left; */
+				clear: both;
+				display: block;
+			/*	position: relative; */
+			/*	padding-right: auto; */
+			/*	padding-left: auto; */
+				width: 50em;
+				margin-left: auto;
+				margin-right: auto;
+			/*	margin-left: 10em; */
+
+			}
+
+
+			#panel_fourth {
+
+			}
+
+
+			#panel_sixth {
+				display: inline-block;
+				width: 30em;
+				float: left;
+			}
+
+
+			#panel_eighth {
+				width: 30em;
+
+			}
+
+			#panel_ninth {
+
+			}
+
+
+
+			*   { Universal Selector to make a border around every html element
+				/*border: 2px dashed black;*/
+			
+			}
+
+		/*Credits*/
+			#credits {
+				border: .250em solid black;
+				background-color: black; /*#E6F0EC*/
+				width: auto;
+				height: auto;
+				display: block;
+				margin-left: 0em;
+				margin-right: 0em;
+				padding-right: 0em;
+				padding-left: 0em;
+				padding-bottom: 0em;
+				text-align: center;
+				border-radius: 0em; /* Setting for rounded corners (0em is pointed corners) */
+				clear: both;	
+			}
+
+			.credits_text {
+				font-size: .8em;
+				color: white;
+				margin-top: .325em;
+				margin-bottom: .325em;
+				
+			}
+
+		/* Sample blocks to test different colors */
+
+			.paints {
+				border: .250em solid black;
+				background-color: white;
+				width: 325px;
+				height: auto;
+				display: block;
+				padding-right: 0.625em;
+				padding-left: 0.625em;
+			}
+
+			#paint_1 {
+				background-color: #000A06;
+			}
+
+			#paint_2 {
+				background-color: #00150C;
+			}
+
+			#paint_3 {
+				background-color: #002013;
+			}
+
+			#paint_4 {
+				background-color: #002A19;
+			}
+			#paint_5 {
+				background-color: #00341F;
+			}
+			#paint_6 {
+				background-color: #003F25;
+			}
+			#paint_7 {
+				background-color: #004A2B;
+			}
+			#paint_8 {
+				background-color: #005432;
+			}
+			#paint_9 {
+				background-color: #005E38;
+			}
+			#paint_10 {
+				background-color: #00693E;
+			}
+			#paint_11 {
+				background-color: #197851;
+			}
+			#paint_12 {
+				background-color: #338765;
+			}
+			#paint_13 {
+				background-color: #4D9678;
+			}
+			#paint_14 {
+				background-color: #66A58B;
+			}
+			#paint_15 {
+				background-color: #80B49E;
+			}
+			#paint_16 {
+				background-color: #99C3B2;
+			}
+			#paint_17 {
+				background-color: #B2D2C5;
+			}
+			#paint_18 {
+				background-color: #CCE1D8;
+			}
+			#paint_19 {
+				background-color: #E6F0EC;
+			}
+			#paint_20 {
+				background-color: #FFFFFF;
+			}
+
+
+
+
