@@ -7,6 +7,7 @@
 # Uses a .csv reader make a dictionary with lat & long coordinates for each campus location from a csv file
 # Uses a .csv reader to make a a list of crime objects from a .csv file; each crime object represents one crime reported
 # Uses the location data from each object to match up with the key in the dictionary
+#      # If the crime's location is not located as a key in the dictionary, it creates an error message.
 # Uses the value from that key to create a random nearby coordinate to allow for multiple markers for one crime location
 # Uses Folium to create an Leaflet.js template based on this information 
 # Folium exports the Leaflet.js template as an HTML file, complete with markers and popups for each crime  
@@ -25,7 +26,7 @@ from crime_august import Crime # Imports Crime class
 campus_coordinates = dict() # initializes the campus_coordinates dictionary
 
 # Reads the CSV file containing the latitude and longitude of each campus location
-csv_campus_coordinates = open('campus_coordinates_july_update.csv', 'rU') #opens .csv file with campus location coordinates
+csv_campus_coordinates = open('campus_coordinates_august.csv', 'rU') #opens .csv file with campus location coordinates
 csvCoordinatesReader = csv.reader(csv_campus_coordinates) # read the .csv file with coordinates
 
 for row in csvCoordinatesReader: #for loop that iterates through all rows in .csv file
@@ -41,7 +42,7 @@ print "campus_coordinate dictionary: " + str(campus_coordinates.items()) #checks
 
 ### CREATION OF CRIME OBJECTS ###
 # Reads the CSV file
-csv_sample = open('crimes_input_by_date_august.csv', 'rU') #opens the crimes_input.csv file #
+csv_sample = open('crimes_input_formatted_by_type_august.csv', 'rU') #opens the crimes_input.csv file #
 csvReader = csv.reader(csv_sample)
 crime_objects_list = [] # Empty list where each crime object will be added after it is created by the for-loop 
 
@@ -85,8 +86,8 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
         
     else:
         # Prints error statement if the crime location of the object does not currently have coordinates
-        print "Auxilio! '" + str(crime_object.crime_location) + "' not in campus_coordinates dictionary.  Please add."
+        print "Auxilio! '" + str(crime_object.crime_location) + "' not in campus_coordinates dictionary.  Please add." # "Auxilio" is Spanish for "help".
         
 #Creates HTML template
-clerydart_map.create_map(path = 'clerydart_august_coordinates_check.html')
+clerydart_map.create_map(path = 'clerydart_august_template.html')
 

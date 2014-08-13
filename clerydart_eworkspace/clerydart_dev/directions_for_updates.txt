@@ -17,3 +17,4 @@ them to the campus_coordinates gnumeric file.  Then export the new computer_coor
 just created.  Update the name of the file that Folium exports.
 7.  Run the clerydart_template.py program.
 8.  Open the new .html file that is created by Folium; check to make sure it works.
+9.  Open the new .html file in vim.
