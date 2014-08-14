@@ -998,14 +998,13 @@ marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Cr
 									marker_221, marker_222]);
 	
 	/* Fixed bug by adding a layer that includes all markers */
-								
-
+	
 	
 /*** Initializes the Leaflet map ***/
 	
 	/*Initializes Map*/
 		var map = new L.Map('map', {
-			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitute and longitude
+			center: new L.LatLng(43.70510, -72.28855), //the center of the map is it's latitude and longitude
 			zoom: 16, 
 			layers: [baseMap, allMarkers],
 			closePopupOnClick: false
@@ -1015,26 +1014,28 @@ marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Cr
 		
 				/* Adds Layers Control to the Legend */
 					var overlayMaps = {
-						"All Crimes (178)": allMarkers,
-						"Assault (11)" : assaultLayer,
+						"All Crimes (221)": allMarkers,
+						"Assault (13)" : assaultLayer,
 						"Bias Incident (1)": biasIncidentLayer,
-						"Burglary (2)": burglaryLayer,
+						"Burglary (5)": burglaryLayer,
 						"Criminal Threatening (1)": criminalThreateningLayer,
 						"Criminal Threatening/Stalking (1)": criminalThreateningStalkingLayer,
-						"Disorderly Conduct (16)": disorderlyConductLayer,
+						"Disorderly Conduct (22)": disorderlyConductLayer,
 						"Disorderly/Public Urination (1)": disorderlyPublicUrinationLayer,
 						"Dogs a Menace (1)": dogsAMenaceLayer,
 						"Driving Under Influence (2)": drivingUnderInfluenceLayer,
 						"Drug Abuse, Sale, Possession (6)": drugAbuseSalePossessionLayer,
-						"Endangering Behavior (6)": endangeringBehaviorLayer,
+						"Endangering Behavior (1)": endangeringBehaviorLayer,
 						"False Fire Alarm (2)": falseFireAlarmLayer,
-						"Larceny-Theft (55)": larcenyTheftLayer,
-						"Liquor Laws (45)": liquorLawsLayer,
+						"Fraud (1)": fraudLayer,
+						"Larceny-Theft (70)": larcenyTheftLayer,
+						"Liquor Laws (49)": liquorLawsLayer,
 						"Resisting Arrest (2)": resistingArrestLayer,
 						"Robbery (1)": robberyLayer,
 						"Sex Offenses (7)": sexOffensesLayer,
 						"Unauthorized Entry/Presence (1)": unauthorizedEntryPresenceLayer,
-						"Vandalism (22)": vandalismLayer
+						"Vandalism (33)": vandalismLayer,
+						"Violation of Privacy (1)": violationOfPrivacyLayer
 					};
 
 					/*Controls which layers are visible on the upper right hand corner*/
@@ -1211,7 +1212,7 @@ marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Cr
 
 			<div id="credits">
 				<p class="credits_text">A project by Guillermo K. Rojas, Class of 2013</p>
-				<p class="credits_text">Last Update: July 30, 2014</p>
+				<p class="credits_text">Last Update: August 13, 2014</p>
 				<p class="credits_text">Currently working on: improving JavaScript workflow for updates.</p>	
 				<p class="credits_text">Follow development more closely at <a href="http://github.com/guillermokrh/clerydart"> GitHub </a></p>	
 				<p class="credits_text">Please send thoughts and constructive feedback to: guillermo.feedback@gmail.com <br> <br> </p>
