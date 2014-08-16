@@ -18,3 +18,7 @@ just created.  Update the name of the file that Folium exports.
 7.  Run the clerydart_template.py program.
 8.  Open the new .html file that is created by Folium; check to make sure it works.
 9.  Open the new .html file in vim; erase the individual marker layers that were created by Folium.*
+10.  Check the different types of crime layers, add any new layer groups (types of crimes) that 
+need to be added, for example "Violation of Privacy".
+11.  Run the prints_variables.py program to print all the names of markers, copy and paste the new
+marker variables to the crimes layers.   
