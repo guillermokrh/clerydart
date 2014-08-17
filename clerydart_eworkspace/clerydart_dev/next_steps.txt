@@ -39,7 +39,8 @@ Purpose: Outline next steps for CleryDart
 23. Look into licensing options.
 24. Test Github for Mac - done 7/31/14
 
-25. Get Folium to not add each marker as a separate layer!
+25. Get Folium to not add each marker as a separate layer! - done manually for July and August updates, I want to modify
+the Folium code itself.
 
 26. Figure out way to build app that is native to JS, can do authentication, can take data straight from .csv files,
 and plot it onto a Leaflet map.  
@@ -52,3 +53,4 @@ and plot it onto a Leaflet map.
 		- solve the "unknown location" problem, not put it in the Green
 		- potentially use Rails instead of JS?  Look into this	
 27. Clean up CleryDart file directory
+28. Post August update - done August 13, 2014.
