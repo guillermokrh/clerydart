@@ -52,10 +52,6 @@ and plot it onto a Leaflet map.
 		- possible electricity down alerts
 		- solve the "unknown location" problem, not put it in the Green
 		- potentially use Rails instead of JS?  Look into this	
-<<<<<<< HEAD
 27. Clean up CleryDart file directory - done
-28. Add section on how crime statistics are compiled by S&S.
-=======
-27. Clean up CleryDart file directory
 28. Post August update - done August 13, 2014.
->>>>>>> e9cffb3a9ba190d078aad1124e58b03261cf69ef
+29. Add section on how crime statistics are compiled by S&S.
