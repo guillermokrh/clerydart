@@ -22,3 +22,6 @@ just created.  Update the name of the file that Folium exports.
 need to be added, for example "Violation of Privacy".
 11.  Run the prints_variables.py program to print all the names of markers, copy and paste the new
 marker variables to the crimes layers.   
+12. Copy and paste the prints_crime_occurrences.js code into the .html .js code, in order to count
+how much of each crime type there is.  Open the .html file, and look at the console to see the print-out.
+Copy and paste the print-outs to the layers legend control.
