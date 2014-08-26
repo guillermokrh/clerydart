@@ -1,0 +1,699 @@
+List of crime objects: [<crime_late_august.Crime instance at 0x7ff3476770e0>, <crime_late_august.Crime instance at 0x7ff347677170>, <crime_late_august.Crime instance at 0x7ff3476771b8>, <crime_late_august.Crime instance at 0x7ff347677200>, <crime_late_august.Crime instance at 0x7ff347677290>, <crime_late_august.Crime instance at 0x7ff347677248>, <crime_late_august.Crime instance at 0x7ff347677320>, <crime_late_august.Crime instance at 0x7ff347677368>, <crime_late_august.Crime instance at 0x7ff3476773b0>, <crime_late_august.Crime instance at 0x7ff3476773f8>, <crime_late_august.Crime instance at 0x7ff347677440>, <crime_late_august.Crime instance at 0x7ff347677488>, <crime_late_august.Crime instance at 0x7ff3476774d0>, <crime_late_august.Crime instance at 0x7ff347677518>, <crime_late_august.Crime instance at 0x7ff347677560>, <crime_late_august.Crime instance at 0x7ff3476775f0>, <crime_late_august.Crime instance at 0x7ff347677638>, <crime_late_august.Crime instance at 0x7ff3476776c8>, <crime_late_august.Crime instance at 0x7ff347677710>, <crime_late_august.Crime instance at 0x7ff347677758>, <crime_late_august.Crime instance at 0x7ff3476777a0>, <crime_late_august.Crime instance at 0x7ff347677830>, <crime_late_august.Crime instance at 0x7ff3476778c0>, <crime_late_august.Crime instance at 0x7ff347677950>, <crime_late_august.Crime instance at 0x7ff347677998>, <crime_late_august.Crime instance at 0x7ff3476779e0>, <crime_late_august.Crime instance at 0x7ff347677a28>, <crime_late_august.Crime instance at 0x7ff347677a70>, <crime_late_august.Crime instance at 0x7ff347677ab8>, <crime_late_august.Crime instance at 0x7ff347677b00>, <crime_late_august.Crime instance at 0x7ff347677b48>, <crime_late_august.Crime instance at 0x7ff347677b90>, <crime_late_august.Crime instance at 0x7ff347677bd8>, <crime_late_august.Crime instance at 0x7ff347677c68>, <crime_late_august.Crime instance at 0x7ff347677cb0>, <crime_late_august.Crime instance at 0x7ff347677cf8>, <crime_late_august.Crime instance at 0x7ff347677d40>, <crime_late_august.Crime instance at 0x7ff347677d88>, <crime_late_august.Crime instance at 0x7ff347677dd0>, <crime_late_august.Crime instance at 0x7ff347677e18>, <crime_late_august.Crime instance at 0x7ff347677ea8>, <crime_late_august.Crime instance at 0x7ff347677ef0>, <crime_late_august.Crime instance at 0x7ff347677f38>, <crime_late_august.Crime instance at 0x7ff347677fc8>, <crime_late_august.Crime instance at 0x7ff347677f80>, <crime_late_august.Crime instance at 0x7ff34767f098>, <crime_late_august.Crime instance at 0x7ff34767f0e0>, <crime_late_august.Crime instance at 0x7ff34767f128>, <crime_late_august.Crime instance at 0x7ff34767f170>, <crime_late_august.Crime instance at 0x7ff34767f1b8>, <crime_late_august.Crime instance at 0x7ff34767f200>, <crime_late_august.Crime instance at 0x7ff34767f290>, <crime_late_august.Crime instance at 0x7ff34767f2d8>, <crime_late_august.Crime instance at 0x7ff34767f320>, <crime_late_august.Crime instance at 0x7ff34767f368>, <crime_late_august.Crime instance at 0x7ff34767f3b0>, <crime_late_august.Crime instance at 0x7ff34767f3f8>, <crime_late_august.Crime instance at 0x7ff34767f488>, <crime_late_august.Crime instance at 0x7ff34767f4d0>, <crime_late_august.Crime instance at 0x7ff34767f560>, <crime_late_august.Crime instance at 0x7ff34767f5f0>, <crime_late_august.Crime instance at 0x7ff34767f638>, <crime_late_august.Crime instance at 0x7ff34767f680>, <crime_late_august.Crime instance at 0x7ff34767f6c8>, <crime_late_august.Crime instance at 0x7ff34767f710>, <crime_late_august.Crime instance at 0x7ff34767f758>, <crime_late_august.Crime instance at 0x7ff34767f7e8>, <crime_late_august.Crime instance at 0x7ff34767f830>, <crime_late_august.Crime instance at 0x7ff34767f8c0>, <crime_late_august.Crime instance at 0x7ff34767f878>, <crime_late_august.Crime instance at 0x7ff34767f908>, <crime_late_august.Crime instance at 0x7ff34767f998>, <crime_late_august.Crime instance at 0x7ff34767fa28>, <crime_late_august.Crime instance at 0x7ff34767f9e0>, <crime_late_august.Crime instance at 0x7ff34767fa70>, <crime_late_august.Crime instance at 0x7ff34767fb00>, <crime_late_august.Crime instance at 0x7ff34767fb90>, <crime_late_august.Crime instance at 0x7ff34767fc68>, <crime_late_august.Crime instance at 0x7ff34767fcf8>, <crime_late_august.Crime instance at 0x7ff34767fdd0>, <crime_late_august.Crime instance at 0x7ff34767fd88>, <crime_late_august.Crime instance at 0x7ff34767fe18>, <crime_late_august.Crime instance at 0x7ff34767fe60>, <crime_late_august.Crime instance at 0x7ff34767fef0>, <crime_late_august.Crime instance at 0x7ff34767ff38>, <crime_late_august.Crime instance at 0x7ff34767ff80>, <crime_late_august.Crime instance at 0x7ff34767ffc8>, <crime_late_august.Crime instance at 0x7ff347687050>, <crime_late_august.Crime instance at 0x7ff347687098>, <crime_late_august.Crime instance at 0x7ff3476870e0>, <crime_late_august.Crime instance at 0x7ff347687128>, <crime_late_august.Crime instance at 0x7ff347687170>, <crime_late_august.Crime instance at 0x7ff3476871b8>, <crime_late_august.Crime instance at 0x7ff347687200>, <crime_late_august.Crime instance at 0x7ff347687248>, <crime_late_august.Crime instance at 0x7ff347687290>, <crime_late_august.Crime instance at 0x7ff347687320>, <crime_late_august.Crime instance at 0x7ff347687368>, <crime_late_august.Crime instance at 0x7ff3476873b0>, <crime_late_august.Crime instance at 0x7ff3476873f8>, <crime_late_august.Crime instance at 0x7ff347687488>, <crime_late_august.Crime instance at 0x7ff3476874d0>, <crime_late_august.Crime instance at 0x7ff347687518>, <crime_late_august.Crime instance at 0x7ff347687560>, <crime_late_august.Crime instance at 0x7ff3476875a8>, <crime_late_august.Crime instance at 0x7ff3476875f0>, <crime_late_august.Crime instance at 0x7ff347687638>, <crime_late_august.Crime instance at 0x7ff3476876c8>, <crime_late_august.Crime instance at 0x7ff347687680>, <crime_late_august.Crime instance at 0x7ff3476877a0>, <crime_late_august.Crime instance at 0x7ff3476877e8>, <crime_late_august.Crime instance at 0x7ff347687878>, <crime_late_august.Crime instance at 0x7ff3476878c0>, <crime_late_august.Crime instance at 0x7ff347687950>, <crime_late_august.Crime instance at 0x7ff347687998>, <crime_late_august.Crime instance at 0x7ff3476879e0>, <crime_late_august.Crime instance at 0x7ff347687a70>, <crime_late_august.Crime instance at 0x7ff347687ab8>, <crime_late_august.Crime instance at 0x7ff347687b00>, <crime_late_august.Crime instance at 0x7ff347687b48>, <crime_late_august.Crime instance at 0x7ff347687b90>, <crime_late_august.Crime instance at 0x7ff347687c20>, <crime_late_august.Crime instance at 0x7ff347687c68>, <crime_late_august.Crime instance at 0x7ff347687cb0>, <crime_late_august.Crime instance at 0x7ff347687cf8>, <crime_late_august.Crime instance at 0x7ff347687d40>, <crime_late_august.Crime instance at 0x7ff347687dd0>, <crime_late_august.Crime instance at 0x7ff347687e18>, <crime_late_august.Crime instance at 0x7ff347687e60>, <crime_late_august.Crime instance at 0x7ff347687ea8>, <crime_late_august.Crime instance at 0x7ff347687ef0>, <crime_late_august.Crime instance at 0x7ff347687f80>, <crime_late_august.Crime instance at 0x7ff347687f38>, <crime_late_august.Crime instance at 0x7ff347687fc8>, <crime_late_august.Crime instance at 0x7ff347613050>, <crime_late_august.Crime instance at 0x7ff347613098>, <crime_late_august.Crime instance at 0x7ff3476130e0>, <crime_late_august.Crime instance at 0x7ff347613170>, <crime_late_august.Crime instance at 0x7ff347613200>, <crime_late_august.Crime instance at 0x7ff347613248>, <crime_late_august.Crime instance at 0x7ff347613290>, <crime_late_august.Crime instance at 0x7ff347613320>, <crime_late_august.Crime instance at 0x7ff3476133b0>, <crime_late_august.Crime instance at 0x7ff3476133f8>, <crime_late_august.Crime instance at 0x7ff347613488>, <crime_late_august.Crime instance at 0x7ff347613518>, <crime_late_august.Crime instance at 0x7ff347613560>, <crime_late_august.Crime instance at 0x7ff3476135a8>, <crime_late_august.Crime instance at 0x7ff3476135f0>, <crime_late_august.Crime instance at 0x7ff347613638>, <crime_late_august.Crime instance at 0x7ff3476136c8>, <crime_late_august.Crime instance at 0x7ff347613758>, <crime_late_august.Crime instance at 0x7ff3476137a0>, <crime_late_august.Crime instance at 0x7ff347613830>, <crime_late_august.Crime instance at 0x7ff347613878>, <crime_late_august.Crime instance at 0x7ff347613908>, <crime_late_august.Crime instance at 0x7ff347613950>, <crime_late_august.Crime instance at 0x7ff347613998>, <crime_late_august.Crime instance at 0x7ff347613a28>, <crime_late_august.Crime instance at 0x7ff3476139e0>, <crime_late_august.Crime instance at 0x7ff347613b00>, <crime_late_august.Crime instance at 0x7ff347613b90>, <crime_late_august.Crime instance at 0x7ff347613c20>, <crime_late_august.Crime instance at 0x7ff347613c68>, <crime_late_august.Crime instance at 0x7ff347613cf8>, <crime_late_august.Crime instance at 0x7ff347613d88>, <crime_late_august.Crime instance at 0x7ff347613e18>, <crime_late_august.Crime instance at 0x7ff347613ea8>, <crime_late_august.Crime instance at 0x7ff347613ef0>, <crime_late_august.Crime instance at 0x7ff347613f80>, <crime_late_august.Crime instance at 0x7ff347613fc8>, <crime_late_august.Crime instance at 0x7ff34761a050>, <crime_late_august.Crime instance at 0x7ff34761a098>, <crime_late_august.Crime instance at 0x7ff34761a0e0>, <crime_late_august.Crime instance at 0x7ff34761a128>, <crime_late_august.Crime instance at 0x7ff34761a170>, <crime_late_august.Crime instance at 0x7ff34761a1b8>, <crime_late_august.Crime instance at 0x7ff34761a200>, <crime_late_august.Crime instance at 0x7ff34761a248>, <crime_late_august.Crime instance at 0x7ff34761a290>, <crime_late_august.Crime instance at 0x7ff34761a320>, <crime_late_august.Crime instance at 0x7ff34761a368>, <crime_late_august.Crime instance at 0x7ff34761a3b0>, <crime_late_august.Crime instance at 0x7ff34761a3f8>, <crime_late_august.Crime instance at 0x7ff34761a440>, <crime_late_august.Crime instance at 0x7ff34761a4d0>, <crime_late_august.Crime instance at 0x7ff34761a518>, <crime_late_august.Crime instance at 0x7ff34761a5f0>, <crime_late_august.Crime instance at 0x7ff34761a5a8>, <crime_late_august.Crime instance at 0x7ff34761a680>, <crime_late_august.Crime instance at 0x7ff34761a6c8>, <crime_late_august.Crime instance at 0x7ff34761a710>, <crime_late_august.Crime instance at 0x7ff34761a7a0>, <crime_late_august.Crime instance at 0x7ff34761a7e8>, <crime_late_august.Crime instance at 0x7ff34761a830>, <crime_late_august.Crime instance at 0x7ff34761a878>, <crime_late_august.Crime instance at 0x7ff34761a8c0>, <crime_late_august.Crime instance at 0x7ff34761a908>, <crime_late_august.Crime instance at 0x7ff34761a950>, <crime_late_august.Crime instance at 0x7ff34761a998>, <crime_late_august.Crime instance at 0x7ff34761aa28>, <crime_late_august.Crime instance at 0x7ff34761aab8>, <crime_late_august.Crime instance at 0x7ff34761ab48>, <crime_late_august.Crime instance at 0x7ff34761ab90>, <crime_late_august.Crime instance at 0x7ff34761ab00>, <crime_late_august.Crime instance at 0x7ff34761ac20>, <crime_late_august.Crime instance at 0x7ff34761acb0>, <crime_late_august.Crime instance at 0x7ff34761acf8>, <crime_late_august.Crime instance at 0x7ff34761ad88>, <crime_late_august.Crime instance at 0x7ff34761ae18>, <crime_late_august.Crime instance at 0x7ff34761ae60>, <crime_late_august.Crime instance at 0x7ff34761aef0>, <crime_late_august.Crime instance at 0x7ff34761af38>, <crime_late_august.Crime instance at 0x7ff34761af80>, <crime_late_august.Crime instance at 0x7ff34761afc8>, <crime_late_august.Crime instance at 0x7ff347622050>, <crime_late_august.Crime instance at 0x7ff3476220e0>, <crime_late_august.Crime instance at 0x7ff347622170>, <crime_late_august.Crime instance at 0x7ff347622200>, <crime_late_august.Crime instance at 0x7ff347622290>, <crime_late_august.Crime instance at 0x7ff3476222d8>, <crime_late_august.Crime instance at 0x7ff347622320>, <crime_late_august.Crime instance at 0x7ff3476223f8>, <crime_late_august.Crime instance at 0x7ff347622440>, <crime_late_august.Crime instance at 0x7ff347622488>, <crime_late_august.Crime instance at 0x7ff347622518>, <crime_late_august.Crime instance at 0x7ff3476224d0>, <crime_late_august.Crime instance at 0x7ff3476225a8>, <crime_late_august.Crime instance at 0x7ff347622638>, <crime_late_august.Crime instance at 0x7ff347622710>, <crime_late_august.Crime instance at 0x7ff3476227a0>, <crime_late_august.Crime instance at 0x7ff3476227e8>, <crime_late_august.Crime instance at 0x7ff347622878>, <crime_late_august.Crime instance at 0x7ff347622908>, <crime_late_august.Crime instance at 0x7ff347622998>, <crime_late_august.Crime instance at 0x7ff347622a28>, <crime_late_august.Crime instance at 0x7ff347622b00>, <crime_late_august.Crime instance at 0x7ff347622b90>]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Robinson Hall Crime Object in Crime class: [43.70309895, -72.2899102]
+Testing Latitude and Longitude .marker_position method: [43.70307696000631, -72.28981675009504]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of The Choates Crime Object in Crime class: [43.70732, -72.29102]
+Testing Latitude and Longitude .marker_position method: [43.70739389837766, -72.2910676477323]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of North Fayerweather Hall Crime Object in Crime class: [43.70406865, -72.286355197439]
+Testing Latitude and Longitude .marker_position method: [43.704154657620386, -72.28631570070377]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.704573305860876, -72.2904914663103]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Little Hall Crime Object in Crime class: [43.70711, -72.29075]
+Testing Latitude and Longitude .marker_position method: [43.70719222609837, -72.29071760034606]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tabard Crime Object in Crime class: [43.706497, -72.2906673244472]
+Testing Latitude and Longitude .marker_position method: [43.706527969913246, -72.29071616225373]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tabard Crime Object in Crime class: [43.706497, -72.2906673244472]
+Testing Latitude and Longitude .marker_position method: [43.70647531067726, -72.29067712369798]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Campus Crime Object in Crime class: [43.70311, -72.28854]
+Testing Latitude and Longitude .marker_position method: [43.70314206017714, -72.28852768647572]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Rockefeller Center Crime Object in Crime class: [43.70575, -72.29006]
+Testing Latitude and Longitude .marker_position method: [43.70584425344049, -72.29005302110525]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.70468787438472, -72.29062760802806]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tabard Crime Object in Crime class: [43.706497, -72.2906673244472]
+Testing Latitude and Longitude .marker_position method: [43.706514435721445, -72.29066139255173]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Collis Crime Object in Crime class: [43.70276105, -72.2899180444306]
+Testing Latitude and Longitude .marker_position method: [43.70282759820522, -72.29001072259327]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Psi Upsilon Crime Object in Crime class: [43.70274215, -72.290617054106]
+Testing Latitude and Longitude .marker_position method: [43.702784424195855, -72.2905345462458]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Rockefeller Center Crime Object in Crime class: [43.70575, -72.29006]
+Testing Latitude and Longitude .marker_position method: [43.70568294311722, -72.29002556789165]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.705344384720036, -72.28868641567924]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Rockefeller Center Crime Object in Crime class: [43.70575, -72.29006]
+Testing Latitude and Longitude .marker_position method: [43.70570221604257, -72.29014084721601]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Webster Avenue Crime Object in Crime class: [43.706527, -72.292119]
+Testing Latitude and Longitude .marker_position method: [43.706552860166624, -72.29218570748289]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Middle Fayerweather Hall Crime Object in Crime class: [43.70376505, -72.2863886847996]
+Testing Latitude and Longitude .marker_position method: [43.703843673992246, -72.28643075530663]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Russell Sage Hall Crime Object in Crime class: [43.70547515, -72.2907036443992]
+Testing Latitude and Longitude .marker_position method: [43.70548510756913, -72.29077972700254]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Webster Avenue Crime Object in Crime class: [43.706527, -72.292119]
+Testing Latitude and Longitude .marker_position method: [43.70654069129196, -72.29203271265371]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.70291761264245, -72.29077922331288]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Middle Fayerweather Hall Crime Object in Crime class: [43.70376505, -72.2863886847996]
+Testing Latitude and Longitude .marker_position method: [43.70372963964442, -72.28648163939464]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Life Sciences Center Crime Object in Crime class: [43.70895995, -72.2837479501533]
+Testing Latitude and Longitude .marker_position method: [43.70903758581823, -72.28384603674516]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70521352720611, -72.28858667903323]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.70293597829168, -72.29093920439311]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sudikoff Hall Crime Object in Crime class: [43.7065135, -72.2871936582302]
+Testing Latitude and Longitude .marker_position method: [43.7065820059148, -72.28716553299236]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Russell Sage Hall Crime Object in Crime class: [43.70547515, -72.2907036443992]
+Testing Latitude and Longitude .marker_position method: [43.70556636325365, -72.29072708854864]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Fahey Hall Crime Object in Crime class: [43.70538595, -72.2915114079856]
+Testing Latitude and Longitude .marker_position method: [43.7054467828217, -72.29142010908474]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Cohen Hall Crime Object in Crime class: [43.7076032, -72.2915465822753]
+Testing Latitude and Longitude .marker_position method: [43.70765630449012, -72.29154666783994]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.703068958640074, -72.29088261422714]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Fahey Hall Crime Object in Crime class: [43.70538595, -72.2915114079856]
+Testing Latitude and Longitude .marker_position method: [43.70547488282567, -72.29145296229945]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tuck Mall/Tuck Circle Crime Object in Crime class: [43.70517, -72.2942]
+Testing Latitude and Longitude .marker_position method: [43.70517494710999, -72.29410448358007]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Fahey Hall Crime Object in Crime class: [43.70538595, -72.2915114079856]
+Testing Latitude and Longitude .marker_position method: [43.70530977149605, -72.29155306914055]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Silsby Hall Crime Object in Crime class: [43.70545575, -72.2900228447927]
+Testing Latitude and Longitude .marker_position method: [43.705397168300536, -72.2900503145043]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McLane Hall Crime Object in Crime class: [43.7055275, -72.2918758125]
+Testing Latitude and Longitude .marker_position method: [43.705499716224374, -72.29192629927967]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Bissell Hall Crime Object in Crime class: [43.70726005, -72.2913526366851]
+Testing Latitude and Longitude .marker_position method: [43.70718292101306, -72.29133085807206]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of French Hall Crime Object in Crime class: [43.70407965, -72.2969741952534]
+Testing Latitude and Longitude .marker_position method: [43.704149029447976, -72.29702503818103]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Cohen Hall Crime Object in Crime class: [43.7076032, -72.2915465822753]
+Testing Latitude and Longitude .marker_position method: [43.70764689691227, -72.29163777357476]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of North Massachusetts Hall Crime Object in Crime class: [43.70415185, -72.290612862455]
+Testing Latitude and Longitude .marker_position method: [43.70415148283957, -72.29063209489965]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Cohen Hall Crime Object in Crime class: [43.7076032, -72.2915465822753]
+Testing Latitude and Longitude .marker_position method: [43.707631540810546, -72.29150880149487]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Middle Fayerweather Hall Crime Object in Crime class: [43.70376505, -72.2863886847996]
+Testing Latitude and Longitude .marker_position method: [43.70385323786523, -72.28633820498109]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McLane Hall Crime Object in Crime class: [43.7055275, -72.2918758125]
+Testing Latitude and Longitude .marker_position method: [43.705616538340095, -72.29178174683219]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.702964524760084, -72.29091699223784]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Wheeler Hall Crime Object in Crime class: [43.70508265, -72.2872778831085]
+Testing Latitude and Longitude .marker_position method: [43.70517347772743, -72.28730645184636]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.70460999474934, -72.29051634392226]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 24 School St. Apt 12 Crime Object in Crime class: [43.69891, -72.29111]
+Testing Latitude and Longitude .marker_position method: [43.698928757686566, -72.2910154576186]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Streeter Hall Crime Object in Crime class: [43.70465145, -72.2916714314366]
+Testing Latitude and Longitude .marker_position method: [43.704594736749144, -72.29166330982319]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Maxwell Hall/Climbing Gym Crime Object in Crime class: [43.70370155, -72.2954308018977]
+Testing Latitude and Longitude .marker_position method: [43.70364227395017, -72.29546762869882]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Cohen Hall Crime Object in Crime class: [43.7076032, -72.2915465822753]
+Testing Latitude and Longitude .marker_position method: [43.70769881467418, -72.29158098791292]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Chi Gamma Epsilon Crime Object in Crime class: [43.70668845, -72.2914545]
+Testing Latitude and Longitude .marker_position method: [43.706724980347886, -72.29144177430658]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Streeter Hall Crime Object in Crime class: [43.70465145, -72.2916714314366]
+Testing Latitude and Longitude .marker_position method: [43.70457750711251, -72.29173067116386]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Chi Gamma Epsilon Crime Object in Crime class: [43.70668845, -72.2914545]
+Testing Latitude and Longitude .marker_position method: [43.70678842148835, -72.2915277795576]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Fahey Hall Crime Object in Crime class: [43.70538595, -72.2915114079856]
+Testing Latitude and Longitude .marker_position method: [43.70543273706102, -72.29144116896063]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Silsby Hall Crime Object in Crime class: [43.70545575, -72.2900228447927]
+Testing Latitude and Longitude .marker_position method: [43.705527325960986, -72.2899409796347]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 9 South Main St.  Crime Object in Crime class: [43.70203, -72.2896]
+Testing Latitude and Longitude .marker_position method: [43.70212653009927, -72.28968332987516]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.70463801045882, -72.29048456432263]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Woodward Hall Crime Object in Crime class: [43.70424985, -72.28550336915]
+Testing Latitude and Longitude .marker_position method: [43.7042357562925, -72.28542465402431]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Kappa Kappa Crime Object in Crime class: [43.70630725, -72.2899433]
+Testing Latitude and Longitude .marker_position method: [43.706399460294584, -72.28988324364582]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of East Wheelock Street Crime Object in Crime class: [43.703003, -72.285766]
+Testing Latitude and Longitude .marker_position method: [43.70309688348389, -72.28580833239998]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Kappa Kappa Crime Object in Crime class: [43.70630725, -72.2899433]
+Testing Latitude and Longitude .marker_position method: [43.70627387158601, -72.29003950780775]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Amarna Crime Object in Crime class: [43.7044931, -72.2812216049804]
+Testing Latitude and Longitude .marker_position method: [43.70445724961008, -72.28120883851902]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Carson Hall Crime Object in Crime class: [43.7058338, -72.289076716175]
+Testing Latitude and Longitude .marker_position method: [43.705861745539025, -72.28900365200343]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McCulloch 2-1/2 North Park Street, Highway/Road/Alley Crime Object in Crime class: [43.7047, -72.28303]
+Testing Latitude and Longitude .marker_position method: [43.70479535431321, -72.28303128741331]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sudikoff Hall Crime Object in Crime class: [43.7065135, -72.2871936582302]
+Testing Latitude and Longitude .marker_position method: [43.70650706467001, -72.28717961020854]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McLane Hall Crime Object in Crime class: [43.7055275, -72.2918758125]
+Testing Latitude and Longitude .marker_position method: [43.70549388614664, -72.29183657455953]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.70458862606392, -72.290593976559]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Wilder Crime Object in Crime class: [43.7053586, -72.2862033353796]
+Testing Latitude and Longitude .marker_position method: [43.705325996733876, -72.28630029070362]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Wilder Crime Object in Crime class: [43.7053586, -72.2862033353796]
+Testing Latitude and Longitude .marker_position method: [43.70528376626816, -72.28610991486465]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Blunt Alumni Center Crime Object in Crime class: [43.704703, -72.2899139168333]
+Testing Latitude and Longitude .marker_position method: [43.7047666767421, -72.28996374485654]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of unknown Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.703458824106264, -72.28860789284059]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dewey Lot Crime Object in Crime class: [43.71024, -72.28354]
+Testing Latitude and Longitude .marker_position method: [43.710313219208146, -72.28351726744134]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Lord Hall Crime Object in Crime class: [43.70464765, -72.2920798794133]
+Testing Latitude and Longitude .marker_position method: [43.70461809340262, -72.29209717382255]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Wilder Crime Object in Crime class: [43.7053586, -72.2862033353796]
+Testing Latitude and Longitude .marker_position method: [43.705401580772346, -72.28611014934583]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Middle Massachusetts Hall Crime Object in Crime class: [43.70379315, -72.2905284761929]
+Testing Latitude and Longitude .marker_position method: [43.70380964415447, -72.2906120250909]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Collis Crime Object in Crime class: [43.70276105, -72.2899180444306]
+Testing Latitude and Longitude .marker_position method: [43.702753913203075, -72.28991202221964]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of South Fayerweather Hall Crime Object in Crime class: [43.7034446, -72.2863442020961]
+Testing Latitude and Longitude .marker_position method: [43.703437445183994, -72.28638394299463]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hopkins Center Crime Object in Crime class: [43.7019, -72.28805]
+Testing Latitude and Longitude .marker_position method: [43.70187406563035, -72.28809771868883]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Thayer School of Engineering Crime Object in Crime class: [43.70454, -72.29481]
+Testing Latitude and Longitude .marker_position method: [43.704634237472746, -72.29488910342735]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of South Fayerweather Hall Crime Object in Crime class: [43.7034446, -72.2863442020961]
+Testing Latitude and Longitude .marker_position method: [43.70338132411483, -72.28638844879416]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of The Green Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.703463870784944, -72.28863377567822]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.704678520395504, -72.29055571359007]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.70297484769129, -72.29090041455285]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Life Sciences Center Crime Object in Crime class: [43.70895995, -72.2837479501533]
+Testing Latitude and Longitude .marker_position method: [43.70894078090857, -72.28365511749384]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sudikoff Hall Crime Object in Crime class: [43.7065135, -72.2871936582302]
+Testing Latitude and Longitude .marker_position method: [43.706577612393346, -72.28723047513623]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Kappa Kappa Crime Object in Crime class: [43.70630725, -72.2899433]
+Testing Latitude and Longitude .marker_position method: [43.70629482501009, -72.28988943598597]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70538354891543, -72.28874203036762]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Chi Gamma Epsilon Crime Object in Crime class: [43.70668845, -72.2914545]
+Testing Latitude and Longitude .marker_position method: [43.7066648823264, -72.291459420594]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sarner Underground Crime Object in Crime class: [43.70288, -72.29092]
+Testing Latitude and Longitude .marker_position method: [43.70281042857552, -72.29089037370534]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of North Park St. Crime Object in Crime class: [43.705408, -72.282665]
+Testing Latitude and Longitude .marker_position method: [43.705505868724366, -72.2827286407057]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McLane Hall Crime Object in Crime class: [43.7055275, -72.2918758125]
+Testing Latitude and Longitude .marker_position method: [43.705502914358505, -72.29191933212256]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Hall Crime Object in Crime class: [43.70378395, -72.2870693166467]
+Testing Latitude and Longitude .marker_position method: [43.70374201231067, -72.28701287779509]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sudikoff Hall Crime Object in Crime class: [43.7065135, -72.2871936582302]
+Testing Latitude and Longitude .marker_position method: [43.706541158209646, -72.28721563625759]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Plainfield Road Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.70353241858257, -72.28854353431905]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Alpha Chi Alpha Crime Object in Crime class: [43.7070157, -72.2928047699955]
+Testing Latitude and Longitude .marker_position method: [43.70698383876348, -72.29284080859091]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Hall Crime Object in Crime class: [43.70378395, -72.2870693166467]
+Testing Latitude and Longitude .marker_position method: [43.70382046527221, -72.28706510092125]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Russell Sage Hall Crime Object in Crime class: [43.70547515, -72.2907036443992]
+Testing Latitude and Longitude .marker_position method: [43.70556213426783, -72.2906775472137]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Cohen Hall Crime Object in Crime class: [43.7076032, -72.2915465822753]
+Testing Latitude and Longitude .marker_position method: [43.7075576354357, -72.2914523690244]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Life Sciences Center Crime Object in Crime class: [43.70895995, -72.2837479501533]
+Testing Latitude and Longitude .marker_position method: [43.708873434310625, -72.2837206538181]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.70303775235039, -72.29075374258343]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Collis Crime Object in Crime class: [43.70276105, -72.2899180444306]
+Testing Latitude and Longitude .marker_position method: [43.70282139332574, -72.28995849551892]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70536328806769, -72.28860011809131]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Thompson Arena Crime Object in Crime class: [43.701048, -72.2802245759748]
+Testing Latitude and Longitude .marker_position method: [43.70098585020917, -72.28022032665514]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Bissell Hall Crime Object in Crime class: [43.70726005, -72.2913526366851]
+Testing Latitude and Longitude .marker_position method: [43.707252848834855, -72.29136746305619]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Visual Arts Parking Lot Crime Object in Crime class: [43.70142, -72.28617]
+Testing Latitude and Longitude .marker_position method: [43.70137443475169, -72.28624376601684]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of River Cluster Crime Object in Crime class: [43.70424, -72.29681]
+Testing Latitude and Longitude .marker_position method: [43.7043007637593, -72.29679015981289]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Delta Epsilon Crime Object in Crime class: [43.7067859, -72.2920047004859]
+Testing Latitude and Longitude .marker_position method: [43.7067265274077, -72.29198825135767]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Choate House Crime Object in Crime class: [43.70711265, -72.2894759697742]
+Testing Latitude and Longitude .marker_position method: [43.707196483893576, -72.28953916918907]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Occom Pond Crime Object in Crime class: [43.71103, -72.28766]
+Testing Latitude and Longitude .marker_position method: [43.71106713203106, -72.28759243412908]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tabard Crime Object in Crime class: [43.706497, -72.2906673244472]
+Testing Latitude and Longitude .marker_position method: [43.70650532312447, -72.29064162648253]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Berry Sports Center & Leede Arena Crime Object in Crime class: [43.7029932, -72.2828235326284]
+Testing Latitude and Longitude .marker_position method: [43.70298953119246, -72.28287318376533]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Mass Row Crime Object in Crime class: [43.703274, -72.290325]
+Testing Latitude and Longitude .marker_position method: [43.70336561000518, -72.29036877064516]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Goldstein Dorm/Occom Commons Crime Object in Crime class: [43.70759085, -72.2865742162421]
+Testing Latitude and Longitude .marker_position method: [43.70752006382007, -72.28651886656586]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tabard Crime Object in Crime class: [43.706497, -72.2906673244472]
+Testing Latitude and Longitude .marker_position method: [43.7064695450193, -72.2906561798686]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Alumni Gym/ Floren Crime Object in Crime class: [43.70158, -72.28346]
+Testing Latitude and Longitude .marker_position method: [43.70165536455891, -72.2833705574011]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of The Lodge Crime Object in Crime class: [43.70071595, -72.2866295879018]
+Testing Latitude and Longitude .marker_position method: [43.70071827194209, -72.28660090018151]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Hall Crime Object in Crime class: [43.70378395, -72.2870693166467]
+Testing Latitude and Longitude .marker_position method: [43.70370271999185, -72.28715906735042]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of North Fayerweather Hall Crime Object in Crime class: [43.70406865, -72.286355197439]
+Testing Latitude and Longitude .marker_position method: [43.704047782221714, -72.2864300120331]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hood Museum Crime Object in Crime class: [43.70185, -72.28716]
+Testing Latitude and Longitude .marker_position method: [43.7018805438202, -72.2872285547666]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Carson Hall Crime Object in Crime class: [43.7058338, -72.289076716175]
+Testing Latitude and Longitude .marker_position method: [43.705793358486424, -72.28901008209723]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Beta Alpha Omega Crime Object in Crime class: [43.70603195, -72.2909446915796]
+Testing Latitude and Longitude .marker_position method: [43.70602781728481, -72.29089342361567]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of French Hall Crime Object in Crime class: [43.70407965, -72.2969741952534]
+Testing Latitude and Longitude .marker_position method: [43.70412171434068, -72.29688716857946]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 5 Rope Ferry Road Crime Object in Crime class: [43.70847, -72.2872]
+Testing Latitude and Longitude .marker_position method: [43.70837536969416, -72.28728785919273]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Richardson Hall Crime Object in Crime class: [43.704722, -72.28663557481]
+Testing Latitude and Longitude .marker_position method: [43.70468926399438, -72.28671274892884]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Silsby Hall Crime Object in Crime class: [43.70545575, -72.2900228447927]
+Testing Latitude and Longitude .marker_position method: [43.70549283243079, -72.29009958894027]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Kappa Kappa Crime Object in Crime class: [43.70630725, -72.2899433]
+Testing Latitude and Longitude .marker_position method: [43.706363535217925, -72.28984634960243]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Life Sciences Center Crime Object in Crime class: [43.70895995, -72.2837479501533]
+Testing Latitude and Longitude .marker_position method: [43.7090259882268, -72.28374918158177]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 1 Occom Crime Object in Crime class: [43.7069, -72.29367]
+Testing Latitude and Longitude .marker_position method: [43.706961740140216, -72.29362946341091]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Middle Fayerweather Hall Crime Object in Crime class: [43.70376505, -72.2863886847996]
+Testing Latitude and Longitude .marker_position method: [43.70373397390452, -72.28636615091614]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Panarchy Crime Object in Crime class: [43.70096935, -72.2919237326513]
+Testing Latitude and Longitude .marker_position method: [43.7009813268196, -72.29193677122568]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Nu Crime Object in Crime class: [43.7063395, -72.2922791]
+Testing Latitude and Longitude .marker_position method: [43.70643499727207, -72.29226634073623]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Green Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.70348787373553, -72.28862951746684]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McLane Hall Crime Object in Crime class: [43.7055275, -72.2918758125]
+Testing Latitude and Longitude .marker_position method: [43.70560617775969, -72.29184659283956]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Robinson Hall Crime Object in Crime class: [43.70309895, -72.2899102]
+Testing Latitude and Longitude .marker_position method: [43.70303845489499, -72.2899524478152]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McNutt Hall Crime Object in Crime class: [43.7035753, -72.2898839909607]
+Testing Latitude and Longitude .marker_position method: [43.7036102211771, -72.28997457670371]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tuck Hall Crime Object in Crime class: [43.70561915, -72.2941833126141]
+Testing Latitude and Longitude .marker_position method: [43.70568120349474, -72.29412713068284]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dewey Lot Crime Object in Crime class: [43.71024, -72.28354]
+Testing Latitude and Longitude .marker_position method: [43.71030961989996, -72.28353612951342]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Delta Crime Object in Crime class: [43.70226, -72.29123]
+Testing Latitude and Longitude .marker_position method: [43.70231419428913, -72.29125463375998]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Blunt Alumni Center Crime Object in Crime class: [43.704703, -72.2899139168333]
+Testing Latitude and Longitude .marker_position method: [43.70474841415343, -72.28986662905511]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Bema Crime Object in Crime class: [43.70533, -72.2844]
+Testing Latitude and Longitude .marker_position method: [43.705396707969506, -72.28441404228843]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Chi Gamma Epsilon Crime Object in Crime class: [43.70668845, -72.2914545]
+Testing Latitude and Longitude .marker_position method: [43.706643924893925, -72.29152297992941]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Topliff Hall Crime Object in Crime class: [43.7025953, -72.2859012643282]
+Testing Latitude and Longitude .marker_position method: [43.70263744711025, -72.2858064594868]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Cohen Hall Crime Object in Crime class: [43.7076032, -72.2915465822753]
+Testing Latitude and Longitude .marker_position method: [43.707626358793895, -72.29163029797608]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Theta Delta Chi Crime Object in Crime class: [43.7027286, -72.2914403162437]
+Testing Latitude and Longitude .marker_position method: [43.702666891647056, -72.2913916928462]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Lewiston Lot Crime Object in Crime class: [43.70508, -72.30106]
+Testing Latitude and Longitude .marker_position method: [43.70503498139278, -72.301089187914]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Skiway Crime Object in Crime class: [43.7882153, -72.2870693166467]
+Testing Latitude and Longitude .marker_position method: [43.78828103331653, -72.28708641357807]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Nu Crime Object in Crime class: [43.7063395, -72.2922791]
+Testing Latitude and Longitude .marker_position method: [43.70628574723355, -72.29234551128496]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Nu Crime Object in Crime class: [43.7063395, -72.2922791]
+Testing Latitude and Longitude .marker_position method: [43.706362277525024, -72.29226642562215]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hanover Police Department Crime Object in Crime class: [43.7198458, -72.2732172]
+Testing Latitude and Longitude .marker_position method: [43.71974675812599, -72.27321908391241]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Office of Medical Education, Administration Building Crime Object in Crime class: [43.70856, -72.28516]
+Testing Latitude and Longitude .marker_position method: [43.70850511374625, -72.28517600710317]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Wheeler Hall Crime Object in Crime class: [43.70508265, -72.2872778831085]
+Testing Latitude and Longitude .marker_position method: [43.70503118203404, -72.28721168376049]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Tuck Drive Crime Object in Crime class: [43.7057736, -72.2955458]
+Testing Latitude and Longitude .marker_position method: [43.70579540879978, -72.29549506591721]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Nu Crime Object in Crime class: [43.7063395, -72.2922791]
+Testing Latitude and Longitude .marker_position method: [43.706399250352796, -72.29225892733736]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Phi Epsilon Crime Object in Crime class: [43.70685955, -72.292331044203]
+Testing Latitude and Longitude .marker_position method: [43.706876396108704, -72.29240009411204]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of The Green Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.7034400444449, -72.28867420662242]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Achtmeyer Alleyway Crime Object in Crime class: [43.7046, -72.29646]
+Testing Latitude and Longitude .marker_position method: [43.70457130580065, -72.29646066129429]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of The Green Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.70342841806915, -72.28868204135931]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McKenzie Hall Crime Object in Crime class: [43.7018458, -72.286180727748]
+Testing Latitude and Longitude .marker_position method: [43.70189255157587, -72.2862116176676]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Hall Crime Object in Crime class: [43.70378395, -72.2870693166467]
+Testing Latitude and Longitude .marker_position method: [43.70378163899175, -72.28698554188917]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70523857791668, -72.28869816480258]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Kappa Kappa Crime Object in Crime class: [43.70630725, -72.2899433]
+Testing Latitude and Longitude .marker_position method: [43.706309902034306, -72.29000222895056]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Black Family Visual Arts Center Crime Object in Crime class: [43.7013378, -72.2867632932234]
+Testing Latitude and Longitude .marker_position method: [43.70133998838914, -72.28679252419997]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of North Massachusetts Hall Crime Object in Crime class: [43.70415185, -72.290612862455]
+Testing Latitude and Longitude .marker_position method: [43.70413939228274, -72.29069911191421]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Trues Brooke Ledges Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.70351170392428, -72.28863502005801]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kappa Kappa Kappa Crime Object in Crime class: [43.70630725, -72.2899433]
+Testing Latitude and Longitude .marker_position method: [43.706371132514796, -72.2898601450464]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Unknown Location Crime Object in Crime class: [43.70352, -72.28861]
+Testing Latitude and Longitude .marker_position method: [43.70345159003802, -72.28860343859152]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Byrne Hall Crime Object in Crime class: [43.7054, -72.29516]
+Testing Latitude and Longitude .marker_position method: [43.70533352699165, -72.29516509440602]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 32 Occom Ridge Crime Object in Crime class: [43.71157, -72.28843]
+Testing Latitude and Longitude .marker_position method: [43.71166055588351, -72.28836179288763]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Haldeman Hall Crime Object in Crime class: [43.7062151, -72.2891048291682]
+Testing Latitude and Longitude .marker_position method: [43.706301896579035, -72.28907901607359]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70529990128225, -72.28871675906325]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hopkins Center Crime Object in Crime class: [43.7019, -72.28805]
+Testing Latitude and Longitude .marker_position method: [43.70190183047863, -72.28801492261249]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Russell Sage Hall Crime Object in Crime class: [43.70547515, -72.2907036443992]
+Testing Latitude and Longitude .marker_position method: [43.705475322996186, -72.29073099697844]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Collis Crime Object in Crime class: [43.70276105, -72.2899180444306]
+Testing Latitude and Longitude .marker_position method: [43.70285434690851, -72.29001790176898]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth College Crime Object in Crime class: [43.70311, -72.28854]
+Testing Latitude and Longitude .marker_position method: [43.70315503044856, -72.28860272830691]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Burke Chemistry Crime Object in Crime class: [43.7062952, -72.2859783660529]
+Testing Latitude and Longitude .marker_position method: [43.70639323933577, -72.28597053312187]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Collis Crime Object in Crime class: [43.70276105, -72.2899180444306]
+Testing Latitude and Longitude .marker_position method: [43.702841257375695, -72.2899169746803]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Collis Crime Object in Crime class: [43.70276105, -72.2899180444306]
+Testing Latitude and Longitude .marker_position method: [43.70274447170061, -72.28998372948658]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sachem Village Graduate Student Housing Crime Object in Crime class: [43.68319, -72.28547]
+Testing Latitude and Longitude .marker_position method: [43.68328373639761, -72.28554194941151]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sachem Village Graduate Student Housing Crime Object in Crime class: [43.68319, -72.28547]
+Testing Latitude and Longitude .marker_position method: [43.68326299850696, -72.28552295650802]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sachem Village Graduate Student Housing Crime Object in Crime class: [43.68319, -72.28547]
+Testing Latitude and Longitude .marker_position method: [43.68323194756618, -72.285459454849]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Achtmeyer Alleyway Crime Object in Crime class: [43.7046, -72.29646]
+Testing Latitude and Longitude .marker_position method: [43.70453476255705, -72.29653970738062]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 8 School Street Crime Object in Crime class: [43.70112, -72.29123]
+Testing Latitude and Longitude .marker_position method: [43.701162871236086, -72.29113143337065]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.70458955109872, -72.29056462289944]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Blunt Alumni Center Crime Object in Crime class: [43.704703, -72.2899139168333]
+Testing Latitude and Longitude .marker_position method: [43.70476422563739, -72.28986234466548]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Gamma Delta Chi Crime Object in Crime class: [43.7066, -72.28995]
+Testing Latitude and Longitude .marker_position method: [43.706548506838104, -72.2899442986539]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Byrne Hall Crime Object in Crime class: [43.7054, -72.29516]
+Testing Latitude and Longitude .marker_position method: [43.70530557428506, -72.29525210562618]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Alumni Gym and Fitness Center Crime Object in Crime class: [43.7027535, -72.2839692279828]
+Testing Latitude and Longitude .marker_position method: [43.70273824181225, -72.28394861180746]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Novack Cafe Crime Object in Crime class: [43.70576, -72.2885]
+Testing Latitude and Longitude .marker_position method: [43.705690188438155, -72.28854934475652]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of 53 Commons Crime Object in Crime class: [43.703, -72.29085]
+Testing Latitude and Longitude .marker_position method: [43.703098290993296, -72.29094856049731]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70537415200723, -72.28866789990668]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Fairchild Physical Sciences Center Crime Object in Crime class: [43.70586, -72.28633]
+Testing Latitude and Longitude .marker_position method: [43.70586053003591, -72.28633172637417]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70522868201527, -72.2885730210307]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Silsby Hall Crime Object in Crime class: [43.70545575, -72.2900228447927]
+Testing Latitude and Longitude .marker_position method: [43.70543814414302, -72.29011987788543]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of West Wheelock Street Crime Object in Crime class: [43.70242, -72.29067]
+Testing Latitude and Longitude .marker_position method: [43.70247200701939, -72.29058925151213]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of McLane Hall Crime Object in Crime class: [43.7055275, -72.2918758125]
+Testing Latitude and Longitude .marker_position method: [43.705555017339, -72.2919138800111]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Robinson Hall Crime Object in Crime class: [43.70309895, -72.2899102]
+Testing Latitude and Longitude .marker_position method: [43.703114722368845, -72.28990707723815]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of West Wheelock Street Crime Object in Crime class: [43.70242, -72.29067]
+Testing Latitude and Longitude .marker_position method: [43.702356860460256, -72.29059806142524]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Phi Tau Crime Object in Crime class: [43.70682545, -72.2890065]
+Testing Latitude and Longitude .marker_position method: [43.70683600817088, -72.28891172181572]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Phi Epsilon Crime Object in Crime class: [43.70685955, -72.292331044203]
+Testing Latitude and Longitude .marker_position method: [43.70692474315507, -72.29238522295145]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Psi Upsilon Crime Object in Crime class: [43.70274215, -72.290617054106]
+Testing Latitude and Longitude .marker_position method: [43.70270679782141, -72.29070751529183]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.704680414661404, -72.29062130313372]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70522434203337, -72.28863462880307]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Wentworth Street Crime Object in Crime class: [43.7041466, -72.2878347]
+Testing Latitude and Longitude .marker_position method: [43.704239523628736, -72.2879310454899]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of The Lodge Crime Object in Crime class: [43.70071595, -72.2866295879018]
+Testing Latitude and Longitude .marker_position method: [43.70072400465055, -72.28664562810116]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Silsby Hall Crime Object in Crime class: [43.70545575, -72.2900228447927]
+Testing Latitude and Longitude .marker_position method: [43.70541112519316, -72.2900269354737]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Phi Tau Crime Object in Crime class: [43.70682545, -72.2890065]
+Testing Latitude and Longitude .marker_position method: [43.70685204285405, -72.28906123730252]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Russell Sage Hall Crime Object in Crime class: [43.70547515, -72.2907036443992]
+Testing Latitude and Longitude .marker_position method: [43.70556037070577, -72.29078230522977]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Kellogg Mail Center Crime Object in Crime class: [43.70819, -72.2862]
+Testing Latitude and Longitude .marker_position method: [43.70826719676545, -72.28617942229737]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Life Sciences Center Crime Object in Crime class: [43.70895995, -72.2837479501533]
+Testing Latitude and Longitude .marker_position method: [43.70893859702275, -72.28382950923316]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Robinson Hall Crime Object in Crime class: [43.70309895, -72.2899102]
+Testing Latitude and Longitude .marker_position method: [43.70313053461717, -72.28998092143]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Alumni Gym and Fitness Center Crime Object in Crime class: [43.7027535, -72.2839692279828]
+Testing Latitude and Longitude .marker_position method: [43.70272910265501, -72.2840618897672]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Sigma Delta Crime Object in Crime class: [43.70226, -72.29123]
+Testing Latitude and Longitude .marker_position method: [43.70232104065008, -72.2913163120283]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hitchcock Hall Crime Object in Crime class: [43.7046687, -72.2905837150602]
+Testing Latitude and Longitude .marker_position method: [43.7046318631528, -72.29049272393878]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Native American House Crime Object in Crime class: [43.70730075, -72.2885651694998]
+Testing Latitude and Longitude .marker_position method: [43.70738259741858, -72.28850334201994]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of President's House Crime Object in Crime class: [43.7062151, -72.2930203698041]
+Testing Latitude and Longitude .marker_position method: [43.70630734198249, -72.29297837351591]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Chi Gamma Epsilon Crime Object in Crime class: [43.70668845, -72.2914545]
+Testing Latitude and Longitude .marker_position method: [43.70662927993634, -72.29144659423041]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of South Fayerweather Hall Crime Object in Crime class: [43.7034446, -72.2863442020961]
+Testing Latitude and Longitude .marker_position method: [43.70349788612385, -72.28629596767222]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Bema Crime Object in Crime class: [43.70533, -72.2844]
+Testing Latitude and Longitude .marker_position method: [43.70525241033013, -72.28445164342685]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Morton Farm Facility; 60 Etna Highlands Crime Object in Crime class: [43.684345, -72.209475]
+Testing Latitude and Longitude .marker_position method: [43.68441549214577, -72.2094295814508]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Hopkins Center Crime Object in Crime class: [43.7019, -72.28805]
+Testing Latitude and Longitude .marker_position method: [43.701864497939084, -72.28800421960183]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of DHMC Lot #9; 1 Medical Center Drive Crime Object in Crime class: [43.68555, -72.2661]
+Testing Latitude and Longitude .marker_position method: [43.685559328101206, -72.26609528991149]
+Auxilio! 'South Massachussetts Hall' not in campus_coordinates dictionary.  Please add.
+Auxilio! 'Hanover Country Club' not in campus_coordinates dictionary.  Please add.
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Panarchy Crime Object in Crime class: [43.70096935, -72.2919237326513]
+Testing Latitude and Longitude .marker_position method: [43.70100294764058, -72.29201656624093]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Novack Cafe Crime Object in Crime class: [43.70576, -72.2885]
+Testing Latitude and Longitude .marker_position method: [43.70585385735815, -72.28846389163081]
+Auxilio! 'Dartmouth Outing Club House' not in campus_coordinates dictionary.  Please add.
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Robinson Hall Crime Object in Crime class: [43.70309895, -72.2899102]
+Testing Latitude and Longitude .marker_position method: [43.70316332867324, -72.28986260632622]
+Auxilio! 'Graduate Housing Apartments, 17B, North Park Street, Bicycle Rack' not in campus_coordinates dictionary.  Please add.
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Dartmouth Hall Crime Object in Crime class: [43.70378395, -72.2870693166467]
+Testing Latitude and Longitude .marker_position method: [43.70385782089361, -72.28706979481034]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Panarchy Crime Object in Crime class: [43.70096935, -72.2919237326513]
+Testing Latitude and Longitude .marker_position method: [43.70092780311374, -72.29194607295837]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Black Family Visual Arts Center Crime Object in Crime class: [43.7013378, -72.2867632932234]
+Testing Latitude and Longitude .marker_position method: [43.70135586984642, -72.28676689941896]
+Auxilio! '13 East Wheelock Apt. B' not in campus_coordinates dictionary.  Please add.
+Auxilio! 'Maynard Lot' not in campus_coordinates dictionary.  Please add.
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Chi Gamma Epsilon Crime Object in Crime class: [43.70668845, -72.2914545]
+Testing Latitude and Longitude .marker_position method: [43.70667818740656, -72.29139923980516]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Black Family Visual Arts Center Crime Object in Crime class: [43.7013378, -72.2867632932234]
+Testing Latitude and Longitude .marker_position method: [43.70129784092125, -72.28670200749494]
+Auxilio! 'Fairchild Hall' not in campus_coordinates dictionary.  Please add.
+Auxilio! 'Smith Hall' not in campus_coordinates dictionary.  Please add.
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Baker/Berry Library Crime Object in Crime class: [43.7053, -72.28867]
+Testing Latitude and Longitude .marker_position method: [43.70534830469088, -72.2886799394005]
+True means that the .crime_location method matches a campus_coordinates key: True
+Testing Latitude and Longitude method of Woodward Hall Crime Object in Crime class: [43.70424985, -72.28550336915]
+Testing Latitude and Longitude .marker_position method: [43.70419261207344, -72.28540406622632]

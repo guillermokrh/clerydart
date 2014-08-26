@@ -3,8 +3,19 @@
 # August 9, 2014
 # Provides directions on updating CleryDart
 
-1. Type up data from the Daily Crime Log; place it in a spreadsheet broken up into the "Type of Crime", "Date
-Occurred", etc. columns.  
+1. Type up data from the Daily Crime Log; place it in a spreadsheet broken up into the "Type of Crime", 
+"Date Occurred", etc. columns.  Save this file as "crimes_input_(month)_update_raw.file_type".  
+2.  Copy the file just created, name this file "crimes_input_(month)_update_formatted.file_type".  This 
+time, edit the entries according to the format you have established in CleryDart.  For example, any 
+blank spaces in the Daily Crime Log entries will causes errors, so replace them with "Not Provided".  
+For locations, S&S may have entered the "Black Family Visual Arts Center" as just the "Visual Arts 
+Center", edit that to the "Black Family Visual Arts Center" so that you do not have two dictionary key 
+location entries with the same latitude/longitude value.   
+3.  Export "crimes_input_(month)_update_formatted.file_type" as a .csv file.  Drag this and a copy of the 
+campus_coordinates.csv file from last month into eclipse.  Run the clerydart_template.py program using
+those two files, to see if all locations in the crimes_input_(month)_update_formatted.csv file have 
+latitude and longitude coordinates associated with them in the current campus_coordinates.csv file.
+4.  If there is no latitude and longitude associated with that location, an error message 
 2. Once the data has been entered, sort the columns by type of crime committed; this will help in creating the
 "Crimes" Legend.  
 3. Export the file as a .csv file.
