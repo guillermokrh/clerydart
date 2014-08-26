@@ -85,7 +85,7 @@
 
 			</div>
 
-			<h3 id="date_range">Crimes Reported at Dartmouth College from May 10, 2014-August 12, 2014 </h3>
+			<h3 id="date_range">Crimes Reported at Dartmouth College from May 10, 2014-August 26, 2014 </h3>
 
 
 
@@ -137,55 +137,55 @@
 /*** Variables created by Folium, a Python to Leaflet library ***/
 		
 
-			var marker_1 = L.marker([43.7031397558, -72.2884648975]);
-			marker_1.bindPopup("Crime Location: Campus;  Type of Crime: Assault;  Date Occurred: 2014/05/13");
-			
-			var marker_2 = L.marker([43.7064725082, -72.2920701526]);
-			marker_2.bindPopup("Crime Location: Webster Avenue;  Type of Crime: Assault;  Date Occurred: 2014/05/16");
-			
-			var marker_3 = L.marker([43.7037433783, -72.286414588]);
-			marker_3.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Assault;  Date Occurred: 2014/05/16");
-			
-			var marker_4 = L.marker([43.706268114, -72.290010976]);
-			marker_4.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Assault;  Date Occurred: 2014/05/18");
-			
-			var marker_5 = L.marker([43.702930648, -72.2857693341]);
-			marker_5.bindPopup("Crime Location: East Wheelock Street;  Type of Crime: Assault;  Date Occurred: 2014/05/18");
-			
-			var marker_6 = L.marker([43.7054129204, -72.2862489124]);
-			marker_6.bindPopup("Crime Location: Wilder;  Type of Crime: Assault;  Date Occurred: 2014/04/20");
-			
-			var marker_7 = L.marker([43.7015392314, -72.2835369488]);
-			marker_7.bindPopup("Crime Location: Alumni Gym/ Floren;  Type of Crime: Assault;  Date Occurred: 2014/06/03");
-			
-			var marker_8 = L.marker([43.7085607124, -72.2871683899]);
-			marker_8.bindPopup("Crime Location: 5 Rope Ferry Road;  Type of Crime: Assault;  Date Occurred: 2013/09/01");
-			
-			var marker_9 = L.marker([43.7035112266, -72.2886264662]);
-			marker_9.bindPopup("Crime Location: The Green;  Type of Crime: Assault;  Date Occurred: 2014/07/02");
-			
-			var marker_10 = L.marker([43.7019016576, -72.2861923167]);
-			marker_10.bindPopup("Crime Location: McKenzie Hall;  Type of Crime: Assault;  Date Occurred: 2014/07/03");
-			
-			var marker_11 = L.marker([43.7062122048, -72.2900262592]);
-			marker_11.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Assault;  Date Occurred: 2014/07/04");
-			
-			var marker_12 = L.marker([43.7030702633, -72.2909089871]);
-			marker_12.bindPopup("Crime Location: 53 Commons;  Type of Crime: Assault;  Date Occurred: 2014/07/24");
-			
-			var marker_13 = L.marker([43.7025198366, -72.2906527817]);
-			marker_13.bindPopup("Crime Location: West Wheelock Street;  Type of Crime: Assault;  Date Occurred: 2014/07/27");
+var marker_1 = L.marker([43.7031381694, -72.2885769563]);
+marker_1.bindPopup("Crime Location: Campus;  Type of Crime: Assault;  Date Occurred: 2014/05/13");
+
+var marker_2 = L.marker([43.7064441678, -72.2921411223]);
+marker_2.bindPopup("Crime Location: Webster Avenue;  Type of Crime: Assault;  Date Occurred: 2014/05/16");
+
+var marker_3 = L.marker([43.70362032, -72.2864400371]);
+marker_3.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Assault;  Date Occurred: 2014/05/16");
+
+var marker_4 = L.marker([43.7062002056, -72.2899164439]);
+marker_4.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Assault;  Date Occurred: 2014/05/18");
+
+var marker_5 = L.marker([43.7031282723, -72.2859129583]);
+marker_5.bindPopup("Crime Location: East Wheelock Street;  Type of Crime: Assault;  Date Occurred: 2014/05/18");
+
+var marker_6 = L.marker([43.7054413256, -72.2860656943]);
+marker_6.bindPopup("Crime Location: Wilder;  Type of Crime: Assault;  Date Occurred: 2014/04/20");
+
+var marker_7 = L.marker([43.7015120684, -72.2835654192]);
+marker_7.bindPopup("Crime Location: Alumni Gym/ Floren;  Type of Crime: Assault;  Date Occurred: 2014/06/03");
+
+var marker_8 = L.marker([43.7085230985, -72.2872289059]);
+marker_8.bindPopup("Crime Location: 5 Rope Ferry Road;  Type of Crime: Assault;  Date Occurred: 2013/09/01");
+
+var marker_9 = L.marker([43.7036300924, -72.2884877763]);
+marker_9.bindPopup("Crime Location: The Green;  Type of Crime: Assault;  Date Occurred: 2014/07/02");
+
+var marker_10 = L.marker([43.7017951228, -72.2862666121]);
+marker_10.bindPopup("Crime Location: McKenzie Hall;  Type of Crime: Assault;  Date Occurred: 2014/07/03");
+
+var marker_11 = L.marker([43.7064399957, -72.2900429888]);
+marker_11.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Assault;  Date Occurred: 2014/07/04");
+
+var marker_12 = L.marker([43.7030727353, -72.2907411822]);
+marker_12.bindPopup("Crime Location: 53 Commons;  Type of Crime: Assault;  Date Occurred: 2014/07/24");
+
+var marker_13 = L.marker([43.7024047787, -72.2906755149]);
+marker_13.bindPopup("Crime Location: West Wheelock Street;  Type of Crime: Assault;  Date Occurred: 2014/07/27");
 
 	
 		
 	/*Create Assaults Layer for CleryDart Legend*/
-	var listOfAssault = [marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, marker_10, marker_11, marker_12, 
-						marker_13];
+	var listOfAssault = [marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, 
+							marker_10, marker_11, marker_12, marker_13];
 	var assaultLayer = L.layerGroup(listOfAssault);
 	var numOfAssault = listOfAssault.length;
 
 		
-var marker_14 = L.marker([43.683238929, -72.2854449461]);
+var marker_14 = L.marker([43.683156044, -72.2855906366]);
 marker_14.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Bias Incident;  Date Occurred: 2014/07/16");
 	
 		
@@ -196,19 +196,19 @@ marker_14.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  T
 
 		
 				
-var marker_15 = L.marker([43.7006812221, -72.2866696881]);
+var marker_15 = L.marker([43.7008140795, -72.2865683529]);
 marker_15.bindPopup("Crime Location: The Lodge;  Type of Crime: Burglary;  Date Occurred: 2014/06/01");
 
-var marker_16 = L.marker([43.7069273048, -72.2936163414]);
+var marker_16 = L.marker([43.7069222192, -72.2936796417]);
 marker_16.bindPopup("Crime Location: 1 Occom;  Type of Crime: Burglary;  Date Occurred: 2014/06/07");
 
-var marker_17 = L.marker([43.7068404148, -72.2922567558]);
+var marker_17 = L.marker([43.7070095222, -72.2924676854]);
 marker_17.bindPopup("Crime Location: Sigma Phi Epsilon;  Type of Crime: Burglary;  Date Occurred: 2014/07/31");
 
-var marker_18 = L.marker([43.700648284, -72.286678938]);
+var marker_18 = L.marker([43.7007302709, -72.2866176269]);
 marker_18.bindPopup("Crime Location: The Lodge;  Type of Crime: Burglary;  Date Occurred: 2014/08/02");
 
-var marker_19 = L.marker([43.7027536433, -72.2905595404]);
+var marker_19 = L.marker([43.7026357435, -72.2906121555]);
 marker_19.bindPopup("Crime Location: Psi Upsilon;  Type of Crime: Burglary;  Date Occurred: 2014/07/31");
 		
 		
@@ -218,7 +218,7 @@ marker_19.bindPopup("Crime Location: Psi Upsilon;  Type of Crime: Burglary;  Dat
 	var burglaryLayer = L.layerGroup(listOfBurglary);
 		
 		
-var marker_20 = L.marker([43.7063357602, -72.2923324161]);
+var marker_20 = L.marker([43.7064331293, -72.2924047354]);
 marker_20.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Criminal Threatening;  Date Occurred: 2014/06/24");
 		
 		
@@ -228,7 +228,7 @@ marker_20.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Criminal Threaten
 	var criminalThreateningLayer = L.layerGroup(listOfCriminalThreatening);
 
 		
-var marker_21 = L.marker([43.7054484598, -72.286236087]);
+var marker_21 = L.marker([43.7053595143, -72.2860964791]);
 marker_21.bindPopup("Crime Location: Wilder;  Type of Crime: Criminal Threatening/Stalking;  Date Occurred: 2014/04/20");
 		
 		
@@ -237,731 +237,805 @@ marker_21.bindPopup("Crime Location: Wilder;  Type of Crime: Criminal Threatenin
 	var numOfCriminalThreateningStalking = listOfCriminalThreateningStalking.length;
 	var criminalThreateningStalkingLayer = L.layerGroup(listOfCriminalThreateningStalking);		
 		
+var marker_22 = L.marker([43.7009382252, -72.2918050445]);
+marker_22.bindPopup("Crime Location: Panarchy;  Type of Crime: Criminal Trespass;  Date Occurred: 2014/08/17");
+
+	/*Create Criminal Trespass Layer for CleryDart Legend*/
+	var listOfCriminalTrespass = [marker_22];
+	var numOfCriminalTrespass = listOfCriminalTrespass.length;
+	var criminalTrespassLayer = L.layerGroup(listOfCriminalTrespass);	
 		
-var marker_22 = L.marker([43.7057516519, -72.2900879813]);
-marker_22.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/15");
 
-var marker_23 = L.marker([43.704634156, -72.2905404025]);
-marker_23.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/15");
+var marker_23 = L.marker([43.7056495363, -72.2900064452]);
+marker_23.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/15");
 
-var marker_24 = L.marker([43.7053895818, -72.2906065212]);
-marker_24.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
+var marker_24 = L.marker([43.7045294046, -72.290660619]);
+marker_24.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/15");
 
-var marker_25 = L.marker([43.7065708403, -72.2921711131]);
-marker_25.bindPopup("Crime Location: Webster Avenue;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
+var marker_25 = L.marker([43.705349677, -72.2907856517]);
+marker_25.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
 
-var marker_26 = L.marker([43.7029399532, -72.290811523]);
-marker_26.bindPopup("Crime Location: 53 Commons;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
+var marker_26 = L.marker([43.7066123274, -72.2919874532]);
+marker_26.bindPopup("Crime Location: Webster Avenue;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
 
-var marker_27 = L.marker([43.7038471369, -72.2864010573]);
-marker_27.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
+var marker_27 = L.marker([43.7028543268, -72.290861809]);
+marker_27.bindPopup("Crime Location: 53 Commons;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
 
-var marker_28 = L.marker([43.7050191892, -72.28721816]);
-marker_28.bindPopup("Crime Location: Wheeler Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/14");
+var marker_28 = L.marker([43.7036326754, -72.2863668419]);
+marker_28.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/16");
 
-var marker_29 = L.marker([43.7063042764, -72.2899269618]);
-marker_29.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/18");
+var marker_29 = L.marker([43.7051974401, -72.2873015121]);
+marker_29.bindPopup("Crime Location: Wheeler Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/14");
 
-var marker_30 = L.marker([43.7028286602, -72.289927003]);
-marker_30.bindPopup("Crime Location: Collis;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/28");
+var marker_30 = L.marker([43.7062549741, -72.2899712954]);
+marker_30.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/18");
 
-var marker_31 = L.marker([43.7064941034, -72.2907133253]);
-marker_31.bindPopup("Crime Location: Tabard;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/02");
+var marker_31 = L.marker([43.7026755304, -72.2897940573]);
+marker_31.bindPopup("Crime Location: Collis;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/05/28");
 
-var marker_32 = L.marker([43.7037238227, -72.2870868031]);
-marker_32.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/03");
+var marker_32 = L.marker([43.7065212972, -72.2905228814]);
+marker_32.bindPopup("Crime Location: Tabard;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/02");
 
-var marker_33 = L.marker([43.7063355834, -72.2923147801]);
-marker_33.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/08");
+var marker_33 = L.marker([43.703848278, -72.2871427121]);
+marker_33.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/03");
 
-var marker_34 = L.marker([43.7035146277, -72.2899219887]);
-marker_34.bindPopup("Crime Location: McNutt Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/12");
+var marker_34 = L.marker([43.7062054631, -72.2921660207]);
+marker_34.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/08");
 
-var marker_35 = L.marker([43.7022782254, -72.2912130311]);
-marker_35.bindPopup("Crime Location: Sigma Delta;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/14");
+var marker_35 = L.marker([43.7035276261, -72.2897456257]);
+marker_35.bindPopup("Crime Location: McNutt Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/12");
 
-var marker_36 = L.marker([43.708584, -72.2851004442]);
-marker_36.bindPopup("Crime Location: Office of Medical Education, Administration Building;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/19");
+var marker_36 = L.marker([43.7023820866, -72.2911223143]);
+marker_36.bindPopup("Crime Location: Sigma Delta;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/14");
 
-var marker_37 = L.marker([43.7051163751, -72.2872862502]);
-marker_37.bindPopup("Crime Location: Wheeler Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/26");
+var marker_37 = L.marker([43.7086386263, -72.2852058357]);
+marker_37.bindPopup("Crime Location: Office of Medical Education, Administration Building;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/19");
 
-var marker_38 = L.marker([43.7046629838, -72.2905478432]);
-marker_38.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/07/19");
+var marker_38 = L.marker([43.7051252162, -72.2873094547]);
+marker_38.bindPopup("Crime Location: Wheeler Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/06/26");
 
-var marker_39 = L.marker([43.7046479638, -72.2899786019]);
-marker_39.bindPopup("Crime Location: Blunt Alumni Center;  Type of Crime: Disorderly Conduct;  Date Occurred: Not Provided");
+var marker_39 = L.marker([43.7046817841, -72.2905466982]);
+marker_39.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/07/19");
 
-var marker_40 = L.marker([43.7066540721, -72.289954321]);
-marker_40.bindPopup("Crime Location: Gamma Delta Chi;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/07/19");
+var marker_40 = L.marker([43.7045942628, -72.2899124051]);
+marker_40.bindPopup("Crime Location: Blunt Alumni Center;  Type of Crime: Disorderly Conduct;  Date Occurred: Not Provided");
 
-var marker_41 = L.marker([43.7055779443, -72.291794176]);
-marker_41.bindPopup("Crime Location: McLane Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/07/27");
+var marker_41 = L.marker([43.7065024064, -72.289992686]);
+marker_41.bindPopup("Crime Location: Gamma Delta Chi;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/07/19");
 
-var marker_42 = L.marker([43.6844225345, -72.2093920727]);
-marker_42.bindPopup("Crime Location: Morton Farm Facility; 60 Etna Highlands;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/08/10");
+var marker_42 = L.marker([43.7055926703, -72.2919522389]);
+marker_42.bindPopup("Crime Location: McLane Hall;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/07/27");
 
-var marker_43 = L.marker([43.7019451325, -72.2880718771]);
-marker_43.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/08/10");
+var marker_43 = L.marker([43.6842018234, -72.2094748287]);
+marker_43.bindPopup("Crime Location: Morton Farm Facility; 60 Etna Highlands;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/08/10");
+
+var marker_44 = L.marker([43.701854336, -72.2879942382]);
+marker_44.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/08/10");
+
+var marker_45 = L.marker([43.706624259, -72.2913076315]);
+marker_45.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Disorderly Conduct;  Date Occurred: 2014/08/22");
 
 		
 	/*Create Disorderly Conduct Layer for CleryDart Legend*/
-	var listOfDisorderlyConduct = [marker_22, marker_23, 
-									marker_24, marker_25, marker_26, marker_27, marker_28, marker_29, marker_30, marker_31, marker_32, marker_33, marker_34, 
-									marker_35, marker_36, marker_37, marker_38, marker_39, marker_40, marker_41, marker_42, marker_43];
+	var listOfDisorderlyConduct = [marker_23, marker_24, marker_25, 
+									marker_26, marker_27, marker_28, marker_29, marker_30, marker_31, marker_32, marker_33, 
+									marker_34, marker_35, marker_36, marker_37, marker_38, marker_39, marker_40, marker_41, 
+									marker_42, marker_43, marker_44, marker_45];
 	var numOfDisorderlyConduct = listOfDisorderlyConduct.length;
 	var disorderlyConductLayer = L.layerGroup(listOfDisorderlyConduct);	
 		
-var marker_44 = L.marker([43.7047432126, -72.2904838548]);
-marker_44.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly/Public Urination;  Date Occurred: 2014/05/16");
+var marker_46 = L.marker([43.7045770842, -72.2906961975]);
+marker_46.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Disorderly/Public Urination;  Date Occurred: 2014/05/16");
 		
 		
 	/*Create Disorderly/Public Urination Layer for CleryDart Legend*/
 	
-	var listOfDisorderlyPublicUrination = [marker_44];
+	var listOfDisorderlyPublicUrination = [marker_46];
 	var numOfDisorderlyPublicUrination = listOfDisorderlyPublicUrination.length;
 	var disorderlyPublicUrinationLayer = L.layerGroup(listOfDisorderlyPublicUrination);	
 
 		
-var marker_45 = L.marker([43.6832786948, -72.2854381094]);
-marker_45.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Dogs a menace;  Date Occurred: 2014/07/16");
+var marker_47 = L.marker([43.683061448, -72.2854297654]);
+marker_47.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Dogs a menace;  Date Occurred: 2014/07/16");
 		
 		
 	/*Create Dogs a Menace Layer for CleryDart Legend*/
-	var listOfDogsAMenace = [marker_45];
+	var listOfDogsAMenace = [marker_47];
 	var numOfDogsAMenace = listOfDogsAMenace.length;
 	var dogsAMenaceLayer = L.layerGroup(listOfDogsAMenace);	
 		
-var marker_46 = L.marker([43.7033510473, -72.2863923203]);
-marker_46.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/22");
+var marker_48 = L.marker([43.7033740638, -72.2863762602]);
+marker_48.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/22");
 
-var marker_47 = L.marker([43.7034201972, -72.2886787865]);
-marker_47.bindPopup("Crime Location: Plainfield Road;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/24");
+var marker_49 = L.marker([43.7035998989, -72.2886508981]);
+marker_49.bindPopup("Crime Location: Plainfield Road;  Type of Crime: Driving Under Influence;  Date Occurred: 2014/05/24");
 		
 		
 	/*Create Driving Under Influence Layer for CleryDart Legend*/
-	var listOfDrivingUnderInfluence = [marker_46, marker_47];
+	var listOfDrivingUnderInfluence = [marker_48, marker_49];
 	var numOfDrivingUnderInfluence = listOfDrivingUnderInfluence.length;
 	var drivingUnderInfluenceLayer = L.layerGroup(listOfDrivingUnderInfluence);	
 	
 
-var marker_48 = L.marker([43.7018249184, -72.2880967599]);
-marker_48.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/05/22");
 
-var marker_49 = L.marker([43.7070934357, -72.2927789765]);
-marker_49.bindPopup("Crime Location: Alpha Chi Alpha;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/05/25");
+var marker_50 = L.marker([43.7019778793, -72.2881393623]);
+marker_50.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/05/22");
 
-var marker_50 = L.marker([43.7046796469, -72.2866086155]);
-marker_50.bindPopup("Crime Location: Richardson Hall;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/06/05");
+var marker_51 = L.marker([43.7069103162, -72.2927398598]);
+marker_51.bindPopup("Crime Location: Alpha Chi Alpha;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/05/25");
 
-var marker_51 = L.marker([43.7047851917, -72.2898557604]);
-marker_51.bindPopup("Crime Location: Blunt Alumni Center;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/06/15");
+var marker_52 = L.marker([43.7047690355, -72.2865780316]);
+marker_52.bindPopup("Crime Location: Richardson Hall;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/06/05");
 
-var marker_52 = L.marker([43.7027721706, -72.2915136402]);
-marker_52.bindPopup("Crime Location: Theta Delta Chi;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/06/20");
+var marker_53 = L.marker([43.7047961888, -72.2900359748]);
+marker_53.bindPopup("Crime Location: Blunt Alumni Center;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/06/15");
 
-var marker_53 = L.marker([43.7026843459, -72.2898353071]);
-marker_53.bindPopup("Crime Location: Collis;  Type of Crime: Drug Abuse Sale, Possession;  Date Occurred: 2014/07/16");
+var marker_54 = L.marker([43.7028076734, -72.291374461]);
+marker_54.bindPopup("Crime Location: Theta Delta Chi;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/06/20");
+
+var marker_55 = L.marker([43.7026768236, -72.2899043762]);
+marker_55.bindPopup("Crime Location: Collis;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/07/16");
+
+var marker_56 = L.marker([43.7009942382, -72.2918536428]);
+marker_56.bindPopup("Crime Location: Panarchy;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: Not Provided");
+
+var marker_57 = L.marker([43.7054031294, -72.2886375925]);
+marker_57.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Drug Abuse, Sale, Possession;  Date Occurred: 2014/08/24");
 		
 		
 	/*Create Drug Abuse Sale, Possession Layer for CleryDart Legend*/
-	var listOfDrugAbuseSalePossession = [marker_48, marker_49, marker_50, marker_51, marker_52, marker_53];
+	var listOfDrugAbuseSalePossession = [marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, marker_57];
 	var numOfDrugAbuseSalePossession = listOfDrugAbuseSalePossession.length;
 	var drugAbuseSalePossessionLayer = L.layerGroup(listOfDrugAbuseSalePossession);	
 	
 		
-var marker_54 = L.marker([43.6831469286, -72.2855070779]);
-marker_54.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Endangering Behavior;  Date Occurred: 2014/07/16");
+var marker_58 = L.marker([43.6832862381, -72.2856028509]);
+marker_58.bindPopup("Crime Location: Sachem Village Graduate Student Housing;  Type of Crime: Endangering Behavior;  Date Occurred: 2014/07/16");
 		
 		
 	/*Create Endangering Behavior Layer for CleryDart Legend*/
-	var listOfEndangeringBehavior = [marker_54];
+	var listOfEndangeringBehavior = [marker_58];
 	var numOfEndangeringBehavior = listOfEndangeringBehavior.length;
 	var endangeringBehaviorLayer = L.layerGroup(listOfEndangeringBehavior);	
 
 		
-var marker_55 = L.marker([43.7036952596, -72.2863546876]);
-marker_55.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: False Fire Alam;  Date Occurred: 2014/06/07");
+var marker_59 = L.marker([43.7038349415, -72.2864296322]);
+marker_59.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: False Fire Alarm;  Date Occurred: 2014/06/07");
 
-var marker_56 = L.marker([43.7065634632, -72.2906890929]);
-marker_56.bindPopup("Crime Location: Tabard;  Type of Crime: False Fire Alarm;  Date Occurred: 2014/05/16");
+var marker_60 = L.marker([43.706464936, -72.2907849385]);
+marker_60.bindPopup("Crime Location: Tabard;  Type of Crime: False Fire Alarm;  Date Occurred: 2014/05/16");
 		
 		
 	/*Create False Fire Alarm Layer for CleryDart Legend*/
-	var listOfFalseFireAlarm = [marker_55, marker_56];
+	var listOfFalseFireAlarm = [marker_59, marker_60];
 	var numOfFalseFireAlarm = listOfFalseFireAlarm.length;
 	var falseFireAlarmLayer = L.layerGroup(listOfFalseFireAlarm);	
 		
-var marker_57 = L.marker([43.7089636754, -72.2837099325]);
-marker_57.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Fraud;  Date Occurred: 2014/08/04");
+var marker_61 = L.marker([43.7089844569, -72.2837304848]);
+marker_61.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Fraud;  Date Occurred: 2014/08/04");
 
 
 	/*Create Fraud Layer for CleryDart Legend*/
-	var listOfFraud = [marker_57];
+	var listOfFraud = [marker_61];
 	var numOfFraud = listOfFraud.length;
 	var fraudLayer = L.layerGroup(listOfFraud);	
 	
 
-var marker_58 = L.marker([43.7006697628, -72.2866861243]);
-marker_58.bindPopup("Crime Location: The Lodge;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/02");
+var marker_62 = L.marker([43.700624849, -72.286531402]);
+marker_62.bindPopup("Crime Location: The Lodge;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/02");
 
-var marker_59 = L.marker([43.7031330348, -72.2898676603]);
-marker_59.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/10");
+var marker_63 = L.marker([43.7030639715, -72.2898809573]);
+marker_63.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/10");
 
-var marker_60 = L.marker([43.7026744216, -72.2899057172]);
-marker_60.bindPopup("Crime Location: Collis;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
+var marker_64 = L.marker([43.7028468371, -72.2900545642]);
+marker_64.bindPopup("Crime Location: Collis;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
 
-var marker_61 = L.marker([43.708967394, -72.2836631275]);
-marker_61.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/09");
+var marker_65 = L.marker([43.7090507088, -72.2837051786]);
+marker_65.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/09");
 
-var marker_62 = L.marker([43.7052203683, -72.2885745378]);
-marker_62.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/09");
+var marker_66 = L.marker([43.7054139049, -72.2886186782]);
+marker_66.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/09");
 
-var marker_63 = L.marker([43.7030935911, -72.2908477003]);
-marker_63.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
+var marker_67 = L.marker([43.7029026751, -72.2908386202]);
+marker_67.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
 
-var marker_64 = L.marker([43.7064520721, -72.2871170943]);
-marker_64.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
+var marker_68 = L.marker([43.7064040153, -72.28722829]);
+marker_68.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/15");
 
-var marker_65 = L.marker([43.6988653047, -72.2910680487]);
-marker_65.bindPopup("Crime Location: 24 School St. Apt 12;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
+var marker_69 = L.marker([43.6987851207, -72.2912494724]);
+marker_69.bindPopup("Crime Location: 24 School St. Apt 12;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
 
-var marker_66 = L.marker([43.7045460116, -72.2811762184]);
-marker_66.bindPopup("Crime Location: Amarna;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
+var marker_70 = L.marker([43.704426697, -72.2811836627]);
+marker_70.bindPopup("Crime Location: Amarna;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
 
-var marker_67 = L.marker([43.7058540275, -72.2890598546]);
-marker_67.bindPopup("Crime Location: Carson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/17");
+var marker_71 = L.marker([43.7057996978, -72.288986182]);
+marker_71.bindPopup("Crime Location: Carson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/17");
 
-var marker_68 = L.marker([43.7047148717, -72.2829484011]);
-marker_68.bindPopup("Crime Location: McCulloch 2-1/2 North Park Street, Highway/Road/Alley;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/18");
+var marker_72 = L.marker([43.7046394588, -72.2828929573]);
+marker_72.bindPopup("Crime Location: McCulloch 2-1/2 North Park Street, Highway/Road/Alley;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/18");
 
-var marker_69 = L.marker([43.7047512817, -72.289909603]);
-marker_69.bindPopup("Crime Location: Blunt Alumni Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/06");
+var marker_73 = L.marker([43.7046127854, -72.2899334343]);
+marker_73.bindPopup("Crime Location: Blunt Alumni Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/06");
 
-var marker_70 = L.marker([43.7034872433, -72.288532054]);
-marker_70.bindPopup("Crime Location: unknown;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
+var marker_74 = L.marker([43.7034190784, -72.288569445]);
+marker_74.bindPopup("Crime Location: unknown;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
 
-var marker_71 = L.marker([43.7101956589, -72.283485242]);
-marker_71.bindPopup("Crime Location: Dewey Lot;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/19");
+var marker_75 = L.marker([43.7103787008, -72.2836692872]);
+marker_75.bindPopup("Crime Location: Dewey Lot;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/19");
 
-var marker_72 = L.marker([43.7047009288, -72.2921351387]);
-marker_72.bindPopup("Crime Location: Lord Hall;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
+var marker_76 = L.marker([43.7046406684, -72.2920087254]);
+marker_76.bindPopup("Crime Location: Lord Hall;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
 
-var marker_73 = L.marker([43.7037552586, -72.2904329489]);
-marker_73.bindPopup("Crime Location: Middle Massachusetts Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
+var marker_77 = L.marker([43.7037060856, -72.2903992427]);
+marker_77.bindPopup("Crime Location: Middle Massachusetts Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
 
-var marker_74 = L.marker([43.7045827009, -72.294769614]);
-marker_74.bindPopup("Crime Location: Thayer School of Engineering;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/21");
+var marker_78 = L.marker([43.7046593451, -72.2948069415]);
+marker_78.bindPopup("Crime Location: Thayer School of Engineering;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/21");
 
-var marker_75 = L.marker([43.7029835272, -72.2909241241]);
-marker_75.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
+var marker_79 = L.marker([43.7029346092, -72.290912589]);
+marker_79.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/16");
 
-var marker_76 = L.marker([43.7090057319, -72.2837744341]);
-marker_76.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/20");
+var marker_80 = L.marker([43.7091093421, -72.2836457243]);
+marker_80.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/20");
 
-var marker_77 = L.marker([43.7064223443, -72.2871482039]);
-marker_77.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/21");
+var marker_81 = L.marker([43.7066108108, -72.2871238565]);
+marker_81.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/21");
 
-var marker_78 = L.marker([43.7063270407, -72.2899131371]);
-marker_78.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/22");
+var marker_82 = L.marker([43.7062844102, -72.2900886261]);
+marker_82.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/22");
 
-var marker_79 = L.marker([43.7066666437, -72.2914255868]);
-marker_79.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/05");
+var marker_83 = L.marker([43.7066322305, -72.291578766]);
+marker_83.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/05");
 
-var marker_80 = L.marker([43.7028945634, -72.2910161983]);
-marker_80.bindPopup("Crime Location: Sarner Underground;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/23");
+var marker_84 = L.marker([43.7028274475, -72.2909978389]);
+marker_84.bindPopup("Crime Location: Sarner Underground;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/23");
 
-var marker_81 = L.marker([43.7075203976, -72.2916198537]);
-marker_81.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/26");
+var marker_85 = L.marker([43.7074721452, -72.2916333941]);
+marker_85.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/26");
 
-var marker_82 = L.marker([43.708929989, -72.2836943701]);
-marker_82.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/21");
+var marker_86 = L.marker([43.7090466353, -72.2837896343]);
+marker_86.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/21");
 
-var marker_83 = L.marker([43.7030932564, -72.2909310989]);
-marker_83.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/25");
+var marker_87 = L.marker([43.7030025829, -72.2909943372]);
+marker_87.bindPopup("Crime Location: 53 Commons;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/25");
 
-var marker_84 = L.marker([43.7053570834, -72.2886574482]);
-marker_84.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/28");
+var marker_88 = L.marker([43.7052483923, -72.2886740366]);
+marker_88.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/28");
 
-var marker_85 = L.marker([43.707246957, -72.2913693786]);
-marker_85.bindPopup("Crime Location: Bissell Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/30");
+var marker_89 = L.marker([43.7071576296, -72.2912958096]);
+marker_89.bindPopup("Crime Location: Bissell Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/30");
 
-var marker_86 = L.marker([43.7015116016, -72.2862638636]);
-marker_86.bindPopup("Crime Location: Visual Arts Parking Lot;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/30");
+var marker_90 = L.marker([43.70131171, -72.2862829066]);
+marker_90.bindPopup("Crime Location: Visual Arts Parking Lot;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/30");
 
-var marker_87 = L.marker([43.7042988561, -72.2967527973]);
-marker_87.bindPopup("Crime Location: River Cluster;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/31");
+var marker_91 = L.marker([43.7042087977, -72.2968611295]);
+marker_91.bindPopup("Crime Location: River Cluster;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/31");
 
-var marker_88 = L.marker([43.7041578174, -72.2864353588]);
-marker_88.bindPopup("Crime Location: North Fayerweather Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/02");
+var marker_92 = L.marker([43.7040163674, -72.2863534522]);
+marker_92.bindPopup("Crime Location: North Fayerweather Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/02");
 
-var marker_89 = L.marker([43.7018425487, -72.2872154728]);
-marker_89.bindPopup("Crime Location: Hood Museum;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/02");
+var marker_93 = L.marker([43.7019429465, -72.2871958369]);
+marker_93.bindPopup("Crime Location: Hood Museum;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/02");
 
-var marker_90 = L.marker([43.7058183565, -72.289168873]);
-marker_90.bindPopup("Crime Location: Carson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/03");
+var marker_94 = L.marker([43.7059247981, -72.2890116048]);
+marker_94.bindPopup("Crime Location: Carson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/03");
 
-var marker_91 = L.marker([43.7059891169, -72.2909850452]);
-marker_91.bindPopup("Crime Location: Beta Alpha Omega;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/24");
+var marker_95 = L.marker([43.706121693, -72.2909602901]);
+marker_95.bindPopup("Crime Location: Beta Alpha Omega;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/05/24");
 
-var marker_92 = L.marker([43.7040933799, -72.297008314]);
-marker_92.bindPopup("Crime Location: French Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/04");
+var marker_96 = L.marker([43.7042063656, -72.297062181]);
+marker_96.bindPopup("Crime Location: French Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/04");
 
-var marker_93 = L.marker([43.7009297725, -72.2919926613]);
-marker_93.bindPopup("Crime Location: Panarchy;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/03");
+var marker_97 = L.marker([43.701080371, -72.291799289]);
+marker_97.bindPopup("Crime Location: Panarchy;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/03");
 
-var marker_94 = L.marker([43.70349136, -72.2886341192]);
-marker_94.bindPopup("Crime Location: Dartmouth Green;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/08");
+var marker_98 = L.marker([43.703430765, -72.2886674415]);
+marker_98.bindPopup("Crime Location: Dartmouth Green;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/08");
 
-var marker_95 = L.marker([43.7055184376, -72.2919063097]);
-marker_95.bindPopup("Crime Location: McLane Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/08");
+var marker_99 = L.marker([43.705502929, -72.2918244125]);
+marker_99.bindPopup("Crime Location: McLane Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/08");
 
-var marker_96 = L.marker([43.7030211528, -72.2898718254]);
-marker_96.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/10");
+var marker_100 = L.marker([43.7032163261, -72.2900055903]);
+marker_100.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/10");
 
-var marker_97 = L.marker([43.7102350916, -72.2834555303]);
-marker_97.bindPopup("Crime Location: Dewey Lot;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/12");
+var marker_101 = L.marker([43.7103284763, -72.2835930441]);
+marker_101.bindPopup("Crime Location: Dewey Lot;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/12");
 
-var marker_98 = L.marker([43.7052510711, -72.2843126325]);
-marker_98.bindPopup("Crime Location: Bema;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/14");
+var marker_102 = L.marker([43.7053008998, -72.2843396252]);
+marker_102.bindPopup("Crime Location: Bema;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/14");
 
-var marker_99 = L.marker([43.7026212392, -72.2859052165]);
-marker_99.bindPopup("Crime Location: Topliff Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/04");
+var marker_104 = L.marker([43.7075394243, -72.2915522632]);
+marker_104.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
 
-var marker_100 = L.marker([43.7076651857, -72.2915408544]);
-marker_100.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
+var marker_105 = L.marker([43.7046439553, -72.2963688573]);
+marker_105.bindPopup("Crime Location: Achtmeyer Alleyway;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
 
-var marker_101 = L.marker([43.7046800749, -72.2964806629]);
-marker_101.bindPopup("Crime Location: Achtmeyer Alleyway;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
+var marker_106 = L.marker([43.7037144263, -72.2869613723]);
+marker_106.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/18");
 
-var marker_102 = L.marker([43.7038743182, -72.2871646799]);
-marker_102.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/18");
+var marker_107 = L.marker([43.7052689426, -72.2886154939]);
+marker_107.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
 
-var marker_103 = L.marker([43.7052178331, -72.2887316254]);
-marker_103.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
+var marker_108 = L.marker([43.7014286238, -72.286728927]);
+marker_108.bindPopup("Crime Location: Black Family Visual Arts Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
 
-var marker_104 = L.marker([43.7013556015, -72.2868418592]);
-marker_104.bindPopup("Crime Location: Black Family Visual Arts Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
+var marker_109 = L.marker([43.7042502142, -72.2904634802]);
+marker_109.bindPopup("Crime Location: North Massachusetts Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/03");
 
-var marker_105 = L.marker([43.704227016, -72.2906640936]);
-marker_105.bindPopup("Crime Location: North Massachusetts Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/03");
+var marker_110 = L.marker([43.7034895862, -72.2886463562]);
+marker_110.bindPopup("Crime Location: Trues Brooke Ledges;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/05");
 
-var marker_106 = L.marker([43.7035236186, -72.2885849785]);
-marker_106.bindPopup("Crime Location: Trues Brooke Ledges;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/05");
+var marker_111 = L.marker([43.7054592643, -72.2950595944]);
+marker_111.bindPopup("Crime Location: Byrne Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/26");
 
-var marker_107 = L.marker([43.7053759428, -72.2950932961]);
-marker_107.bindPopup("Crime Location: Byrne Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/06/26");
+var marker_112 = L.marker([43.711613073, -72.2885200879]);
+marker_112.bindPopup("Crime Location: 32 Occom Ridge;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/07");
 
-var marker_108 = L.marker([43.7115681181, -72.2883648082]);
-marker_108.bindPopup("Crime Location: 32 Occom Ridge;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/07");
+var marker_113 = L.marker([43.7062958493, -72.2889568519]);
+marker_113.bindPopup("Crime Location: Haldeman Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/03");
 
-var marker_109 = L.marker([43.7061684479, -72.2890848524]);
-marker_109.bindPopup("Crime Location: Haldeman Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/03");
+var marker_114 = L.marker([43.7051569982, -72.2887499761]);
+marker_114.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/08");
 
-var marker_110 = L.marker([43.7053764878, -72.2887484151]);
-marker_110.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/08");
+var marker_115 = L.marker([43.7020110526, -72.2880402024]);
+marker_115.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
 
-var marker_111 = L.marker([43.7019628649, -72.2880162452]);
-marker_111.bindPopup("Crime Location: Hopkins Center;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
+var marker_116 = L.marker([43.7053824154, -72.2908301768]);
+marker_116.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
 
-var marker_112 = L.marker([43.7054608036, -72.2906564819]);
-marker_112.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/02");
+var marker_117 = L.marker([43.7028254399, -72.2898348697]);
+marker_117.bindPopup("Crime Location: Collis;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/12");
 
-var marker_113 = L.marker([43.7026808032, -72.2899334908]);
-marker_113.bindPopup("Crime Location: Collis;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/12");
+var marker_118 = L.marker([43.7062763259, -72.2858764594]);
+marker_118.bindPopup("Crime Location: Burke Chemistry;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
 
-var marker_114 = L.marker([43.7063593276, -72.2859427967]);
-marker_114.bindPopup("Crime Location: Burke Chemistry;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
+var marker_119 = L.marker([43.7011628084, -72.2911503731]);
+marker_119.bindPopup("Crime Location: 8 School Street;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/17");
 
-var marker_115 = L.marker([43.7010544095, -72.2912238288]);
-marker_115.bindPopup("Crime Location: 8 School Street;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/17");
+var marker_120 = L.marker([43.7055045702, -72.2952443099]);
+marker_120.bindPopup("Crime Location: Byrne Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/17");
 
-var marker_116 = L.marker([43.7054962885, -72.2951092052]);
-marker_116.bindPopup("Crime Location: Byrne Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/17");
+var marker_121 = L.marker([43.7057177954, -72.2886097251]);
+marker_121.bindPopup("Crime Location: Novack Cafe;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/22");
 
-var marker_117 = L.marker([43.70577218, -72.2885022918]);
-marker_117.bindPopup("Crime Location: Novack Cafe;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/22");
+var marker_122 = L.marker([43.7053874122, -72.2886767361]);
+marker_122.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/23");
 
-var marker_118 = L.marker([43.7052068631, -72.288704237]);
-marker_118.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/23");
+var marker_123 = L.marker([43.7059399782, -72.2863990206]);
+marker_123.bindPopup("Crime Location: Fairchild Physical Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/24");
 
-var marker_119 = L.marker([43.7057849668, -72.2863632302]);
-marker_119.bindPopup("Crime Location: Fairchild Physical Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/24");
+var marker_124 = L.marker([43.7053461305, -72.2900227991]);
+marker_124.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/26");
 
-var marker_120 = L.marker([43.7053793035, -72.2900803826]);
-marker_120.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/26");
+var marker_125 = L.marker([43.7031379614, -72.2900563414]);
+marker_125.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/27");
 
-var marker_121 = L.marker([43.7031646826, -72.2899297216]);
-marker_121.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/27");
+var marker_126 = L.marker([43.7047146059, -72.2907008161]);
+marker_126.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/31");
 
-var marker_122 = L.marker([43.7047331527, -72.2905379697]);
-marker_122.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/31");
+var marker_127 = L.marker([43.7080965791, -72.2861316495]);
+marker_127.bindPopup("Crime Location: Kellogg Mail Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/01");
 
-var marker_123 = L.marker([43.7081639073, -72.2862904507]);
-marker_123.bindPopup("Crime Location: Kellogg Mail Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/01");
+var marker_128 = L.marker([43.7032345117, -72.2899031173]);
+marker_128.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/05");
 
-var marker_124 = L.marker([43.7031077878, -72.2899728245]);
-marker_124.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/05");
+var marker_129 = L.marker([43.702196125, -72.2913662108]);
+marker_129.bindPopup("Crime Location: Sigma Delta;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/27");
 
-var marker_125 = L.marker([43.7022963745, -72.2912352387]);
-marker_125.bindPopup("Crime Location: Sigma Delta;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/07/27");
+var marker_130 = L.marker([43.7046667309, -72.290614793]);
+marker_130.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/05");
 
-var marker_126 = L.marker([43.7047366689, -72.2905938794]);
-marker_126.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/05");
+var marker_131 = L.marker([43.7065418892, -72.2913696689]);
+marker_131.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/08");
 
-var marker_127 = L.marker([43.7067838903, -72.291357084]);
-marker_127.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/08");
+var marker_132 = L.marker([43.7127323878, -72.284426028]);
+marker_132.bindPopup("Crime Location: Hanover Country Club;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/15");
+
+var marker_133 = L.marker([43.7057158995, -72.2884380099]);
+marker_133.bindPopup("Crime Location: Novack Cafe;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/16");
+
+var marker_134 = L.marker([43.7056784216, -72.2830075389]);
+marker_134.bindPopup("Crime Location: Graduate Housing Apartments, 17B, North Park Street;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/17");
+
+var marker_135 = L.marker([43.7012462298, -72.2868571349]);
+marker_135.bindPopup("Crime Location: Black Family Visual Arts Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/19");
+
+var marker_136 = L.marker([43.7038667528, -72.2841435282]);
+marker_136.bindPopup("Crime Location: 13 East Wheelock Apt. B;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/20");
+
+var marker_137 = L.marker([43.7014249869, -72.2867635746]);
+marker_137.bindPopup("Crime Location: Black Family Visual Arts Center;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/22");
+
+var marker_138 = L.marker([43.705774157, -72.2862214401]);
+marker_138.bindPopup("Crime Location: Fairchild Physical Sciences Center;  Type of Crime: Larceny-Theft;  Date Occurred: Not Provided");
+
+var marker_139 = L.marker([43.7032177587, -72.2897783595]);
+marker_139.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Larceny-Theft;  Date Occurred: 2014/08/13");
 		
 		
 	/*Create Larceny-Theft Layer for CleryDart Legend*/
-	var listOfLarcenyTheft = [marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, marker_64, marker_65, marker_66, marker_67, 
-								marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, marker_74, marker_75, marker_76, marker_77, marker_78, 
-								marker_79, marker_80, marker_81, marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, 
-								marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, marker_98, marker_99, marker_100, 
-								marker_101, marker_102, marker_103, marker_104, marker_105, marker_106, marker_107, marker_108, marker_109, marker_110, 
-								marker_111, marker_112, marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, marker_120, 
-								marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, marker_127];
+	var listOfLarcenyTheft = [marker_62, marker_63, marker_64, marker_65, 
+								marker_66, marker_67, marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, 
+								marker_74, marker_75, marker_76, marker_77, marker_78, marker_79, marker_80, marker_81, 
+								marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, 
+								marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, 
+								marker_98, marker_99, marker_100, marker_101, marker_102, marker_104, marker_105,
+								 marker_106, marker_107, marker_108, marker_109, marker_110, marker_111, marker_112, 
+								 marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, 
+								 marker_120, marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, 
+								 marker_127, marker_128, marker_129, marker_130, marker_131, marker_132, marker_133, 
+								 marker_134, marker_135, marker_136, marker_137, marker_138, marker_139];
 	var numOfLarcenyTheft = listOfLarcenyTheft.length;
 	var larcenyTheftLayer = L.layerGroup(listOfLarcenyTheft);	
 		
 
-var marker_128 = L.marker([43.7072742864, -72.2909321412]);
-marker_128.bindPopup("Crime Location: The Choates;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/11");
+var marker_140 = L.marker([43.7073602197, -72.2909147894]);
+marker_140.bindPopup("Crime Location: The Choates;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/11");
 
-var marker_129 = L.marker([43.7040795491, -72.2863811857]);
-marker_129.bindPopup("Crime Location: North Fayerweather Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/11");
+var marker_141 = L.marker([43.7040970181, -72.2864164516]);
+marker_141.bindPopup("Crime Location: North Fayerweather Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/11");
 
-var marker_130 = L.marker([43.7064859072, -72.2906959986]);
-marker_130.bindPopup("Crime Location: Tabard;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/13");
+var marker_142 = L.marker([43.7064230918, -72.290712921]);
+marker_142.bindPopup("Crime Location: Tabard;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/13");
 
-var marker_131 = L.marker([43.7027448938, -72.2905720925]);
-marker_131.bindPopup("Crime Location: Psi Upsilon;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/15");
+var marker_143 = L.marker([43.702827387, -72.2906857279]);
+marker_143.bindPopup("Crime Location: Psi Upsilon;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/15");
 
-var marker_132 = L.marker([43.7057843807, -72.2899878203]);
-marker_132.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/15");
+var marker_144 = L.marker([43.705667874, -72.2899228714]);
+marker_144.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/15");
 
-var marker_133 = L.marker([43.7053244481, -72.2886222285]);
-marker_133.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/15");
+var marker_145 = L.marker([43.705376837, -72.2887902379]);
+marker_145.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/15");
 
-var marker_134 = L.marker([43.7055057899, -72.2906502459]);
-marker_134.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_146 = L.marker([43.7056016244, -72.2907488008]);
+marker_146.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_135 = L.marker([43.7053460825, -72.2914289732]);
-marker_135.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_147 = L.marker([43.705264538, -72.291510758]);
+marker_147.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_136 = L.marker([43.7076901318, -72.2915908365]);
-marker_136.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_148 = L.marker([43.7077396217, -72.2916731786]);
+marker_148.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_137 = L.marker([43.7029944901, -72.290848169]);
-marker_137.bindPopup("Crime Location: 53 Commons;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_149 = L.marker([43.7031400283, -72.2908719144]);
+marker_149.bindPopup("Crime Location: 53 Commons;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_138 = L.marker([43.7053972202, -72.2916034292]);
-marker_138.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_150 = L.marker([43.7054894037, -72.2914968685]);
+marker_150.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_139 = L.marker([43.7051982627, -72.2942735697]);
-marker_139.bindPopup("Crime Location: Tuck Mall/Tuck Circle;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_151 = L.marker([43.7051755189, -72.2940537797]);
+marker_151.bindPopup("Crime Location: Tuck Mall/Tuck Circle;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_140 = L.marker([43.70530106, -72.2914536316]);
-marker_140.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_152 = L.marker([43.7052441182, -72.2915144143]);
+marker_152.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_141 = L.marker([43.7055529947, -72.2900183791]);
-marker_141.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_153 = L.marker([43.7055577138, -72.2899139117]);
+marker_153.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_142 = L.marker([43.70547564, -72.2919721319]);
-marker_142.bindPopup("Crime Location: McLane Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_154 = L.marker([43.7053889873, -72.2918859153]);
+marker_154.bindPopup("Crime Location: McLane Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_143 = L.marker([43.7072039815, -72.2912688027]);
-marker_143.bindPopup("Crime Location: Bissell Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_155 = L.marker([43.7072235504, -72.2913404384]);
+marker_155.bindPopup("Crime Location: Bissell Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_144 = L.marker([43.7040139844, -72.2970628607]);
-marker_144.bindPopup("Crime Location: French Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_156 = L.marker([43.7040415643, -72.2968721781]);
+marker_156.bindPopup("Crime Location: French Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_145 = L.marker([43.7076315431, -72.2915500749]);
-marker_145.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_158 = L.marker([43.7042651093, -72.2907341919]);
+marker_158.bindPopup("Crime Location: North Massachusetts Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_146 = L.marker([43.704122416, -72.2907077796]);
-marker_146.bindPopup("Crime Location: North Massachusetts Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_159 = L.marker([43.7074757017, -72.2914843687]);
+marker_159.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_147 = L.marker([43.7075425, -72.2916172126]);
-marker_147.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_160 = L.marker([43.7046099635, -72.2916770202]);
+marker_160.bindPopup("Crime Location: Streeter Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
 
-var marker_148 = L.marker([43.7047323758, -72.2917350414]);
-marker_148.bindPopup("Crime Location: Streeter Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/16");
+var marker_161 = L.marker([43.7038074087, -72.2953226894]);
+marker_161.bindPopup("Crime Location: Maxwell Hall/Climbing Gym;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_149 = L.marker([43.7037236734, -72.2954801993]);
-marker_149.bindPopup("Crime Location: Maxwell Hall/Climbing Gym;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_162 = L.marker([43.7076629451, -72.2915883923]);
+marker_162.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_150 = L.marker([43.7076018293, -72.2915459812]);
-marker_150.bindPopup("Crime Location: Cohen Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_163 = L.marker([43.7068360469, -72.2913268441]);
+marker_163.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_151 = L.marker([43.7066942726, -72.2913928187]);
-marker_151.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_164 = L.marker([43.7045081097, -72.2917121411]);
+marker_164.bindPopup("Crime Location: Streeter Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_152 = L.marker([43.7047307827, -72.2917673503]);
-marker_152.bindPopup("Crime Location: Streeter Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_165 = L.marker([43.706666356, -72.2914103038]);
+marker_165.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_153 = L.marker([43.7067218252, -72.2913902048]);
-marker_153.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_166 = L.marker([43.7053470412, -72.2914352379]);
+marker_166.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_154 = L.marker([43.7053167701, -72.2915682912]);
-marker_154.bindPopup("Crime Location: Fahey Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_167 = L.marker([43.7055381178, -72.2900681499]);
+marker_167.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_155 = L.marker([43.7054421589, -72.290004068]);
-marker_155.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_168 = L.marker([43.7019649095, -72.2896748425]);
+marker_168.bindPopup("Crime Location: 9 South Main St. ;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
 
-var marker_156 = L.marker([43.7020878742, -72.2896115863]);
-marker_156.bindPopup("Crime Location: 9 South Main St. ;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/17");
+var marker_169 = L.marker([43.7065830432, -72.287326776]);
+marker_169.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/18");
 
-var marker_157 = L.marker([43.7065235044, -72.2872005586]);
-marker_157.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/18");
+var marker_170 = L.marker([43.7054887446, -72.2918388194]);
+marker_170.bindPopup("Crime Location: McLane Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/19");
 
-var marker_158 = L.marker([43.7055412409, -72.291867477]);
-marker_158.bindPopup("Crime Location: McLane Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/19");
+var marker_171 = L.marker([43.7034356512, -72.2862963946]);
+marker_171.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/22");
 
-var marker_159 = L.marker([43.7034421787, -72.2862446121]);
-marker_159.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/22");
+var marker_172 = L.marker([43.7053287872, -72.2827435301]);
+marker_172.bindPopup("Crime Location: North Park St.;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/24");
 
-var marker_160 = L.marker([43.7054265059, -72.282741533]);
-marker_160.bindPopup("Crime Location: North Park St.;  Type of Crime: Liquor Laws;  Date Occurred: 2014/05/24");
+var marker_173 = L.marker([43.705440605, -72.2918670636]);
+marker_173.bindPopup("Crime Location: McLane Hall;  Type of Crime: Liquor Laws;  Date Occurred: Not Provided");
 
-var marker_161 = L.marker([43.7054316898, -72.2919652826]);
-marker_161.bindPopup("Crime Location: McLane Hall;  Type of Crime: Liquor Laws;  Date Occurred: Not Provided");
+var marker_174 = L.marker([43.7030002854, -72.2829462469]);
+marker_174.bindPopup("Crime Location: Berry Sports Center & Leede Arena;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/02");
 
-var marker_162 = L.marker([43.7030443661, -72.2829045291]);
-marker_162.bindPopup("Crime Location: Berry Sports Center & Leede Arena;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/02");
+var marker_175 = L.marker([43.7033621114, -72.2903544059]);
+marker_175.bindPopup("Crime Location: Mass Row;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/02");
 
-var marker_163 = L.marker([43.7031896128, -72.2902653452]);
-marker_163.bindPopup("Crime Location: Mass Row;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/02");
+var marker_176 = L.marker([43.7075315838, -72.2864987389]);
+marker_176.bindPopup("Crime Location: Goldstein Dorm/Occom Commons;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/02");
 
-var marker_164 = L.marker([43.7075855813, -72.2865892092]);
-marker_164.bindPopup("Crime Location: Goldstein Dorm/Occom Commons;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/02");
+var marker_177 = L.marker([43.7054820872, -72.2900891005]);
+marker_177.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/06");
 
-var marker_165 = L.marker([43.7055311965, -72.2899461138]);
-marker_165.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/06");
+var marker_178 = L.marker([43.7049583502, -72.3009730999]);
+marker_178.bindPopup("Crime Location: Lewiston Lot;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/21");
 
-var marker_166 = L.marker([43.7051235472, -72.3010416153]);
-marker_166.bindPopup("Crime Location: Lewiston Lot;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/21");
+var marker_179 = L.marker([43.788255155, -72.2870838487]);
+marker_179.bindPopup("Crime Location: Dartmouth Skiway;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/21");
 
-var marker_167 = L.marker([43.7882635612, -72.2871134295]);
-marker_167.bindPopup("Crime Location: Dartmouth Skiway;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/21");
+var marker_180 = L.marker([43.7198475529, -72.2732262968]);
+marker_180.bindPopup("Crime Location: Hanover Police Department;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/24");
 
-var marker_168 = L.marker([43.7198634612, -72.2732214971]);
-marker_168.bindPopup("Crime Location: Hanover Police Department;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/24");
+var marker_181 = L.marker([43.7058750558, -72.2956352373]);
+marker_181.bindPopup("Crime Location: Tuck Drive;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/28");
 
-var marker_169 = L.marker([43.7056918969, -72.2955571848]);
-marker_169.bindPopup("Crime Location: Tuck Drive;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/28");
+var marker_182 = L.marker([43.7063335567, -72.2922553536]);
+marker_182.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/29");
 
-var marker_170 = L.marker([43.7062480295, -72.2921980643]);
-marker_170.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Liquor Laws;  Date Occurred: 2014/06/29");
+var marker_183 = L.marker([43.706272766, -72.2900304219]);
+marker_183.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/05");
 
-var marker_171 = L.marker([43.7062558091, -72.2899971883]);
-marker_171.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/05");
+var marker_184 = L.marker([43.7026933049, -72.289990317]);
+marker_184.bindPopup("Crime Location: Collis;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/16");
 
-var marker_172 = L.marker([43.7027870384, -72.2898199471]);
-marker_172.bindPopup("Crime Location: Collis;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/16");
+var marker_185 = L.marker([43.7046893512, -72.2965229579]);
+marker_185.bindPopup("Crime Location: Achtmeyer Alleyway;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/17");
 
-var marker_173 = L.marker([43.7046625199, -72.296558272]);
-marker_173.bindPopup("Crime Location: Achtmeyer Alleyway;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/17");
+var marker_186 = L.marker([43.7023762726, -72.2908058849]);
+marker_186.bindPopup("Crime Location: West Wheelock Street;  Type of Crime: Liquor Laws;  Date Occurred: 2014/07/27");
 
-var marker_175 = L.marker([43.7040766046, -72.2877665985]);
-marker_175.bindPopup("Crime Location: Wentworth Street;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/01");
+var marker_187 = L.marker([43.7040870232, -72.2879261041]);
+marker_187.bindPopup("Crime Location: Wentworth Street;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/01");
 
-var marker_176 = L.marker([43.7054107638, -72.2901162125]);
-marker_176.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/02");
+var marker_188 = L.marker([43.7054314125, -72.2901090394]);
+marker_188.bindPopup("Crime Location: Silsby Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/02");
 
-var marker_177 = L.marker([43.7034249446, -72.2863271218]);
-marker_177.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/08");
+var marker_189 = L.marker([43.7033735849, -72.2862456355]);
+marker_189.bindPopup("Crime Location: South Fayerweather Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/08");
+
+var marker_190 = L.marker([43.7032830251, -72.2905860493]);
+marker_190.bindPopup("Crime Location: South Massachussetts Hall;  Type of Crime: Liquor Laws;  Date Occurred: 2014/08/16");
 		
 		
 	/*Create Liquor Laws Layer for CleryDart Legend*/
-	var listOfLiquorLaws = [marker_128, marker_129, marker_130, 
-							marker_131, marker_132, marker_133, marker_134, marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, 
-							marker_141, marker_142, marker_143, marker_144, marker_145, marker_146, marker_147, marker_148, marker_149, marker_150, 
-							marker_151, marker_152, marker_153, marker_154, marker_155, marker_156, marker_157, marker_158, marker_159, marker_160, 
-							marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, 
-							marker_171, marker_172, marker_173, marker_175, marker_176, marker_177];
+	var listOfLiquorLaws = [marker_140, 
+							 marker_141, marker_142, marker_143, marker_144, marker_145, marker_146, marker_147, 
+							 marker_148, marker_149, marker_150, marker_151, marker_152, marker_153, marker_154, 
+							 marker_155, marker_156, marker_158, marker_159, marker_160, marker_161, 
+							 marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, 
+							 marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, 
+							 marker_176, marker_177, marker_178, marker_179, marker_180, marker_181, marker_182, 
+							 marker_183, marker_184, marker_185, marker_186, marker_187, marker_188, marker_189, 
+							 marker_190];
 	var numOfLiquorLaws = listOfLiquorLaws.length;
 	var liquorLawsLayer = L.layerGroup(listOfLiquorLaws);	
 		
 		
 
-var marker_178 = L.marker([43.7037442074, -72.2863568421]);
-marker_178.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Resisting Arrest/Detention;  Date Occurred: 2014/05/16");
+var marker_191 = L.marker([43.7037154881, -72.2863052762]);
+marker_191.bindPopup("Crime Location: Middle Fayerweather Hall;  Type of Crime: Resisting Arrest/Detention;  Date Occurred: 2014/05/16");
 
-var marker_179 = L.marker([43.7056722071, -72.2900095989]);
-marker_179.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Resisting Arrest/Detention;  Date Occurred: 2014/05/15");
+var marker_192 = L.marker([43.7057815877, -72.2901600737]);
+marker_192.bindPopup("Crime Location: Rockefeller Center;  Type of Crime: Resisting Arrest or Detention;  Date Occurred: 2014/05/15");
 		
 		
 	/*Create Resisting Arrest Layer for CleryDart Legend*/
-	var listOfResistingArrest = [marker_178, marker_179];
+	var listOfResistingArrest = [marker_191, marker_192];
 	var numOfResistingArrest = listOfResistingArrest.length;
 	var resistingArrestLayer = L.layerGroup(listOfResistingArrest);	
 		
 
-var marker_180 = L.marker([43.7035564973, -72.28851681]);
-marker_180.bindPopup("Crime Location: The Green;  Type of Crime: Robbery;  Date Occurred: 2014/07/02");
-		
+var marker_193 = L.marker([43.7036536746, -72.2886538497]);
+marker_193.bindPopup("Crime Location: The Green;  Type of Crime: Robbery;  Date Occurred: 2014/07/02");
+	
 		
 	/*Create Robbery Layer for CleryDart Legend*/
-	var listOfRobbery = [marker_180];
+	var listOfRobbery = [marker_193];
 	var numOfRobbery = listOfRobbery.length;
 	var robberyLayer = L.layerGroup(listOfRobbery);	
 		
 
-var marker_181 = L.marker([43.7054584869, -72.2917794151]);
-marker_181.bindPopup("Crime Location: McLane Hall;  Type of Crime: Sex Offenses;  Date Occurred: 2014/05/15");
+var marker_194 = L.marker([43.7056535581, -72.2918243542]);
+marker_194.bindPopup("Crime Location: McLane Hall;  Type of Crime: Sex Offenses;  Date Occurred: 2014/05/15");
 
-var marker_182 = L.marker([43.7054182401, -72.2861401433]);
-marker_182.bindPopup("Crime Location: Wilder;  Type of Crime: Sex Offenses;  Date Occurred: 2014/04/20");
+var marker_195 = L.marker([43.705442175, -72.2861813453]);
+marker_195.bindPopup("Crime Location: Wilder;  Type of Crime: Sex Offenses;  Date Occurred: 2014/04/20");
 
-var marker_183 = L.marker([43.7035200279, -72.288619372]);
-marker_183.bindPopup("Crime Location: The Green;  Type of Crime: Sex Offenses;  Date Occurred: 2014/05/22");
+var marker_196 = L.marker([43.7034454696, -72.2885566928]);
+marker_196.bindPopup("Crime Location: The Green;  Type of Crime: Sex Offenses;  Date Occurred: 2014/05/22");
 
-var marker_184 = L.marker([43.7063395999, -72.2898469724]);
-marker_184.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Sex Offenses;  Date Occurred: 2014/06/06");
+var marker_197 = L.marker([43.7062858494, -72.289893441]);
+marker_197.bindPopup("Crime Location: Kappa Kappa Kappa;  Type of Crime: Sex Offenses;  Date Occurred: 2014/06/06");
 
-var marker_185 = L.marker([43.7064126711, -72.2923347146]);
-marker_185.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Sex Offenses;  Date Occurred: 2014/06/21");
+var marker_198 = L.marker([43.7064106625, -72.2922048329]);
+marker_198.bindPopup("Crime Location: Sigma Nu;  Type of Crime: Sex Offenses;  Date Occurred: 2014/06/21");
 
-var marker_186 = L.marker([43.7035076832, -72.2886030277]);
-marker_186.bindPopup("Crime Location: Unknown Location;  Type of Crime: Sex Offenses;  Date Occurred: Not Provided");
+var marker_199 = L.marker([43.7033874391, -72.288679986]);
+marker_199.bindPopup("Crime Location: Unknown Location;  Type of Crime: Sex Offenses;  Date Occurred: Not Provided");
 
-var marker_187 = L.marker([43.7030412233, -72.2885189228]);
-marker_187.bindPopup("Crime Location: Dartmouth College;  Type of Crime: Sex Offenses;  Date Occurred: 2014/07/12");
+var marker_200 = L.marker([43.703120916, -72.2885832546]);
+marker_200.bindPopup("Crime Location: Dartmouth College;  Type of Crime: Sex Offenses;  Date Occurred: 2014/07/12");
 		
 		
 	/*Create Sex Offenses Layer for CleryDart Legend*/
-	var listOfSexOffenses = [marker_181, marker_182, marker_183, marker_184, marker_185, marker_186, marker_187];
+	var listOfSexOffenses = [marker_194, marker_195, marker_196, 
+ 							marker_197, marker_198, marker_199, marker_200];
 	var numOfSexOffenses = listOfSexOffenses.length;
 	var sexOffensesLayer = L.layerGroup(listOfSexOffenses);	
 
 
-var marker_188 = L.marker([43.7067651536, -72.2915403568]);
-marker_188.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Unauthorized Entry/Presence Hindering Apprehension or Prosecution;  Date Occurred: 2014/06/17");
+var marker_201 = L.marker([43.706652501, -72.291593479]);
+marker_201.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Unauthorized Entry/Presence Hindering Apprehension or Prosecution;  Date Occurred: 2014/06/17");
 		
 		
 	/*Create Unauthorized Entry/Presence Layer for CleryDart Legend*/
-	var listOfUnauthorizedEntryPresence = [marker_188];
+	var listOfUnauthorizedEntryPresence = [marker_201];
 	var numOfUnauthorizedEntryPresence = listOfUnauthorizedEntryPresence.length;
 	var unauthorizedEntryPresenceLayer = L.layerGroup(listOfUnauthorizedEntryPresence);	
 		
-		
 
-var marker_189 = L.marker([43.7027881639, -72.2906995637]);
-marker_189.bindPopup("Crime Location: Psi Upsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/07/31");
+var marker_202 = L.marker([43.7027019448, -72.290601053]);
+marker_202.bindPopup("Crime Location: Psi Upsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/07/31");
 
-var marker_190 = L.marker([43.7046152561, -72.2905912307]);
-marker_190.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+var marker_203 = L.marker([43.7008336997, -72.2918051402]);
+marker_203.bindPopup("Crime Location: Panarchy;  Type of Crime: Vandalism;  Date Occurred: 2014/08/17");
 
-var marker_191 = L.marker([43.7071482767, -72.2906797253]);
-marker_191.bindPopup("Crime Location: Little Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/09");
+var marker_204 = L.marker([43.7065562489, -72.2914878973]);
+marker_204.bindPopup("Crime Location: Chi Gamma Epsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/08/22");
 
-var marker_192 = L.marker([43.7065952166, -72.2905867202]);
-marker_192.bindPopup("Crime Location: Tabard;  Type of Crime: Vandalism;  Date Occurred: 2014/05/13");
+var marker_205 = L.marker([43.7032017862, -72.2898749356]);
+marker_205.bindPopup("Crime Location: Robinson Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/08/13");
 
-var marker_193 = L.marker([43.7030332251, -72.2908597227]);
-marker_193.bindPopup("Crime Location: 53 Commons;  Type of Crime: Vandalism;  Date Occurred: 2014/05/15");
+var marker_206 = L.marker([43.7046762758, -72.2905579681]);
+marker_206.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
 
-var marker_194 = L.marker([43.7046786361, -72.2906611513]);
-marker_194.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/16");
+var marker_207 = L.marker([43.7070843455, -72.2908693499]);
+marker_207.bindPopup("Crime Location: Little Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/09");
 
-var marker_195 = L.marker([43.7043118634, -72.2855840298]);
-marker_195.bindPopup("Crime Location: Woodward Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/17");
+var marker_208 = L.marker([43.7066463872, -72.2906430956]);
+marker_208.bindPopup("Crime Location: Tabard;  Type of Crime: Vandalism;  Date Occurred: 2014/05/13");
 
-var marker_196 = L.marker([43.7045964291, -72.2904889811]);
-marker_196.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/19");
+var marker_209 = L.marker([43.7031497144, -72.2908606644]);
+marker_209.bindPopup("Crime Location: 53 Commons;  Type of Crime: Vandalism;  Date Occurred: 2014/05/15");
 
-var marker_197 = L.marker([43.7028485264, -72.2899411849]);
-marker_197.bindPopup("Crime Location: Collis;  Type of Crime: Vandalism;  Date Occurred: 2014/05/21");
+var marker_210 = L.marker([43.7045891433, -72.2904736161]);
+marker_210.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/16");
 
-var marker_198 = L.marker([43.704603749, -72.2905173959]);
-marker_198.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/21");
+var marker_211 = L.marker([43.7043851392, -72.2854993932]);
+marker_211.bindPopup("Crime Location: Woodward Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/17");
 
-var marker_199 = L.marker([43.7053432755, -72.2887652164]);
-marker_199.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+var marker_212 = L.marker([43.7047293653, -72.2906916834]);
+marker_212.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/19");
 
-var marker_200 = L.marker([43.7038211606, -72.2870130168]);
-marker_200.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/24");
+var marker_213 = L.marker([43.7026664058, -72.2897805438]);
+marker_213.bindPopup("Crime Location: Collis;  Type of Crime: Vandalism;  Date Occurred: 2014/05/21");
 
-var marker_201 = L.marker([43.7065124681, -72.2871371163]);
-marker_201.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+var marker_214 = L.marker([43.7048042551, -72.2905227794]);
+marker_214.bindPopup("Crime Location: Hitchcock Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/21");
 
-var marker_202 = L.marker([43.7038578601, -72.2870607396]);
-marker_202.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/24");
+var marker_215 = L.marker([43.7052562448, -72.2886720143]);
+marker_215.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
 
-var marker_203 = L.marker([43.7053781328, -72.2907782352]);
-marker_203.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+var marker_216 = L.marker([43.7039158442, -72.2870755343]);
+marker_216.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/24");
 
-var marker_204 = L.marker([43.7010714528, -72.2801683969]);
-marker_204.bindPopup("Crime Location: Thompson Arena;  Type of Crime: Vandalism;  Date Occurred: 2014/05/28");
+var marker_217 = L.marker([43.7066213709, -72.287335646]);
+marker_217.bindPopup("Crime Location: Sudikoff Hall;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
 
-var marker_205 = L.marker([43.7067710388, -72.2919835368]);
-marker_205.bindPopup("Crime Location: Kappa Delta Epsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/05/31");
+var marker_218 = L.marker([43.7037022083, -72.2870551791]);
+marker_218.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/05/24");
 
-var marker_206 = L.marker([43.7070503639, -72.2893891756]);
-marker_206.bindPopup("Crime Location: Choate House;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+var marker_220 = L.marker([43.7010945169, -72.2802923191]);
+marker_220.bindPopup("Crime Location: Thompson Arena;  Type of Crime: Vandalism;  Date Occurred: 2014/05/28");
 
-var marker_207 = L.marker([43.7109355282, -72.2876255072]);
-marker_207.bindPopup("Crime Location: Occom Pond;  Type of Crime: Vandalism;  Date Occurred: 2014/06/01");
+var marker_221 = L.marker([43.7068360586, -72.2920766214]);
+marker_221.bindPopup("Crime Location: Kappa Delta Epsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/05/31");
 
-var marker_208 = L.marker([43.7064081347, -72.2905693051]);
-marker_208.bindPopup("Crime Location: Tabard;  Type of Crime: Vandalism;  Date Occurred: 2014/06/02");
+var marker_222 = L.marker([43.7072044029, -72.28961945]);
+marker_222.bindPopup("Crime Location: Choate House;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
 
-var marker_209 = L.marker([43.7088808092, -72.2836972827]);
-marker_209.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Vandalism;  Date Occurred: 2014/06/01");
+var marker_223 = L.marker([43.7109971702, -72.2877071584]);
+marker_223.bindPopup("Crime Location: Occom Pond;  Type of Crime: Vandalism;  Date Occurred: 2014/06/01");
 
-var marker_210 = L.marker([43.7055282655, -72.294221636]);
-marker_210.bindPopup("Crime Location: Tuck Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/06/12");
+var marker_224 = L.marker([43.7064217329, -72.2905510087]);
+marker_224.bindPopup("Crime Location: Tabard;  Type of Crime: Vandalism;  Date Occurred: 2014/06/02");
 
-var marker_211 = L.marker([43.706886094, -72.292360809]);
-marker_211.bindPopup("Crime Location: Sigma Phi Epsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/06/28");
+var marker_225 = L.marker([43.7089136716, -72.2838183401]);
+marker_225.bindPopup("Crime Location: Life Sciences Center;  Type of Crime: Vandalism;  Date Occurred: 2014/06/01");
 
-var marker_212 = L.marker([43.7026801317, -72.2839411144]);
-marker_212.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Crime: Vandalism;  Date Occurred: 2014/07/20");
+var marker_226 = L.marker([43.7054732969, -72.2940733525]);
+marker_226.bindPopup("Crime Location: Tuck Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/06/12");
 
-var marker_213 = L.marker([43.7052431202, -72.288749213]);
-marker_213.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Vandalism;  Date Occurred: 2014/07/25");
+var marker_227 = L.marker([43.7067130697, -72.2923273197]);
+marker_227.bindPopup("Crime Location: Sigma Phi Epsilon;  Type of Crime: Vandalism;  Date Occurred: 2014/06/28");
 
-var marker_214 = L.marker([43.7067948081, -72.2889568126]);
-marker_214.bindPopup("Crime Location: Phi Tau;  Type of Crime: Vandalism;  Date Occurred: 2014/07/28");
+var marker_228 = L.marker([43.7028345051, -72.2840293046]);
+marker_228.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Crime: Vandalism;  Date Occurred: 2014/07/20");
 
-var marker_215 = L.marker([43.7052824634, -72.2885958951]);
-marker_215.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Vandalism;  Date Occurred: 2014/07/30");
+var marker_229 = L.marker([43.7053852369, -72.2885543906]);
+marker_229.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Vandalism;  Date Occurred: 2014/07/25");
 
-var marker_216 = L.marker([43.7067951201, -72.2890412237]);
-marker_216.bindPopup("Crime Location: Phi Tau;  Type of Crime: Vandalism;  Date Occurred: 2014/08/01");
+var marker_230 = L.marker([43.7068867321, -72.2889316541]);
+marker_230.bindPopup("Crime Location: Phi Tau;  Type of Crime: Vandalism;  Date Occurred: 2014/07/28");
 
-var marker_217 = L.marker([43.7054132855, -72.2907345838]);
-marker_217.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/08/02");
+var marker_231 = L.marker([43.7052030378, -72.288600359]);
+marker_231.bindPopup("Crime Location: Baker/Berry Library;  Type of Crime: Vandalism;  Date Occurred: 2014/07/30");
 
-var marker_218 = L.marker([43.7072608031, -72.2885320595]);
-marker_218.bindPopup("Crime Location: Native American House;  Type of Crime: Vandalism;  Date Occurred: 2014/08/05");
+var marker_232 = L.marker([43.7069236825, -72.2888707814]);
+marker_232.bindPopup("Crime Location: Phi Tau;  Type of Crime: Vandalism;  Date Occurred: 2014/08/01");
 
-var marker_219 = L.marker([43.7062335196, -72.2929416434]);
-marker_219.bindPopup("Crime Location: President's House;  Type of Crime: Vandalism;  Date Occurred: 2014/08/06");
+var marker_233 = L.marker([43.7054205271, -72.2906267661]);
+marker_233.bindPopup("Crime Location: Russell Sage Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/08/02");
 
-var marker_220 = L.marker([43.7052429911, -72.2843315505]);
-marker_220.bindPopup("Crime Location: Bema;  Type of Crime: Vandalism;  Date Occurred: 2014/08/08");
+var marker_234 = L.marker([43.7072218327, -72.2885461182]);
+marker_234.bindPopup("Crime Location: Native American House;  Type of Crime: Vandalism;  Date Occurred: 2014/08/05");
 
-var marker_221 = L.marker([43.6856328693, -72.266169421]);
-marker_221.bindPopup("Crime Location: DHMC Lot #9; 1 Medical Center Drive;  Type of Crime: Vandalism;  Date Occurred: 2014/08/08");
+var marker_235 = L.marker([43.7061655281, -72.2930916733]);
+marker_235.bindPopup("Crime Location: President's House;  Type of Crime: Vandalism;  Date Occurred: 2014/08/06");
+
+var marker_236 = L.marker([43.7051995851, -72.2845474905]);
+marker_236.bindPopup("Crime Location: Bema;  Type of Crime: Vandalism;  Date Occurred: 2014/08/08");
+
+var marker_237 = L.marker([43.6856732539, -72.2660851267]);
+marker_237.bindPopup("Crime Location: DHMC Lot #9; 1 Medical Center Drive;  Type of Crime: Vandalism;  Date Occurred: 2014/08/08");
+
+var marker_238 = L.marker([43.7036437471, -72.2871151293]);
+marker_238.bindPopup("Crime Location: Dartmouth Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/08/13");
+
+var marker_239 = L.marker([43.7127801628, -72.2857630446]);
+marker_239.bindPopup("Crime Location: Dartmouth Outing Club House;  Type of Crime: Vandalism;  Date Occurred: 2014/08/17");
+
+var marker_240 = L.marker([43.7083896078, -72.2868639454]);
+marker_240.bindPopup("Crime Location: Maynard Lot;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+
+var marker_241 = L.marker([43.7042313358, -72.2850724164]);
+marker_241.bindPopup("Crime Location: Smith Hall;  Type of Crime: Vandalism;  Date Occurred: Not Provided");
+
+var marker_242 = L.marker([43.7042800474, -72.2854171282]);
+marker_242.bindPopup("Crime Location: Woodward Hall;  Type of Crime: Vandalism;  Date Occurred: 2014/08/24");
+
 		
 		
 	/*Create Vandalism Layer for CleryDart Legend*/
-	var listOfVandalism = [marker_189, marker_190, 
-							marker_191, marker_192, marker_193, marker_194, marker_195, marker_196, marker_197, marker_198, marker_199, marker_200, 
-							marker_201, marker_202, marker_203, marker_204, marker_205, marker_206, marker_207, marker_208, marker_209, marker_210, 
-							marker_211, marker_212, marker_213, marker_214, marker_215, marker_216, marker_217, marker_218, marker_219, marker_220, 
-							marker_221];
+	var listOfVandalism = [marker_202, marker_203, 
+							 marker_204, marker_205, marker_206, marker_207, marker_208, marker_209, marker_210, 
+							 marker_211, marker_212, marker_213, marker_214, marker_215, marker_216, marker_217, 
+							 marker_218, marker_220, marker_221, marker_222, marker_223, marker_224, 
+							 marker_225, marker_226, marker_227, marker_228, marker_229, marker_230, marker_231, 
+							 marker_232, marker_233, marker_234, marker_235, marker_236, marker_237, marker_238, 
+							 marker_239, marker_240, marker_241, marker_242];
 	var numOfVandalism = listOfVandalism.length;
 	var vandalismLayer = L.layerGroup(listOfVandalism);	
 		
 		
-var marker_222 = L.marker([43.7028286774, -72.2839190261]);
-marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Crime: Violation of Privacy;  Date Occurred: 2014/08/05");
+var marker_243 = L.marker([43.7028089158, -72.2840891654]);
+marker_243.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Crime: Violation of Privacy;  Date Occurred: 2014/08/05");
 
 	/*Create Violation of Privacy Layer for CleryDart Legend*/
-	var listOfViolationOfPrivacy = [marker_222];
+	var listOfViolationOfPrivacy = [marker_243];
 	var numOfViolationOfPrivacy = listOfViolationOfPrivacy.length;
 	var violationOfPrivacyLayer = L.layerGroup(listOfViolationOfPrivacy);	
 
@@ -978,30 +1052,43 @@ marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Cr
 	
 	/*Create Layer Group that holds all Markers for ease of use */
 	
-	var allMarkers = L.layerGroup([marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, marker_10, marker_11, marker_12, 
-									marker_13, marker_14, marker_15, marker_16, marker_17, marker_18, marker_19, marker_20, marker_21, marker_22, marker_23, 
-									marker_24, marker_25, marker_26, marker_27, marker_28, marker_29, marker_30, marker_31, marker_32, marker_33, marker_34, 
-									marker_35, marker_36, marker_37, marker_38, marker_39, marker_40, marker_41, marker_42, marker_43, marker_44, marker_45, 
-									marker_46, marker_47, marker_48, marker_49, marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, 
-									marker_57, marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, marker_64, marker_65, marker_66, marker_67, 
-									marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, marker_74, marker_75, marker_76, marker_77, marker_78, 
-									marker_79, marker_80, marker_81, marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, 
-									marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, marker_98, marker_99, marker_100, 
-									marker_101, marker_102, marker_103, marker_104, marker_105, marker_106, marker_107, marker_108, marker_109, marker_110, 
-									marker_111, marker_112, marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, marker_120, 
-									marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, marker_127, marker_128, marker_129, marker_130, 
-									marker_131, marker_132, marker_133, marker_134, marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, 
-									marker_141, marker_142, marker_143, marker_144, marker_145, marker_146, marker_147, marker_148, marker_149, marker_150, 
-									marker_151, marker_152, marker_153, marker_154, marker_155, marker_156, marker_157, marker_158, marker_159, marker_160, 
-									marker_161, marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, marker_169, marker_170, 
-									marker_171, marker_172, marker_173, marker_175, marker_176, marker_177, marker_178, marker_179, marker_180, 
-									marker_181, marker_182, marker_183, marker_184, marker_185, marker_186, marker_187, marker_188, marker_189, marker_190, 
-									marker_191, marker_192, marker_193, marker_194, marker_195, marker_196, marker_197, marker_198, marker_199, marker_200, 
-									marker_201, marker_202, marker_203, marker_204, marker_205, marker_206, marker_207, marker_208, marker_209, marker_210, 
-									marker_211, marker_212, marker_213, marker_214, marker_215, marker_216, marker_217, marker_218, marker_219, marker_220, 
-									marker_221, marker_222]);
+	var allMarkers = L.layerGroup([marker_1, marker_2, marker_3, marker_4, marker_5, marker_6, marker_7, marker_8, marker_9, 
+									marker_10, marker_11, marker_12, marker_13, marker_14, marker_15, marker_16, marker_17, 
+									marker_18, marker_19, marker_20, marker_21, marker_22, marker_23, marker_24, marker_25, 
+									marker_26, marker_27, marker_28, marker_29, marker_30, marker_31, marker_32, marker_33, 
+									marker_34, marker_35, marker_36, marker_37, marker_38, marker_39, marker_40, marker_41, 
+									marker_42, marker_43, marker_44, marker_45, marker_46, marker_47, marker_48, marker_49, 
+									marker_50, marker_51, marker_52, marker_53, marker_54, marker_55, marker_56, marker_57, 
+									marker_58, marker_59, marker_60, marker_61, marker_62, marker_63, marker_64, marker_65, 
+									marker_66, marker_67, marker_68, marker_69, marker_70, marker_71, marker_72, marker_73, 
+									marker_74, marker_75, marker_76, marker_77, marker_78, marker_79, marker_80, marker_81, 
+									marker_82, marker_83, marker_84, marker_85, marker_86, marker_87, marker_88, marker_89, 
+									marker_90, marker_91, marker_92, marker_93, marker_94, marker_95, marker_96, marker_97, 
+									marker_98, marker_99, marker_100, marker_101, marker_102, marker_104, marker_105,
+									 marker_106, marker_107, marker_108, marker_109, marker_110, marker_111, marker_112, 
+									 marker_113, marker_114, marker_115, marker_116, marker_117, marker_118, marker_119, 
+									 marker_120, marker_121, marker_122, marker_123, marker_124, marker_125, marker_126, 
+									 marker_127, marker_128, marker_129, marker_130, marker_131, marker_132, marker_133, 
+									 marker_134, marker_135, marker_136, marker_137, marker_138, marker_139, marker_140, 
+									 marker_141, marker_142, marker_143, marker_144, marker_145, marker_146, marker_147, 
+									 marker_148, marker_149, marker_150, marker_151, marker_152, marker_153, marker_154, 
+									 marker_155, marker_156, marker_158, marker_159, marker_160, marker_161, 
+									 marker_162, marker_163, marker_164, marker_165, marker_166, marker_167, marker_168, 
+									 marker_169, marker_170, marker_171, marker_172, marker_173, marker_174, marker_175, 
+									 marker_176, marker_177, marker_178, marker_179, marker_180, marker_181, marker_182, 
+									 marker_183, marker_184, marker_185, marker_186, marker_187, marker_188, marker_189, 
+									 marker_190, marker_191, marker_192, marker_193, marker_194, marker_195, marker_196, 
+									 marker_197, marker_198, marker_199, marker_200, marker_201, marker_202, marker_203, 
+									 marker_204, marker_205, marker_206, marker_207, marker_208, marker_209, marker_210, 
+									 marker_211, marker_212, marker_213, marker_214, marker_215, marker_216, marker_217, 
+									 marker_218, marker_220, marker_221, marker_222, marker_223, marker_224, 
+									 marker_225, marker_226, marker_227, marker_228, marker_229, marker_230, marker_231, 
+									 marker_232, marker_233, marker_234, marker_235, marker_236, marker_237, marker_238, 
+									 marker_239, marker_240, marker_241, marker_242, marker_243]);
 	
 	/* Fixed bug by adding a layer that includes all markers */
+	
+
 	
 	
 /*** Initializes the Leaflet map ***/
@@ -1018,27 +1105,27 @@ marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Cr
 		
 				/* Adds Layers Control to the Legend */
 					var overlayMaps = {
-						"All Crimes (221)": allMarkers,
+						"All Crimes (239)": allMarkers,
 						"Assault (13)" : assaultLayer,
 						"Bias Incident (1)": biasIncidentLayer,
 						"Burglary (5)": burglaryLayer,
 						"Criminal Threatening (1)": criminalThreateningLayer,
 						"Criminal Threatening/Stalking (1)": criminalThreateningStalkingLayer,
-						"Disorderly Conduct (22)": disorderlyConductLayer,
+						"Disorderly Conduct (23)": disorderlyConductLayer,
 						"Disorderly/Public Urination (1)": disorderlyPublicUrinationLayer,
 						"Dogs a Menace (1)": dogsAMenaceLayer,
 						"Driving Under Influence (2)": drivingUnderInfluenceLayer,
-						"Drug Abuse, Sale, Possession (6)": drugAbuseSalePossessionLayer,
+						"Drug Abuse, Sale, Possession (8)": drugAbuseSalePossessionLayer,
 						"Endangering Behavior (1)": endangeringBehaviorLayer,
 						"False Fire Alarm (2)": falseFireAlarmLayer,
 						"Fraud (1)": fraudLayer,
-						"Larceny-Theft (70)": larcenyTheftLayer,
-						"Liquor Laws (49)": liquorLawsLayer,
+						"Larceny-Theft (77)": larcenyTheftLayer,
+						"Liquor Laws (50)": liquorLawsLayer,
 						"Resisting Arrest (2)": resistingArrestLayer,
 						"Robbery (1)": robberyLayer,
 						"Sex Offenses (7)": sexOffensesLayer,
 						"Unauthorized Entry/Presence (1)": unauthorizedEntryPresenceLayer,
-						"Vandalism (33)": vandalismLayer,
+						"Vandalism (40)": vandalismLayer,
 						"Violation of Privacy (1)": violationOfPrivacyLayer
 					};
 
@@ -1216,7 +1303,7 @@ marker_222.bindPopup("Crime Location: Alumni Gym and Fitness Center;  Type of Cr
 
 			<div id="credits">
 				<p class="credits_text">A project by Guillermo K. Rojas, Class of 2013</p>
-				<p class="credits_text">Last Update: August 13, 2014</p>
+				<p class="credits_text">Last Update: August 26, 2014</p>
 				<p class="credits_text">Currently working on: improving JavaScript workflow for updates.</p>	
 				<p class="credits_text">Follow development more closely at <a href="http://github.com/guillermokrh/clerydart"> GitHub </a></p>	
 				<p class="credits_text">Please send thoughts and constructive feedback to: guillermo.feedback@gmail.com <br> <br> </p>
