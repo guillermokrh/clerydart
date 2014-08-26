@@ -3,11 +3,11 @@
 # Auteur: Guillermo K. Rojas
 # Prints the name of marker variables (in the format created by Folium) 
 # for the August CleryDart .js code (nasty shortcut while I learn JavaScript)
-# August 13, 2014
+# August 26, 2014
 #===============================================================================
 
 # Static Variables
-numberOfVariables = 222 #222 variables in the August update
+numberOfVariables = 243 #243 variables in the late August update
 
 # Functions
 def print_variable_names(numberOfVariables):
