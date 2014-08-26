@@ -90,5 +90,5 @@ for crime_object in crime_objects_list: # For each crime object in the list of c
         print "Auxilio! '" + str(crime_object.crime_location) + "' not in campus_coordinates dictionary.  Please add." # "Auxilio" is Spanish for "help".
         
 #Creates HTML template
-clerydart_map.create_map(path = 'clerydart_larger_marker_area_test2.html')
+clerydart_map.create_map(path = 'clerydart_larger_marker_area_test3.html')
 

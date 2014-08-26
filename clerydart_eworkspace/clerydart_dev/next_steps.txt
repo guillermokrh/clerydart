@@ -55,5 +55,17 @@ and plot it onto a Leaflet map.
 27. Clean up CleryDart file directory - done
 28. Post August update - done August 13, 2014.
 29. Add section on how crime statistics are compiled by S&S.
-30. Large buildings that need a larger marker area: Baker Library, Hitchcock Hall, Fahey-McLane, the Green, 53 Commons, Collis, Cohen Hall, Life Sciences Center, Dartmouth Hall, Fayerweather Hall, Visual Arts Center, Tri-Kap
+30. Large buildings that need a larger marker area: Baker Library, - largest
+													Hitchcock Hall, - slightly bigger
+													Fahey Hall - slightly bigger
+													McLane Hall - slightly bigger
+													the Green, - largest
+													53 Commons, - larger
+													Collis, - larger
+													Cohen Hall, - slightly bigger
+													Life Sciences Center, - larger
+													Dartmouth Hall, - slightly bigger
+													Fayerweather Hall, - slightly bigger
+													Visual Arts Center, - larger
+													Tri-Kap - slightly bigger
 31. Fix SD's lat/long
